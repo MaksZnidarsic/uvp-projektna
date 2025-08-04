@@ -1,9 +1,9 @@
 
 
 
-# Analiza in vizualizacija [$\pi$-base](topology.pi-base.org)a
+# Analiza in vizualizacija [$`\pi`$-base](topology.pi-base.org)a
 
-Program pobere podatke iz spletne strani [$\pi$-base](topology.pi-base.org) ter jih vizualizira. Analiza se nahaja v direktoriji `analiza`.
+Program pobere podatke iz spletne strani [$`\pi`$-base](topology.pi-base.org) ter jih vizualizira. Analiza se nahaja v direktoriji `analiza`.
 
 
 ## Uporaba
@@ -24,8 +24,10 @@ Ukaza delujeta pod predpostavko, da podane direktorije oz. datoteke obstajajo in
 ## Kako
 
 Program naprej presene in uredi podatke o [izrekih](topology.pi-base.org/theorems). Vsak izrek v podatkovni bazi je oblike
-$$ \left( P_1 \land \dots \land P_n \right) \implies Q, $$
-kjer so $P_1, \dots, P_n, Q$ neke lastnosti. Za podatke o prostorih in lastnostih lahko 'poscrapa' stran enega izmed prostorov, saj so imena vseh zapisana v JSONu, ki se nahaja vsaki izmed njih. Sedaj, ko je dobil imena vseh prostorov in lastnosti, se program sprehodi po straneh prostorov ter za vsakega posebej zbere vse njegove lastnosti.
+```math
+\left( P_1 \land \dots \land P_n \right) \implies Q,
+```
+kjer so $`P_1, \dots, P_n, Q`$ neke lastnosti. Za podatke o prostorih in lastnostih lahko 'poscrapa' stran enega izmed prostorov, saj so imena vseh zapisana v JSONu, ki se nahaja vsaki izmed njih. Sedaj, ko je dobil imena vseh prostorov in lastnosti, se program sprehodi po straneh prostorov ter za vsakega posebej zbere vse njegove lastnosti.
 
 Tukaj naletimo na težavo, saj ima izvorna koda, ki nam jo poda knjižnica `requests`, le nekaj izmed lastnosti danega prostora, preostale pa so kasneje dodane z uporabo javascripta. Lastnosti, ki jih ne moremo direktno prebrati, program zato ekstrapolira s pomočjo prej dobljenih izrekov (to je tudi razlog, da najprej poišče izreke). Pri tem si pomaga tudi s kontrapozicijo izrekov, saj drugače ni mogoče priti do vseh lastnosti, ki so vpisane v bazi podatkov.
 
