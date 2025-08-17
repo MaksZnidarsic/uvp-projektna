@@ -14,6 +14,7 @@ def main():
     shrani(
             join(direktorij, 'prostori_' + cas + '.csv'),
             join(direktorij, 'prostori-lastnosti_' + cas + '.csv'),
+            join(direktorij, 'ročno-pregledane-lastnosti_' + cas + '.csv'),
             join(direktorij, 'lastnosti_' + cas + '.csv'),
             join(direktorij, 'izreki_' + cas + '.json'),
             join(direktorij, 'protiprimeri_' + cas + '.csv'),
