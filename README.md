@@ -1,36 +1,35 @@
 
 
 
-# Analiza in vizualizacija [$`\pi`$-base](topology.pi-base.org)a
+# Analiza podatkovne baze [$`\pi`$-base](https://topology.pi-base.org)
 
-Program pobere podatke iz spletne strani [$`\pi`$-base](topology.pi-base.org) ter jih vizualizira. Analiza se nahaja v direktoriji `analiza`.
+Program pobere podatke iz spletne strani [$`\pi`$-base](https://topology.pi-base.org) ter jih shrani. Analiza podatkov se nahaja v direktoriji [`analiza`](analiza).
 
 
 ## Uporaba
 
-Preden program prvič zaženemo, naložimo potrebne knjižnice (`pip install -r requirements.txt`). Podatke shranimo z ukazom
+Preden program prvič uporabimo naložimo potrebne knjižnice iz [`requirements.txt`](requirements.txt).
+Program zaženemo s klicem
 ```
-$ python main.py shrani <pot-prostori> <pot-protiprimeri>
+$ python main.py <pot>
 ```
-Namesto dveh poti lahko podamo tudi samo pot do direktorije, v katero naj program shrani datoteke. V primeru, da poti ne podamo, program datoteke shrani v `cwd`. Podatke nato vizualiziramo z ukazom
-```
-$ python main.py narisi <podatki-prostori> <podatki-protiprimeri> <direktorija-slik>
-```
-kjer `<podatki-prostori>` in `<podatki-protiprimeri>` predstavljata poti do prej shranjenih datotek. V primeru, da `<direktorija-slik>` ni podana, jih program shrani v `cwd`.
+kjer `<pot>` predstavlja pot do direktorije, v katero želimo shraniti podatke. V primeru, da poti ne podamo, program vse datoteke shrani v `cwd`.
 
-Ukaza delujeta pod predpostavko, da podane direktorije oz. datoteke obstajajo in sledijo zgoraj opisanemu formatu.
+Analiza podatkov se nahaja v direktoriji [`analiza`](analiza).
 
 
 ## Kako
 
-Program naprej presene in uredi podatke o [izrekih](topology.pi-base.org/theorems). Za podatke o prostorih in lastnostih lahko 'poscrapa' stran enega izmed prostorov, saj so imena vseh zapisana v JSONu, ki se nahaja vsaki izmed njih. Sedaj, ko je dobil imena vseh prostorov in lastnosti, se program sprehodi po straneh prostorov ter za vsakega posebej zbere vse njegove lastnosti.
+Po podrobnem pregledu [$`\pi`$-base](https://topology.pi-base.org)a ugotovimo, da se v vsaki datoteki na spletni strani nahaja celotna podatkovna baza zapakirana v nekem nizu globoku v kodi, kjer je podana v formatu JSON. Program to s pridom izkoristi in celotno bazo podatkov pobere z enim samim klicem knjižnice `requests`, ki ga opravi na naključno izbrani strani v [$`\pi`$-base](https://topology.pi-base.org)u.
 
-Tukaj naletimo na težavo, saj ima izvorna koda, ki nam jo poda knjižnica `requests`, le nekaj izmed lastnosti danega prostora, preostale pa so kasneje dodane z uporabo javascripta. Lastnosti, ki jih ne moremo direktno prebrati, program zato ekstrapolira s pomočjo prej dobljenih izrekov (to je tudi razlog, da najprej poišče izreke). Algoritem za ekstrapolacijo je zelo preprost. Ker so vsi izreki oblike
+Tukaj pa se program ne ustavi, saj še ni ugotovil, katere lastnosti veljajo za kateri prostor. Primarno lahko v podatkovni bazi za dani prostor izvemo le peščico ročno pregledanih lastnosti, ki zanj veljajo, ostale pa podatkovna baza dopolni naknadno s pomočjo v njen shranjenih izrekov. Ker uporabljamo le knjižnico `requests`, teh dodatnih lastnosti ne dobimo, saj so v HTML dodane šele naknadno s pomočjo JavaScripta.
+
+Seveda pa, če lahko podatke ekstrapolirajo oni, jih lahko tudi mi. To naredimo, saj se nikomur ne da čakati, da bi se naložili sami. Program za to uporabi zelo preprost algoritem. Ta gre takole. Program prej pridobljene izreke najprej preuredi v za branje prijaznejšo obliko. Vsak izrek v podatkovni bazi je oblike
 ```math
-\bigwedge_i P_i \implies Q,
+\bigwedge P_i \implies Q,
 ```
-kjer so $`P_i`$ in $`Q`$ neke lastnosti, lahko, če velja $`P_i`$ $`\forall i`$, preprosto izpeljemo $`Q`$. Poleg tega pa moramo preveriti tudi kontrapozicijo, saj drugače ne bomo dobili vseh lastnosti podanih v podatkovni bazi. Torej če velja $`\neg Q`$ in izmed vseh $`P_i`$ ne poznamo samo nekega $`P_j`$, potem iz $`\neg P_i`$ $`\forall i \neq j`$ lahko izpeljemo $`\neg P_j`$.
+kjer so $`P_i`$-ji in $`Q`$ neke lastnosti. Sedaj se pri izbranem prostoru sprehodi čez vse izreke ter iz $`P_i`$-jev izpelje $`Q`$, kadar je to mogoče. Poleg tega mora preveriti še kontrapozicijo vsakega izreka, saj bi nam drugače ogromno lastnosti izviselo. Torej, če ve, da $`\neg Q`$, in ne pozna le nekega $`P_j`$-ja izmed $`P_i`$-jev, potem lahko iz $`\bigwedge_{i \neq j} P_i`$ izpelje $`\neg P_j`$. Ko s pomočjo nekega izreka pridobi neko dodatno lastnost, ga program označi kot uporabljenega. Program se tako ciklično sprehaja skozi izreke, dokler se število lastnosti za tisti prostor veča, nakar postopek zaključi ter se premakne na naslednji izrek.
 
-Ko enkrat ima vse podatke, program ugotovi, kateri prostori so protiprimeri za obrate katerih izrekov ter jih shrani v podani datoteki.
+Program pa vseeno ne more izpeljati vseh lastnosti. Tistih nekaj, kar jih ostane, preprosto označi z 'ne vem' (v kodi označeno z Pythonovo vrednostjo `None`). Mislili bi si, da je to problem, ampak, če jih mi nismo sposobni izpeljati, jih tudi oni niso, kar se pokaže tudi na spletni strani.
 
-Vizualizacija je zelo standardna.
+Ko program enkrat zbere vse podatke, jih shrani v podano direktorijo. Kot že rečeno se analiza nahaja v direktoriji [`analiza`](analiza).

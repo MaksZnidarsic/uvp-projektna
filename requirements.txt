@@ -3,7 +3,3 @@
 
 requests
 bs4
-networkx
-matplotlib
-pandas
-scipy
