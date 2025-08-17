@@ -13,7 +13,7 @@ Program zaženemo s klicem
 ```
 $ python main.py <pot>
 ```
-kjer `<pot>` predstavlja pot do direktorije, v katero želimo shraniti podatke. V primeru, da poti ne podamo, program vse datoteke shrani v `cwd`.
+kjer `<pot>` predstavlja pot do direktorije, v katero želimo shraniti podatke. V primeru, da poti ne podamo, program vse datoteke shrani v `cwd`. Če direktorija ne obstaja, jo ustvari.
 
 Analiza podatkov se nahaja v direktoriji [`analiza`](analiza).
 
@@ -28,8 +28,8 @@ Seveda pa, če lahko podatke ekstrapolirajo oni, jih lahko tudi mi. To naredimo,
 ```math
 \bigwedge P_i \implies Q,
 ```
-kjer so $`P_i`$-ji in $`Q`$ neke lastnosti. Sedaj se pri izbranem prostoru sprehodi čez vse izreke ter iz $`P_i`$-jev izpelje $`Q`$, kadar je to mogoče. Poleg tega mora preveriti še kontrapozicijo vsakega izreka, saj bi nam drugače ogromno lastnosti izviselo. Torej, če ve, da $`\neg Q`$, in ne pozna le nekega $`P_j`$-ja izmed $`P_i`$-jev, potem lahko iz $`\bigwedge_{i \neq j} P_i`$ izpelje $`\neg P_j`$. Ko s pomočjo nekega izreka pridobi neko dodatno lastnost, ga program označi kot uporabljenega. Program se tako ciklično sprehaja skozi izreke, dokler se število lastnosti za tisti prostor veča, nakar postopek zaključi ter se premakne na naslednji izrek.
+kjer so $`P_i`$-ji in $`Q`$ neke lastnosti. Sedaj se pri izbranem prostoru sprehodi čez vse izreke ter iz $`P_i`$-jev izpelje $`Q`$, kadar je to mogoče. Poleg tega mora preveriti še kontrapozicijo vsakega izreka, saj bi nam drugače ogromno lastnosti izviselo. Torej, če ve, da $`\neg Q`$, in ne pozna le nekega $`P_j`$-ja izmed $`P_i`$-jev, potem lahko iz $`\bigwedge_{i \neq j} P_i`$ izpelje $`\neg P_j`$. Ko s pomočjo nekega izreka pridobi neko dodatno lastnost, ga program označi kot uporabljenega. Program se tako ciklično sprehaja skozi še ne uporabljene izreke, dokler se število lastnosti za tisti prostor veča, nakar postopek zaključi ter se premakne na naslednji prostor.
 
-Program pa vseeno ne more izpeljati vseh lastnosti. Tistih nekaj, kar jih ostane, preprosto označi z 'ne vem' (v kodi označeno z Pythonovo vrednostjo `None`). Mislili bi si, da je to problem, ampak, če jih mi nismo sposobni izpeljati, jih tudi oni niso, kar se pokaže tudi na spletni strani.
+Program pa vseeno ne more izpeljati vseh lastnosti. Tistih nekaj, kar jih ostane, preprosto označi z 'ne vem' (v kodi označeno s Pythonovo vrednostjo `None`). Mislili bi si, da je to problem, ampak, če jih mi nismo sposobni izpeljati, jih tudi oni niso, kar se pokaže tudi na spletni strani.
 
 Ko program enkrat zbere vse podatke, jih shrani v podano direktorijo. Kot že rečeno se analiza nahaja v direktoriji [`analiza`](analiza).

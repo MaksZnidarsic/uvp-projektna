@@ -13,12 +13,21 @@ def link():
     u = { 'spaces/all' : ( 3, 'S' ), 'properties' : ( 3, 'P' ), 'theorems' : ( 4, 'T' ) }
     juha = bs(requests.get(STRAN + r).text, features = 'html.parser')
     pot = random.choice(juha.find('table').find_all('td')[::u[r][0]])
-    return STRAN + r + '/' + re.findall(u[r][1] + '\\d{6}', str(pot))[0]
+    return STRAN + r.split('/')[0] + '/' + re.findall(u[r][1] + '\\d{6}', str(pot))[0]
 
-def preurediIzreke(izreki):
-    for x in izreki:
-        atom = { 'kind' : 'atom', 'property' : x['when'].get('property'), 'value' : x['when'].get('value') }
-        x['when'] = x['when'].get('subs', [ atom ])
+def preurediPogoj(pogoj):
+    return { 'lastnost' : pogoj['property'], 'vrednost' : pogoj['value'] }
+
+def preurediIzreke(podatki):
+    izreki = []
+    for x in podatki:
+        izrek = {}
+        izrek['uid'] = x['uid']
+        if x['when']['kind'] == 'atom': izrek['pogoj'] = [ preurediPogoj(x['when']) ]
+        else: izrek['pogoj'] = [ preurediPogoj(y) for y in x['when']['subs'] ]
+        izrek['posledica'] = preurediPogoj(x['then'])
+        izrek['sklici'] = x['refs']
+        izreki.append(izrek)
     return izreki
 
 def preberiLastnosti(podatki):
@@ -28,22 +37,22 @@ def preberiLastnosti(podatki):
     return lastnosti
 
 def sledi(izrek, lastnosti):
-    return all([ lastnosti.get(x['property']) == x['value'] for x in izrek['when'] ])
+    return all([ lastnosti.get(x['lastnost']) == x['vrednost'] for x in izrek['pogoj'] ])
 
 def slediIzKontrapozicije(izrek, lastnost, lastnosti):
-    return all([ not (1 - x['value'] == lastnosti[x['property']])
-                for x in izrek['when'] if x['property'] != lastnost ])
+    return all([ not (1 - x['vrednost'] == lastnosti[x['lastnost']])
+                for x in izrek['pogoj'] if x['lastnost'] != lastnost ])
 
 def preveriIzrek(izrek, lastnosti):
     if sledi(izrek, lastnosti):
-        lastnosti[izrek['then']['property']] = izrek['then']['value']
+        lastnosti[izrek['posledica']['lastnost']] = izrek['posledica']['vrednost']
         return True
-    if izrek['then']['property'] not in lastnosti: return False
-    if izrek['then']['value'] == lastnosti[izrek['then']['property']]: return True
-    n = [ x for x, y in enumerate(izrek['when']) if y['property'] not in lastnosti ]
+    if izrek['posledica']['lastnost'] not in lastnosti: return False
+    if izrek['posledica']['vrednost'] == lastnosti[izrek['posledica']['lastnost']]: return True
+    n = [ x for x, y in enumerate(izrek['pogoj']) if y['lastnost'] not in lastnosti ]
     if not len(n): return True
     if len(n) > 1: return False
-    _, lastnost, vrednost = [ *izrek['when'][n[0]].values() ]
+    lastnost, vrednost = [ *izrek['pogoj'][n[0]].values() ]
     if slediIzKontrapozicije(izrek, lastnost, lastnosti): lastnosti[lastnost] = bool(1 - vrednost)
     return True
 
@@ -59,9 +68,11 @@ def dopolniLastnosti(lastnosti, izreki, vse_lastnosti):
     return lastnosti
 
 def jeProtiprimer(izrek, lastnosti):
-    none = len([ x for x in izrek['when'] if lastnosti[x['property']] == None ])
-    pregled = [ x['property'] for x in izrek['when'] if lastnosti[x['property']] == 1 - x['value'] ]
-    protiprimer = (izrek['then']['value'] == lastnosti[izrek['then']['property']]) and len(pregled)
+    none = len([ x for x in izrek['pogoj'] if lastnosti[x['lastnost']] == None ])
+    pregled = [ x['lastnost'] for x in izrek['pogoj']
+            if lastnosti[x['lastnost']] == 1 - x['vrednost'] ]
+    protiprimer = (izrek['posledica']['vrednost'] == lastnosti[izrek['posledica']['lastnost']]
+            and len(pregled))
     return None if none else bool(protiprimer)
 
 def shrani(
@@ -72,10 +83,12 @@ def shrani(
         protiprimeri_pot,
         sklici_pot
           ):
-    juha = bs(requests.get(link()).text, features = 'html.parser')
+    
+    juha = bs(requests.get(pot := link()).text, features = 'html.parser')
     podatki = json.loads(json.loads(juha.find('body').find('script').text)['body'])
+    print('pobrano iz', pot)
 
-    izreki = preurediIzreke(podatki['theorems'].copy())
+    izreki = preurediIzreke(podatki['theorems'])
     vse_lastnosti = [ x['uid'] for x in podatki['properties'] ]
     vsi_prostori = [ x['uid'] for x in podatki['spaces'] ]
     lastnosti_prostorov = preberiLastnosti(podatki['traits'])
@@ -100,10 +113,7 @@ def shrani(
                 len(x.get('aliases', [])), len(x.get('refs', [])), x['description'] ))
 
     with open(izreki_pot, 'w', encoding = 'utf-8', newline = '') as f:
-        w = csv.writer(f)
-        w.writerow(( 'izrek', 'če', 'potem', 'št. sklicev', 'opis' ))
-        for x in izreki: w.writerow(( x['uid'], repr(x['when']), repr(x['then']),
-                len(x.get('refs', [])), x['description'] ))
+        print(json.dumps(izreki, indent = 2), file = f)
 
     with open(protiprimeri_pot, 'w', encoding = 'utf-8', newline = '') as f:
         w = csv.writer(f)
@@ -114,3 +124,16 @@ def shrani(
     #with open(reference_pot, 'w', encoding = 'utf-8', newline = '') as f:
         #w = csv.writer(f)
         #w.writerow(( 'referenca', ))
+
+if __name__ == '__main__':
+    juha = bs(requests.get(pot := link()).text, features = 'html.parser')
+    podatki = json.loads(json.loads(juha.find('body').find('script').text)['body'])
+    print('pobrano iz', pot)
+
+    izreki = list(preurediIzreke(podatki['theorems']))
+    vse_lastnosti = [ x['uid'] for x in podatki['properties'] ]
+    vsi_prostori = [ x['uid'] for x in podatki['spaces'] ]
+    lastnosti_prostorov = preberiLastnosti(podatki['traits'])
+    for x in lastnosti_prostorov.values(): dopolniLastnosti(x, izreki, vse_lastnosti)
+    for x in izreki: print(x)
+    for x in vse_lastnosti: print(x, lastnosti_prostorov['S000001'][x])
