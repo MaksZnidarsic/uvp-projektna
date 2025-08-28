@@ -26,7 +26,7 @@ Tukaj pa se program ne ustavi, saj še ni ugotovil, katere lastnosti veljajo za 
 
 Seveda pa, če lahko podatke ekstrapolirajo oni, jih lahko tudi mi. To naredimo, saj se nikomur ne da čakati, da bi se naložili sami. Program za to uporabi zelo preprost algoritem. Ta gre takole. Program najprej vse prej pridobljene izreke preuredi v za branje prijaznejšo obliko, nato pa pri vsakem prostoru ponovi naslednje. Ciklično se sprehaja skozi vse izreke, kjer iz vsakega izpelje tiste lastnosti, ki se jih da. Ker so vsi izreki oblike $`\bigwedge P_i \implies Q`$, kjer so $`P_i`$-ji in $`Q`$ vrednosti nekih lastnosti, program najprej preveri, če velja $`P_i`$ $`\forall i`$, od koder lahko očitno izpelje $`Q`$. Poleg tega pa mora preveriti še kontrapozicijo izreka, saj bi nam drugače ogromno lastnosti izviselo. Vemo, da velja
 ```math
-\left( \bigwedge P_i \implies \right) \iff \left( \neg Q \implies \bigvee \neg P_i \right).
+\left( \bigwedge P_i \implies Q \right) \iff \left( \neg Q \implies \bigvee \neg P_i \right).
 ```
 Torej, če $`\neg Q`$ in ne pozna le nekega $`P_j`$-ja izmed $`P_i`$-jev, lahko iz $`P_i`$ $`\forall i \neq j`$ izpelje $`\neg P_j`$. Program ta proces ponavlja, dokler se število poznanih lastnosti prostora veča in mu ostajajo še ne uporabljeni izreki, nato pa se premakne na naslednji prostor.
 
