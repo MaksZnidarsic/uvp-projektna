@@ -13,11 +13,11 @@ def main():
     cas = time.strftime("%Y-%m-%d-%H-%M", time.localtime())
     shrani(
             join(direktorij, 'prostori_' + cas + '.csv'),
-            join(direktorij, 'prostori-lastnosti_' + cas + '.csv'),
-            join(direktorij, 'ročno-pregledane-lastnosti_' + cas + '.csv'),
+            join(direktorij, 'prostori-lastnosti_' + cas + '.json'),
+            join(direktorij, 'rocno-pregledane-lastnosti_' + cas + '.csv'),
             join(direktorij, 'lastnosti_' + cas + '.csv'),
             join(direktorij, 'izreki_' + cas + '.json'),
-            join(direktorij, 'protiprimeri_' + cas + '.csv'),
+            join(direktorij, 'protiprimeri_' + cas + '.json'),
             join(direktorij, 'sklici_' + cas + '.csv')
           )
 

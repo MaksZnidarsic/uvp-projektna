@@ -1,0 +1,1528 @@
+lastnost,uid,št. aliasov,št. sklicev,opis
+$T_0$,P000001,2,1,"Given any two distinct points, there is an open set containing one but not the other.
+
+Defined on page 11 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary."
+$T_1$,P000002,2,2,"Given any two distinct points, each has a neighborhood not containing the other point.
+
+Equivalently, any of the following equivalent properties holds:
+
+- Points are closed in $X$ (that is, for each $x\in X$ the singleton $\{x\}$ is closed).
+- {P78} subspaces are {P52}.
+- Each point is an intersection of open sets.
+- Each point is an intersection of its neighborhoods.
+
+See {{wikipedia:T1_space}} for a more extensive list.
+
+Defined on page 11 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- The Kolmogorov quotient $\text{Kol}(X)$ is {P2} iff $X$ is {P135}."
+$T_2$,P000003,2,1,"Given any two distinct points $a$ and $b$, there are disjoint open sets $O_a$ and $O_b$ containing $a$ and $b$, respectively.
+
+Defined on page 11 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- The Kolmogorov quotient $\text{Kol}(X)$ is {P3} iff $X$ is {P134}."
+$T_{2 \frac{1}{2}}$,P000004,3,3,"Distinct points are separated by closed neighborhoods.
+In other words, given any two distinct points $a$ and $b$, there are open sets $O_a$ and $O_b$ containing $a$ and $b$,
+respectively, such that $cl(O_a)$ and $cl(O_b)$ are disjoint.
+
+Defined as ""Urysohn"" in 14F of {{zb:1052.54001}}.
+Defined as ""completely Hausdorff"" and \(T_{2\frac{1}{2}}\) on page 13 of
+{{doi:10.1007/978-1-4612-6290-9}}."
+$T_3$,P000005,2,1,"A space which is both {P11} and {P3}. 
+Equivalently, a space that is both {P11} and {P1}.
+
+Defined in 14.1 of {{zb:1052.54001}}.
+
+----
+#### Meta-properties
+
+- The Kolmogorov quotient $\text{Kol}(X)$ is {P5} iff $X$ is {P11}."
+$T_{3 \frac{1}{2}}$,P000006,3,2,"A space which is both {P12} and {P3}.
+
+Equivalently, a space that is both {P12} and {P1}.
+
+----
+#### Meta-properties
+
+- The Kolmogorov quotient $\text{Kol}(X)$ is {P6} iff $X$ is {P12}."
+$T_4$,P000007,2,1,"A space which is both {P13} and {P3}. 
+Equivalently, a space that is both {P13} and {P2}.
+
+Defined in 15.1 of {{zb:1052.54001}}."
+$T_5$,P000008,2,1,"A space which is both {P14} and {P3}. 
+Equivalently, a space that is both {P14} and {P2}.
+
+Defined on page 12 of {{doi:10.1007/978-1-4612-6290-9}} as ""completely normal""."
+Functionally Hausdorff,P000009,3,3,"Given any two distinct $a,b \in X$ there is a continuous function $f:X \rightarrow [0,1]$ such that $f(a) = 0$ and $f(b)=1$.
+
+Defined as ""completely Hausdorff""/""functionally Hausdorff"" in 14G of {{zb:1052.54001}}.
+Defined as ""Urysohn"" on page 16 of {{doi:10.1007/978-1-4612-6290-9}}."
+Semiregular,P000010,0,1,"A space with a base $\mathcal{B}$ of regular open sets, that is,
+$\operatorname{int}(\operatorname{cl}(O)) = O$ for every $O \in \mathcal{B}$.
+
+Defined in 14E of {{zb:1052.54001}}."
+Regular,P000011,0,1,"A space in which a closed set and a point not contained in it
+can be separated by open neighborhoods.
+In other words, given a closed set $A$ and a point
+$b \notin A$, there are disjoint open sets $O_A$ and $O_b$ containing $A$ and
+$b$, respectively.
+
+Equivalently, every point has a neighborhood base consisting of closed sets.
+
+See Definition 14.1 and Theorem 14.3 in {{zb:1052.54001}}.
+
+----
+#### Meta-properties
+
+- $X$ is {P11} iff its Kolmogorov quotient $\text{Kol}(X)$ is {P5}."
+Completely regular,P000012,1,2,"A space in which points and closed sets can be separated by a function. 
+
+Namely, given a closed set $A$ and a point $b \notin A$, there is a continuous function $f:X \rightarrow [0,1]$ such that $f(A) = \{0\}$ and $f(b)=1$.
+
+Defined in 14.8 of {{zb:1052.54001}}.
+
+Equivalently, the topology is induced by a uniformity.  See Theorem 38.2 in {{zb:1052.54001}} and {{wikipedia:Uniform_space}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary.
+- $X$ is {P12} iff its Kolmogorov quotient $\text{Kol}(X)$ is {P6}."
+Normal,P000013,0,1,"A space in which disjoint closed sets can be separated by open neighborhoods.
+In other words, given disjoint closed sets $A$ and $B$, there are disjoint open sets $O_A$ and $O_B$ containing $A$ and $B$, respectively.
+
+Defined in 15.1 of {{zb:1052.54001}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Completely normal,P000014,1,2,"Every subspace of $X$ is {P13}.
+
+Equivalently, every open subspace of $X$ is {P13}.
+
+Equivalently, any two *separated sets* (sets for which each misses the other's closure)
+can be placed into disjoint open sets.
+
+Defined on page 11 of {{doi:10.1007/978-1-4612-6290-9}} (as $T_5$)."
+Perfectly normal,P000015,0,3,"A space $X$ for which, for any disjoint closed sets $A$ and $B$, there is a
+continuous function $f: X \rightarrow [0,1]$ such that $f^{-1}(\{0\}) = A$ and
+$f^{-1}(\{1\}) = B$.  Equivalently, a {P13} space in which every closed set is a $G_\delta$.
+Equivalently, a space in which every closed set is a zero-set.
+
+The equivalence between the three definitions (Vedenissoff's theorem) is shown for example
+in Theorem 1.5.19 of {{zb:0684.54001}} (under the assumption of a {P2} space, but the proof is
+equally valid without this assumption).  See also {{mathse:72138}}.
+
+Defined on page 16 of {{doi:10.1007/978-1-4612-6290-9}} (as perfectly \(T_4\)).
+
+----
+
+#### Meta-properties
+
+- This property is hereditary (see Theorem 2.1.6 in {{zb:0684.54001}})."
+Compact,P000016,0,2,"Every open cover of the space has a finite subcover.
+
+Equivalently, every open cover of the space has an [open] finite refinement.
+
+Defined on page 18 of {{doi:10.1007/978-1-4612-6290-9}}."
+$\sigma$-compact,P000017,0,1,"A space which is the union of countably many {P16} subsets.
+
+Defined on page 19 of {{doi:10.1007/978-1-4612-6290-9}}."
+Lindelöf,P000018,0,1,"Every open cover of $X$ has a countable subcover.
+
+Defined on page 19 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Countably compact,P000019,0,2,"Every countable open cover of $X$ has a finite subcover.
+
+Equivalently, every infinite set in $X$ has an $\omega$-accumulation point in $X$.
+
+Equivalently, every sequence in $X$ has an accumulation point in $X$ (that is, a point such that each of its neighborhoods contains infinitely many terms of the sequence).
+
+Defined on page 19 of {{doi:10.1007/978-1-4612-6290-9}}.  See for example {{wikipedia:Countably_compact_space}} for a proof of the equivalences above."
+Sequentially compact,P000020,0,1,"Every sequence in $X$ has a convergent subsequence.
+
+Defined on page 19 of {{doi:10.1007/978-1-4612-6290-9}}."
+Weakly countably compact,P000021,1,2,"Every infinite set in $X$ has a limit point.
+
+Equivalently, every closed discrete subset of $X$ is finite.
+
+Defined on page 19 of {{doi:10.1007/978-1-4612-6290-9}}."
+Pseudocompact,P000022,0,1,"Every continuous function from the space to {S25} is bounded.
+
+Defined on page 20 of {{doi:10.1007/978-1-4612-6290-9}}."
+Weakly locally compact,P000023,1,1,"Each point has a {P16} neighborhood.
+
+Defined as ""locally compact"" on page 20 of {{doi:10.1007/978-1-4612-6290-9}}."
+Locally relatively compact,P000024,1,2,"Each point has a local base of neighborhoods with compact closure.
+
+Equivalently (see Condition 2 of {{wikipedia:Locally_compact_space}}), every point in $X$ has
+a closed and compact neighborhood.
+
+Defined on page 20 of {{doi:10.1007/978-1-4612-6290-9}} as ""strongly locally compact"". Contrast with {P130}."
+Exhaustible by compacts,P000025,1,3,"A space that is {P17} and {P23}.
+
+Equivalently, $X=\bigcup_{n<\omega}K_n$ where for each $x\in X$, there exists
+$n<\omega$ such that $K_n$ is a compact neighborhood of $x$.
+
+Equivalently, $X=\bigcup_{n<\omega}K_n$ for $K_n$ compact, and such that $K_n\subseteq int(K_{n+1})$.
+
+The equivalences above can be shown using the ideas in {{mathse:4568032}}.
+
+Defined on page 21 of {{doi:10.1007/978-1-4612-6290-9}} as ""$\sigma$-locally compact""."
+Separable,P000026,1,1,"A space with a countable dense subset.
+
+Defined on page 7 of {{doi:10.1007/978-1-4612-6290-9}}."
+Second countable,P000027,0,1,"A space with a countable basis.
+
+Defined on page 7 of {{doi:10.1007/978-1-4612-6290-9}}."
+First countable,P000028,0,1,"A space with a countable local basis at every point.
+
+Defined on page 7 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary.
+- A space that is locally {P28} (every point has a neighborhood with the property)
+has the property."
+Countable chain condition,P000029,2,3,"A space in which every collection of pairwise-disjoint nonempty open sets is countable.
+
+Defined on page 22 of {{doi:10.1007/978-1-4612-6290-9}}.
+Also referred to as the ""Suslin/Souslin property"" as in e.g. 1.7.12 of {{zb:0684.54001}}."
+Paracompact,P000030,0,1,"Every open cover of the space has a locally finite open refinement.
+
+Defined on page 23 of {{doi:10.1007/978-1-4612-6290-9}}."
+Metacompact,P000031,2,2,"Every open cover of the space has a point-finite open refinement.
+
+Defined on page 23 of {{doi:10.1007/978-1-4612-6290-9}}."
+Countably paracompact,P000032,0,1,"Every countable open cover of the space has a locally finite open refinement.
+
+Defined on page 23 of {{doi:10.1007/978-1-4612-6290-9}}."
+Countably metacompact,P000033,0,2,"Every countable open cover of the space has a point-finite open refinement.
+
+Equivalently (*Ishikawa's characterization*),
+for any nested sequence of closed sets $F_0 \supseteq F_1 \supseteq \cdots$ with empty intersection,
+there exist open sets $U_n \supseteq F_n$ for each $n$ such that the $U_n$ have empty intersection.
+
+(One can choose the $U_n$ to be nested if desired.)
+
+For a proof of the equivalence, see the Corollary in {{zb:0066.41001}}.
+
+Defined on page 23 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Fully normal,P000034,0,5,"A space in which every open cover has an open star refinement, where a *star refinement* of a cover 
+$\mathcal V$ is a cover $\mathcal U$ such that for every $U\in\mathcal U$ the *star* 
+$\operatorname{st}(U,\mathcal U)$ of $U$ is contained in some member of $\mathcal V$.
+
+Equivalently, a space in which every open cover has an open barycentric refinement, 
+where a *barycentric refinement* of a cover $\mathcal V$ is a cover $\mathcal U$ such that for every 
+$x\in X$ the *star* $\operatorname{st}(x,\mathcal U)$ of $x$ is contained in some member of $\mathcal V$.
+
+Here, the *star* $\operatorname{st}(A,\mathcal U)$ of a set $A$ with respect to $\mathcal U$ is the 
+union of all the sets $U\in\mathcal U$ that intersect $A$.
+And $\operatorname{st}(x,\mathcal U)=\operatorname{st}(\{x\},\mathcal U)$ for a point $x\in X$.
+
+The equivalence between the two definitions follows from the fact that a barycentric refinement
+of a barycentric refinement is a star refinement, as stated in Problem 20B of {{zb:1052.54001}}.
+
+{{doi:10.1007/978-1-4612-6290-9}} defines this property on page 23 as ""fully $T_4$"".
+Misleadingly, it also calls ""star refinement"" what all other major sources call a barycentric refinement.
+
+Several other equivalent characterizations are given in {{mathse:4862626}}, including that {P34} is equivalent to a space being simultaneously {P13} and {P30}, generalizing the treatment from {{zb:0684.54001}} past the {P2} setting.
+
+[Henno Brandsma: On paracompactness, full normality and the like](http://at.yorku.ca/p/a/c/a/02.pdf)
+also has useful information about this property."
+Fully $T_4$,P000035,1,1,"A space which is {P2} and {P34}.
+
+Defined as ""fully normal"" on page 23 of {{doi:10.1007/978-1-4612-6290-9}}."
+Connected,P000036,0,1,"No pair of disjoint nonempty open sets covers the space.
+
+Defined on page 7 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Path connected,P000037,0,1,"Given any two points $x,y\in X$, there is a *path* in $X$ from $x$ to $y$;
+that is, a continuous map $f:[0,1]\to X$ with $f(0)=x$ and $f(1)=y$.
+
+Defined on page 29 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+Compare with {P38} and {P95}."
+Injectively path connected,P000038,1,1,"Given any two distinct points $x,y\in X$, there is an *injective path* in $X$ from $x$ to $y$;
+that is, an injective continuous map $f:[0,1]\to X$ with $f(0)=x$ and $f(1)=y$.
+
+Compare with {P37}, which does not require the path to be injective,
+and {P95}, which requires the path to be a homeomorphism onto its image.
+
+Defined on page 29 of {{doi:10.1007/978-1-4612-6290-9}} with the name ""arc connected"".
+Here we reserve that name for the stronger property {P95},
+which is the more common usage in the literature."
+Hyperconnected,P000039,2,3,"The space has no disjoint nonempty open sets.
+
+Equivalently, every nonempty open set is dense.
+
+Defined on page 29 of {{doi:10.1007/978-1-4612-6290-9}}. Defined as ""anti-Hausdorff"" in {{doi:10.1016/0166-8641(93)90147-6}}.
+
+See {{wikipedia:Hyperconnected_space}} for other equivalent characterizations.
+
+----
+#### Meta-properties
+
+- This property is preserved by arbitrary products."
+Ultraconnected,P000040,0,2,"The space has no disjoint nonempty closed sets.
+
+Equivalently ({{mathse:5006424}}), the only neighborhood of the space's
+diagonal $\Delta=\{\langle x,x\rangle:x\in X\}$ is $X^2$.
+
+Defined on page 29 of {{doi:10.1007/978-1-4612-6290-9}}."
+Locally connected,P000041,0,3,"The topology of $X$ has a base consisting of {P36} open sets.
+
+This is equivalent to each of the following:
+
+* The connected components of every open set are open.
+
+* $X$ is *locally connected at $x$* for every $x\in X$;
+that is, each $x$ has a neighborhood base consisting of open connected sets.
+
+* $X$ is *connected im kleinen at $x$* for every $x\in X$;
+that is, each $x$ has a neighborhood base consisting of (not necessarily open) connected sets.
+
+Note: In general, local connectedness at a point $x$ is not equivalent to connectedness im kleinen at $x$.
+But the corresponding global statements (where the condition holds at every point) are equivalent.
+
+For terminology and the equivalence between the conditions above, see section 2 of {{zb:1342.30054}} and {{wikipedia:Locally_connected_space}}, plus the references therein.
+
+Defined on page 30 of {{doi:10.1007/978-1-4612-6290-9}}."
+Locally path connected,P000042,0,3,"The topology of $X$ has a base consisting of {P37} open sets.
+
+This is equivalent to each of the following:
+
+* The path components of every open set are open.
+
+* $X$ is *locally path connected at $x$* for every $x\in X$;
+that is, each $x$ has a neighborhood base consisting of open path connected sets.
+
+* $X$ is *path connected im kleinen at $x$* for every $x\in X$;
+that is, each $x$ has a neighborhood base consisting of (not necessarily open) path connected sets.
+
+Note: In general, local path connectedness at a point $x$ is not equivalent to path connectedness im kleinen at $x$.
+But the corresponding global statements (where the condition holds at every point) are equivalent.
+
+For terminology and the equivalence between the conditions above, see section 2 of {{zb:1342.30054}} and {{wikipedia:Locally_connected_space}}, plus the references therein.
+
+Defined on page 30 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+Compare with {P43} and {P96}."
+Locally injectively path connected,P000043,1,1,"The topology of $X$ has a base consisting of {P38} open sets.
+
+Equivalently, every point has a local base of {P38} open neighborhoods.
+
+Compare with {P42} and {P96}.
+
+Defined on page 30 of {{doi:10.1007/978-1-4612-6290-9}} with the name ""locally arc connected"".
+Here we reserve that name for the stronger property {P96}."
+Biconnected,P000044,0,3,"A {P36} space which cannot be partitioned into two {P36} subsets, each with at least two points.
+
+Equivalently, a {P36} space which does not contain two disjoint {P36} subsets, each with at least two points.
+
+See for example {{mathse:4654942}} for a proof of the equivalence.
+
+Defined on page 33 of {{doi:10.1007/978-1-4612-6290-9}}.  See also for example {{doi:10.1016/0166-8641(95)00005-2}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary with respect to connected sets."
+Has a dispersion point,P000045,0,1,"A {P36} space $X$ with a ""dispersion point"" $p$, that is,
+a point such that $X \setminus \{p\}$ is {P47}.
+
+Defined on page 33 of {{doi:10.1007/978-1-4612-6290-9}}."
+Totally path disconnected,P000046,0,1,"The only paths in the space are constant.
+
+Defined on page 31 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary."
+Totally disconnected,P000047,1,2,"All connected components of the space are singletons.
+
+Defined on page 32 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+Some authors (for example {{zb:0684.54001}}) use ""totally disconnected"" to mean {P48} and ""hereditarily disconnected"" to mean {P47}."
+Totally separated,P000048,1,2,"Given any two distinct points $x,y \in X$, there exists a clopen subset $A\subseteq X$ such that
+$x\in A$ and $y\not\in A$.
+
+Defined on page 32 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+Some authors (for example {{zb:0684.54001}}) use ""totally disconnected"" to mean {P48} and ""hereditarily disconnected"" to mean {P47}."
+Extremally disconnected,P000049,0,5,"The closure of every open set in $X$ is open or, equivalently, clopen.
+
+Equivalently, any two disjoint open sets have disjoint closures.
+
+Defined in problem 15G of {{zb:1052.54001}} and problem 1H of {{doi:10.1007/978-1-4615-7819-2}}.
+
+{{doi:1007/978-1-4612-6290-9}} defines it on page 32 with the additional assumption of {P3}, which we do not assume here.
+
+----
+#### Meta-properties
+
+- This property is hereditary with respect to open sets (see Problem 15G.2 in {{zb:1052.54001}}).
+- This property is hereditary with respect to dense sets (see {{mathse:3769214}}).
+- This property is hereditary with respect to locally dense sets (equivalent to previous two meta-properties; see also Proposition 1 of {{mathse:5025114}}).
+A set $A\subseteq X$ is called *locally dense* (or *preopen*) if every $x\in A$ has neighbourhood $U$ with $U\cap A$ dense in $U$ (equivalently, $A\subseteq\operatorname{int}(\overline A)$)."
+Zero dimensional,P000050,0,1,"A space with a basis of clopen sets.
+
+Defined on page 33 of {{doi:10.1007/978-1-4612-6290-9}}."
+Scattered,P000051,1,4,"The space contains no nonempty dense-in-itself subset.
+
+Equivalently, every nonempty subspace $Y$ contains a point isolated in $Y$.
+
+Defined on page 33 of {{doi:10.1007/978-1-4612-6290-9}}.
+Defined as ""dispersed"" in e.g. {{zb:0164.53101}}."
+Discrete,P000052,0,1,"Every point is isolated, that is, $\{x\}$ is open for every point $x$.
+
+See 3.2c of {{zb:1052.54001}}."
+Metrizable,P000053,0,1,"The topology on the space $X$ is induced by some metric $d$.
+
+A *metric* is a function $d:X \times X \to \mathbb{R}$ such that for all $x,y,z \in X$,
+(i) $d(x,y) \geq 0$ and $d(x,y)=0$ if and only if $x=y$;
+(ii) $d(x,y) = d(y,x)$;
+(iii) $d(x,z) \leq d(x,y) + d(y,z)$.
+
+Given a metric $d$ and $x \in X$, $\epsilon>0$, define $B(x,\epsilon) = \{y \in X: d(x,y)<\epsilon\}$. Then the sets $B(x,\epsilon)$ form a base for a topology, called the topology induced by $d$.
+
+Defined on page 37 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+#### Meta-properties
+
+- The Kolmogorov quotient $\text{Kol}(X)$ is {P53} iff $X$ is {P121}."
+Has a $\sigma$-locally finite base,P000054,0,1,"A space with a $\sigma$-locally finite base for the topology.
+
+A collection of subsets of $X$ is *$\sigma$-locally finite* if it is a countable union of locally finite collections.
+
+Defined on page 37 of {{doi:10.1007/978-1-4612-6290-9}}."
+Completely metrizable,P000055,1,2,"The topology on the space $X$ is induced by some complete metric $d$,
+that is, a metric for which every Cauchy sequence converges.
+
+A sequence $(x_n)_n$ is *Cauchy* provided for each distance $\epsilon>0$, there is
+a natural number $N$ for which $d(x_i,x_j)<\epsilon$ for all $i,j>N$.
+
+Defined in 24.2 of {{zb:1052.54001}}.
+Defined on page 37 of {{doi:10.1007/978-1-4612-6290-9}} as
+""topologically complete"".
+
+----
+#### Meta-properties
+
+- This property is hereditary with respect to $G_\delta$ sets and,
+in particular, with respect to open sets and closed sets
+(see Theorem 24.12 in {{zb:1052.54001}})."
+Meager,P000056,1,2,"The space $X$ is a countable union of nowhere dense subsets of $X$.
+
+Defined on page 7 of {{doi:10.1007/978-1-4612-6290-9}}."
+Countable,P000057,2,1,"The cardinality of the space is less than or equal to the cardinality of $\mathbb N$.
+
+See sections 1.12-1.15 of {{zb:1052.54001}}."
+Cardinality $\lt\mathfrak c$,P000058,2,1,"The cardinality of the space is less than the cardinality of $\mathbb R$.
+
+See sections 1.12-1.15 of {{zb:1052.54001}}."
+Cardinality $\leq 2^{\mathfrak c}$,P000059,2,1,"The cardinality of the space is at most the cardinality of $\mathcal{P}(\mathbb R)$, the set of subsets of $\mathbb R$.
+
+See sections 1.12-1.15 of {{zb:1052.54001}}."
+Strongly connected,P000060,0,1,"Every continuous function $f:X \to \mathbb R$ is constant.
+
+Defined on page 223 of {{doi:10.1007/978-1-4612-6290-9}}."
+Cozero complemented,P000061,0,1,A {P6} space in which for every cozero set $U$ there is a cozero set $V$ disjoint from $U$ such that $U \cup V$ is dense in $X$.
+Weakly Lindelöf,P000062,0,1,Every open cover of $X$ has a countable subcollection whose union is dense in $X$.
+Čech complete,P000063,0,1,"A {P6} space $X$ that is a $G_\delta$ set in some compactification of $X$ (equivalently, in every compactification of $X$).
+
+Equivalently, there is a sequence $\mathcal{U}_1, \mathcal{U}_2, \dots$ of open covers of $X$ such that whenever $\mathcal{F}$ is a family of closed sets with the finite intersection property and such that for each $n$ there is some $F_n \in \mathcal{F}$ with $F_n \subseteq U$ for some $U \in \mathcal{U}_n$, then $\bigcap \mathcal F \neq \emptyset$.
+
+See Section 3.9 of {{zb:0684.54001}}, specifically Theorems 3.9.1 and 3.9.2 for the equivalences above.
+
+----
+#### Meta-properties
+
+- This property is hereditary with respect to closed sets (see Theorem 3.9.6 in {{zb:0684.54001}}).
+- This property is hereditary with respect to $G_\delta$ sets (see Theorem 3.9.6 in {{zb:0684.54001}})."
+Baire,P000064,0,2,"A space such that the countable union of closed nowhere dense subsets has empty interior; equivalently, such that the countable intersection of open dense subsets is still dense.
+
+See {{wikipedia:Baire_space}} for several other equivalent characterizations."
+Cardinality $=\mathfrak c$,P000065,2,1,"The cardinality of the space is equal to the cardinality of $\mathbb R$.
+
+See sections 1.12-1.15 of {{zb:1052.54001}}."
+Menger,P000066,0,1,"A space that satisfies the selection principle
+\(S_{fin}(\mathcal{O},\mathcal{O})\): for every sequence of open covers
+\(\mathcal{U}_n\) for \(n<\omega\), there exist finite subcollections
+$\mathcal{F}_n\subseteq\mathcal{U}_n$ such that \(\bigcup_{n<\omega}\mathcal{F}_n\) is
+also an open cover.
+
+See section 5 of {{doi:10.1016/0166-8641(95)00067-4}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary with respect to closed sets."
+$T_6$,P000067,3,2,"A space that is both {P2} and {P15}.
+Equivalently, a space that is both {P1} and {P15}.
+
+Defined on page 16 of {{doi:10.1007/978-1-4612-6290-9}} as ""perfectly normal"".
+
+----
+
+#### Meta-properties
+
+- This property is hereditary since {P2} and {P15} are."
+Rothberger,P000068,1,1,"A space that satisfies the selection principle
+\(S_{1}(\mathcal{O},\mathcal{O})\): for every sequence of open covers
+\(\mathcal{U}_n\) for \(n<\omega\), there exist choices
+\(V_n\in\mathcal{U}_n\) such that \(\{V_n:n<\omega\}\) is
+also an open cover.
+
+See section 6 of {{doi:10.1016/0166-8641(95)00067-4}}.
+
+#### Meta-properties
+
+- This property is hereditary with respect to closed subspaces."
+Strategic Menger,P000069,4,4,"Strategic Menger: The second player has a winning strategy in the Menger game. See Game 1.5 and Definition 1.6 of {{doi:10.14712/1213-7243.2015.201}} for more details.
+
+Strategically $\Omega$-Menger: The second player has a winning strategy in the game $\mathsf{G}_{\mathrm{fin}}(\Omega_X,\Omega_X)$. See pages 2 and 3 of {{doi:10.1016/j.topol.2019.07.008}} for more details.
+
+The equivalence of Strategic Menger and Strategically $\Omega$-Menger is Theorem 35 of {{doi:10.1016/j.topol.2019.02.062}}."
+Markov Menger,P000070,1,4,"Markov Menger: The second player has a Markov winning strategy in the Menger game (relying on only the round number and most recent move of the opponent). See Game 1.5 and Definition 2.2 of {{doi:10.14712/1213-7243.2015.201}} for more details.
+
+Markov $\Omega$-Menger: The second player has a Markov winning strategy in the game $\mathsf{G}_{\mathrm{fin}}(\Omega_X,\Omega_X)$ (relying on only the round number and most recent move of the opponent). See pages 2 and 3 of {{doi:10.1016/j.topol.2019.07.008}} for more details.
+
+The equivalence of Markov Menger with Markov $\Omega$-Menger is established in {{mathse:4730419}}."
+$\sigma$-relatively-compact,P000071,0,1,"$X=\bigcup_{n<\omega}R_n$, where $R_n$ is relatively compact to $X$.  Here, a set $A\subseteq X$ is called *relatively compact to* $X$ if every open cover of $X$ has a finite subcollection which covers $A$.
+
+See Definition 4.2 in {{doi:10.14712/1213-7243.2015.201}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+2-Markov Menger,P000072,0,1,The second player has a $2$-Markov winning strategy in the Menger game (relying on only the round number and two most recent moves of the opponent).
+Sober,P000073,0,2,"Every nonempty irreducible (= {P39}) closed subset of $X$ is the closure of exactly one point of $X$;
+that is, every nonempty irreducible closed subset has a unique *generic point*.
+
+See {P201} for several equivalent formulations.
+
+See {{wikipedia:Sober_space}} and also 
+the section on [Irreducible components](https://stacks.math.columbia.edu/tag/004U) from the Stacks project.
+
+Note: Without the uniqueness of the generic points, the corresponding property is {P192}.
+
+----
+#### Meta-properties
+
+- The Kolmogorov quotient $\text{Kol}(X)$ is {P73} iff $X$ is {P192}."
+Cosmic,P000074,0,2,"A space that is {P5} and {P182}.
+
+The notion was originally defined in section 10 of {{mr:206907}}, which is available at <https://www.jstor.org/stable/24901448>."
+Spectral,P000075,1,3,"A {P16} {P73} space for which the collection of compact open subsets is
+closed under finite intersections and forms a base for the topology.
+
+In the theory of Stone duality, for every bounded distributive lattice there exists a unique spectral space whose compact open subsets are order-isomorphic to that lattice and whose points are the prime ideals of the lattice. Additionally, spectra of commutative rings endowed with the Zariski topology are spectral spaces and vice versa, although this association is not one-to-one. For a comprehensive overview of this and other information on spectral spaces, see {{doi:10.1017/9781316543870}}.
+
+See example 21, section 2.6 of {{mr:1077251}} and the section on [Spectral spaces](https://stacks.math.columbia.edu/tag/08YF) from the Stacks project."
+Proximal,P000076,0,3,"A {P12} space such that there exists a uniformity
+generating the topology of the space such that the
+entourage-picker has a winning strategy in Bell's proximal game introduced
+in {{doi:10.1016/j.topol.2014.06.014}}.
+
+Equivalently, the entourage-picker has a winning strategy for
+this variation defined as Game 1.11 of
+{{doi:10.1016/j.topol.2016.03.022}}: during round $0$,
+the entourage-picker chooses an entourage $D_0$ of the diagonal from
+the {P12} space's universal uniformity, and the point-picker
+chooses some point $x_0$. Then during round $n+1$, the entourage-picker chooses an
+entourage $D_{n+1}$, and the point-picker chooses some point $x_{n+1}\in D_n[x_n]$.
+The entourage-picker wins provided that either the sequence $x_n$ converges
+or the intersection $\bigcap_{n<\omega}D_n[x_n]$ is empty.
+
+Note that while many authors require {P76} spaces to be {P3}
+(equivalently, {P1}),
+we do not require this separation axiom here.
+However, due to the first meta-property below, many results about {P3} {P76} spaces may
+be generalized by considering the Kolmogorov quotient.
+
+----
+
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does. ({{mathse:5044579}})
+- This property is hereditary with respect to closed sets (see Lemma 7 in {{doi:10.1016/j.topol.2014.06.014}}).
+- This property is preserved by $\Sigma$-products (see Theorem 8 in {{doi:10.1016/j.topol.2014.06.014}})."
+Corson compact,P000077,0,1,"$X$ is homeomorphic to a compact subspace of a $\Sigma$-product of real lines.
+By homogeneity of the real line, one can assume the $\Sigma$-product is of the form
+
+$\quad Y=\{x=(x_\alpha)\in\mathbb R^\Gamma:\{\alpha:x_\alpha\ne 0\}\text{ is countable}\}$
+
+for some set $\Gamma$.
+The space $Y$ has the topology of pointwise convergence induced from
+the product topology of $\mathbb R^\Gamma$."
+Finite,P000078,2,1,"The cardinality of the space is finite.
+
+See sections 1.12-1.15 of {{zb:1052.54001}}."
+Sequential,P000079,0,1,A space in which every sequentially closed set is closed.
+Fréchet Urysohn,P000080,0,2,"A space such that for each $A\subseteq X$ and each $p\in \overline A$ there is a sequence in $A$ converging to $p$.
+
+See item (5) in the introduction to {{mr:0687569}}.  {{wikipedia: Fréchet–Urysohn_space}} has various equivalent characterizations of the property."
+Countably tight,P000081,0,1,"For each $A\subseteq X$ and each $p\in \overline A$ there is a countable subset $D\subseteq A$ such that $p\in \overline D$.
+
+----
+
+#### Meta-properties
+
+- This property is hereditary."
+Locally metrizable,P000082,0,1,"Each point has a neighborhood which is {P53}.
+
+Defined in exercise 7 of section 34 in {{zb:0951.54001}}.
+
+----
+#### Meta-properties
+
+- The Kolmogorov quotient $\text{Kol}(X)$ is {P82} iff $X$ is {P144}."
+Meta-Lindelöf,P000083,0,1,"Every open cover of $X$ has a point-countable open refinement.
+
+(A collection $\mathscr V$ of subsets of $X$ is *point-countable* if each point $x\in X$ belongs to at most countably many elements of $\mathscr V$.)
+
+Defined on page 200 of {{zb:1059.54001}}.
+
+See also <https://dantopology.wordpress.com/2022/10/29/examples-of-meta-lindelof-spaces/>."
+Locally Hausdorff,P000084,0,3,"Each point has a neighborhood that is {P3}.
+
+Note that, by Lemma 4.2 of {{doi:10.1090/S0002-9939-07-09100-9}},
+each point of such a space has a {P3} open neighborhood which is dense in the space.
+
+----
+#### Meta-properties
+
+- This property is hereditary."
+Basically disconnected,P000085,0,1,"The closure of every cozero set in $X$ is open or, equivalently, clopen.
+
+A *cozero set* is a set of the form $\{x\in X:f(x)>0\}$ for some continuous function $f:X\to\mathbb R$;
+equivalently, the complement of a zero set.
+
+Equivalently, any two disjoint open sets, at least one of which is a cozero set, have disjoint closures.
+
+Defined in problem 1H of {{doi:10.1007/978-1-4615-7819-2}}.
+
+No additional separation axiom is assumed here."
+Homogeneous,P000086,0,1,"A space $X$ such that for each $a,b\in X$ there is a homeomorphism $\phi : X \to X$ such that $\phi(a)=b$. In other words: the group of homeomorphisms of the space onto itself acts transitively.
+
+----
+#### Meta-properties
+
+- This property is preserved by arbitrary products."
+Has a group topology,P000087,1,1,"There exists a continuous group operation $(x,y)\mapsto x\cdot y$ on the space such that
+the inverse operation $x\mapsto x^{-1}$ is also continuous.
+
+Contrary to Munkres or Willard, we do not assume any separation axiom like {P3}, {P2} or {P1}."
+Collectionwise normal,P000088,1,5,"For every discrete family $(F_i)_{i \in I}$  of closed subsets of $X$, there exists a pairwise disjoint family of open sets $(U_i)_{i \in I}$ with $F_i \subseteq U_i$ for all $i$.
+
+Equivalently, for every discrete family $(F_i)_{i \in I}$  of closed subsets of $X$, there exists a discrete family of open sets $(U_i)_{i \in I}$ with $F_i \subseteq U_i$ for all $i$.
+
+Terminology:
+- A *discrete family* is a family of subsets such that each point of $X$ has a neighborhood meeting at most one of the subsets.
+- In the first definition, the family of open sets $(U_i)_i$ is sometimes called a *disjoint open expansion* of the family $(F_i)_i$.
+- In the second definition, the family of open sets $(U_i)_i$ is sometimes called a *discrete open expansion* of the family $(F_i)_i$. (See for example {{doi:10.1016/S0166-8641(96)00163-0}}.)
+
+The equivalence between the two definitions is Theorem 5.1.17 of {{zb:0684.54001}}.
+
+Defined on page 168 of {{doi:10.1007/978-1-4612-6290-9}};
+also on page 305 of {{zb:0684.54001}} with the additional assumption of {P2}, which we do not assume here.
+
+Occasionally abbreviated as ""CWN"", as in {{zb:0529.54017}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Fixed point property,P000089,0,2,Every continuous map from the space to itself has at least one fixed point.
+Alexandrov,P000090,2,2,"An arbitrary intersection of open sets is open.
+
+This is equivalent to each of the following:
+
+* An arbitrary union of closed sets is closed.
+* Each $x \in X$ has a unique smallest neighborhood.
+* For each $A \subseteq X$, $A$ is open iff $A \cap Y$ is open in the subspace $Y$ for each finite $Y \subseteq X$.
+* There is a preorder (i.e., a reflexive and transitive relation) $\preceq$ on $X$ such that the open sets are precisely the upward closed sets (i.e., sets $A\subseteq X$ such that $x\in A$ and $x\preceq y$ imply $y\in A$).
+
+See {{wikipedia:Alexandrov_topology}} for a more extensive list.
+
+See also Topospace's [Alexandrov space](http://topospaces.subwiki.org/wiki/Alexandrov_space) article.
+
+{{mr:1711071}} is available at <https://eudml.org/doc/120504>."
+Eberlein compact,P000091,0,1,Any compact subspace of a $\Sigma^\ast$-product of real lines.
+"$k_{\omega,3}$-space",P000092,1,2,"A space which is the union of an increasing sequence of {P16} {P3} subsets
+$K_1\subseteq K_2 \subseteq K_3 \subseteq \cdots$ such that a set is closed (resp. open) whenever
+its intersection with each $K_n$ is closed (resp. open) in $K_n$.
+
+(N.B. The requirement that this sequence be
+increasing cannot be eliminated.  For example,
+{S65} satisfies the requirement without the increasing condition,
+but is not {P92}.)
+
+Defined as ""$k_\omega$-space"" in {{zb:0416.54027}}
+(available [here](https://topology.nipissingu.ca/tp/reprints/v02/tp02105.pdf))
+and on page 209 of {{doi:10.1016/0016-660X(75)90021-5}}.
+The corresponding notion without requiring that each $K_n$ be {P3} is
+{P98}. See also {P140}, {P141},
+and {P142}."
+Locally countable,P000093,0,1,"The space has a base of open sets, each with countable cardinality."
+Locally finite,P000094,0,2,"Every point has a finite neighborhood. Equivalently, the space has a basis of finite sets."
+Arc connected,P000095,0,2,"Given any two distinct points $x,y\in X$, there is an *arc* in $X$ from $x$ to $y$;
+that is, a homeomorphic embedding $f:[0,1]\to X$ with $f(0)=x$ and $f(1)=y$.
+
+See Definition 27.1 in {{zb:1052.54001}}, which uses this usual definition of ""arc"" from the literature.
+
+Compare with {P37} and {P38}.
+
+Note: Page 29 of {{doi:10.1007/978-1-4612-6290-9}} 
+uses the terms ""arc"" for an injective path
+and ""arc connected"" for the weaker property {P38}."
+Locally arc connected,P000096,0,1,"The topology of $X$ has a base consisting of {P95} open sets.
+
+Equivalently, every point has a local base of {P95} open neighborhoods.
+
+Compare with {P42} and {P43}.
+
+Note: Page 30 of {{doi:10.1007/978-1-4612-6290-9}} 
+uses the term ""locally arc connected"" for the weaker property {P43}."
+Embeddable in $\mathbb R$,P000097,0,1,Homeomorphic to a subspace of $\mathbb R$ ({S25}).
+"$k_{\omega,1}$-space",P000098,2,1,"A space which is the union of an increasing sequence of {P16} subsets
+$K_1\subseteq K_2 \subseteq K_3 \subseteq \cdots$ such that a set is closed (resp. open) whenever
+its intersection with each $K_n$ is closed (resp. open) in $K_n$.
+
+Equivalently, a space which is the union of countably-many
+{P16} subsets $K_n$ (without requiring
+$K_n\subseteq K_{n+1}$)
+such that a set is closed (resp. open) whenever
+its intersection with each $K_n$ is closed (resp. open) in $K_n$.
+
+Defined as ""$k_\omega$-space"" on page 13 of {{zb:0288.22006}}.
+The corresponding notion requiring that each $K_n$ be {P3} is {P92}.
+See also {P140}, {P141}, and {P142}."
+US,P000099,3,4,"Every convergent sequence in $X$ has exactly one limit.
+
+Equivalently, every {P20} set in $X$
+is sequentially closed (see {{mathse:5011974}}).
+
+----
+#### Meta-properties
+
+- This property is hereditary."
+KC,P000100,1,1,Every compact subset is closed.
+Has closed retracts,P000101,2,2,Every retract subspace ($A\subseteq X$ with a continuous $f:X\to A$ fixing each point of $A$) is closed.
+Semimetrizable,P000102,0,4,"For a set $X$, a function $d:X^2\to[0,\infty)$ is called a *symmetric*
+if it satisfies reflexivity ($d(x,y)=0\Leftrightarrow x=y$) and symmetry
+($d(x,y)=d(y,x)$). A space $X$ is called *semimetrizable* if
+there is a symmetric $d:X^2\to[0,\infty)$ such that the balls
+$B_d(x,\varepsilon)=\{y\in X:d(x,y)<\varepsilon\}$ for $\varepsilon>0$
+form a neighborhood basis at each point $x\in X$. Such a symmetric is called a *semimetric*.
+(Note that {{zb:0116.14303}} demonstrates that
+these neighborhood balls need not be open sets.)
+
+Equivalently:
+- There exists a symmetric $d$ such that $p$ lies in the closure of some $Y\subseteq X$ iff $d(p,Y)=\inf\{d(p,y):y\in Y\}=0$.
+Such a symmetric is automatically a semimetric.
+- (i) $X$ is {P2}; (ii) for each $x \in X$, there is a non-increasing sequence of open sets $\{G_n(x):n<\omega\}$ forming a local neighborhood basis for $x$; (iii) if for some sequence $x_n$ in $X$, $y\in X$ belongs to $G_n(x_n)$ for all $n$, then $x_n\to y$. This equivalence is shown in Theorem 3.2 of {{zb:0113.16501}}.
+
+Defined in e.g. {{zb:0113.16501}} and {{doi:10.2991/978-94-6239-216-8}}. Note that some sources, e.g., {{doi:10.2307/2370790}}, use the term semimetric to refer to a symmetric and the term semimetrizable to refer to {P104}.
+
+----
+#### Meta-properties
+
+- This property is hereditary.  Compare with {P104}."
+Strongly KC,P000103,0,1,Every {P19} subset of $X$ is closed.
+Symmetrizable,P000104,1,2,"For a set $X$, a function $d:X^2\to[0,\infty)$ is called a *symmetric*
+if it satisfies reflexivity ($d(x,y)=0\Leftrightarrow x=y$) and symmetry
+($d(x,y)=d(y,x)$). A space $X$ is called *symmetrizable* if
+there is a symmetric such that a subset $U \subseteq X$ is open iff for each $x \in U$,
+there is some $\varepsilon > 0$ with $B_d(x,\varepsilon)=\{y\in X:d(x,y)<\varepsilon\}$
+being contained in $U$.
+
+Equivalently, there exists a symmetric $d$ such that $Y \subseteq X$ is closed iff $d(p,Y)=\inf\{d(p,y):y\in Y\} > 0$ for all $p \in X \setminus Y$.
+
+Defined in {{doi:10.2991/978-94-6239-216-8}}. Note that some sources, e.g., {{doi:10.2307/2370790}}, use the term semimetric
+(see {P102}) to refer to a symmetric and the term semimetrizable to refer to {P104}.
+
+----
+#### Meta-properties
+
+- This property is not hereditary. (Example: {S156|P104} and {S23|P104}.) Compare with {P102}."
+Para-Lindelöf,P000105,0,1,"Every open cover of the space has a locally countable open refinement.
+
+Defined on page 200 of {{zb:1059.54001}}."
+Has a $G_\delta$-diagonal,P000106,0,1,"A space $X$ such that the diagonal $\Delta=\{(x,x):x\in X\}$ is a $G_\delta$ set in $X\times X$.
+
+Equivalently, $X$ has a *$G_\delta$-diagonal sequence*, that is, a sequence of open covers
+$\mathscr U_1,\mathscr U_2, \dots$ such that
+$\{x\}=\bigcap_n\operatorname{st}(x,\mathscr U_n)$ for all $x\in X$.
+Here, $\operatorname{st}(x,\mathscr U_n)=\bigcup\{U\in\mathscr U_n:x\in U\}$.
+
+For the equivalence, see Theorem 2.2 in {{zb:0555.54015}} or Lemma 1 in
+<https://dantopology.wordpress.com/2009/11/18/compact-spaces-with-g-delta-diagonals/>.
+
+See Definition 2.1 in {{zb:0555.54015}}."
+Has a closed point,P000107,0,0,"Some singleton $\{x\}$ of the space is closed. 
+
+Compare with {P139}."
+Hereditarily collectionwise normal,P000108,0,2,"Every subspace of $X$ is {P88}.
+
+Equivalently, every open subspace of $X$ is {P88}.
+
+Equivalently, for every *separated family* $(F_i)_{i \in I}$  of subsets of $X$,
+there exists a pairwise disjoint family of open sets $(U_i)_{i \in I}$ with $F_i \subseteq U_i$ for all $i$.
+
+(The family $(F_i)_i$ is called a *separated family* if for each $i$, 
+$F_i \cap \operatorname{cl}_X(\bigcup_{j \ne i}F_j) = \empty$,
+that is, if the family of the $F_i$ is discrete in its union.)
+
+For the equivalence of the conditions above, see {{mathse:4737011}}."
+Monotonically normal,P000109,0,4,"There are several equivalent definitions.
+See {{wikipedia:Monotonically_normal_space}} for a few more.
+
+**Definition (1)**: (see Definition 2.1 in {{zb:0269.54009}})
+
+The space is {P2} and there is a function $G$ that assigns to each
+ordered pair $(A,B)$ of disjoint closed sets in $X$ an open set $G(A,B)$ such that:
+- (i) $A\subseteq G(A,B)\subseteq \overline{G(A,B)}\subseteq X\setminus B$;
+- (ii) $G(A,B)\subseteq G(A',B')$ whenever $A\subseteq A'$ and $B'\subseteq B$.
+
+The operator $G$ is called a *monotone normality operator*.
+
+One can always choose $G$ to satisfy the property
+
+$\quad G(A,B)\cap G(B,A)=\emptyset,$
+
+by replacing each $G(A,B)$ by $G(A,B)\setminus\overline{G(B,A)}$.
+
+----
+**Definition (2)**: (see Theorem 2.2(e) in {{zb:1327.54003}} and references there)
+
+The space is {P2} and there is a function $\mu$ that assigns to each pair $(x,U)$ with $U$ open in $X$ and $x\in U$ an open set $\mu(x,U)$ such that:
+- (i) $x\in\mu(x,U)$;
+- (ii) if $\mu(x,U)\cap\mu(y,V)\ne\emptyset$, then $x\in V$ or $y\in U$.
+
+Such a function $\mu$ automatically satisfies
+
+$\quad x\in\mu(x,U)\subseteq\overline{\mu(x,U)}\subseteq U$.
+
+*Note 1*: It is sufficient to assume the function $\mu$ is defined for $U$ belonging to a base for the topology.
+
+*Note 2*: It is not necessarily the case that $\mu(x,U)$ satisfies monotonicity in $U$,
+that is, $\mu(x,U)\subseteq\mu(x,U')$ if $x\in U\subseteq U'$.
+But one can construct a modified function
+
+$\quad \nu(x,U)=\bigcup\{\mu(x,W):W\text{ open, }x\in W\subseteq U\}$,
+
+which does satisfy (i), (ii), and monotonicity in $U$.
+
+----
+**Equivalence between the two definitions**: (see {{zb:0257.54018}})
+
+Given $G$ from Definition (1) with the condition $G(A,B)\cap G(B,A)=\emptyset$,
+the function $\mu(x,U)=G(\{x\},X\setminus U)$ satisfies Definition (2).
+
+Given $\mu$ from Definition (2) and the associated function $\nu$,
+the function $G(A,B)=\bigcup\{\nu(x,X\setminus B):x\in A\}$ satisfies Definition (1).
+
+----
+#### Meta-properties
+
+- This property is hereditary (easy consequence of Definition (2))."
+Developable,P000110,0,2,"The space has a development.
+
+A *development* for a space $X$ is a sequence $\mathscr U_1,\mathscr U_2,\dots$
+of open covers of $X$ such that for each $x\in X$
+the collection $\{\operatorname{st}(x,\mathscr U_n):n=1,2,\dots\}$ is a local base at $x$.
+Here, $\operatorname{st}(x,\mathscr U_n)=\bigcup\{U\in\mathscr U_n:x\in U\}$
+is the star of $x$ with respect to $\mathscr U_n$.
+
+*Note*: If $X$ has a development, one can always choose a development such that
+each $\mathscr U_{n+1}$ is a refinement of $\mathscr U_n$.
+
+See Definition 23.6 in {{zb:1052.54001}} and page 329 of {{zb:0684.54001}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary.
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Hemicompact,P000111,0,2,"Defined in Section 8 of {{mr:0017525}}, see also {{zb:1052.54001}}. A space which is the union of countably-many
+compact subspaces $K_n$, such that any compact subset is contained within some $K_n$.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Submetrizable,P000112,2,1,"The topology contains a coarser topology which is {P53}.
+
+Equivalently, there is a continuous injective map from $X$ into some metrizable space."
+Moore space,P000113,0,1,"A space that is {P5} and {P110}.
+
+See Definition 23.6 in {{zb:1052.54001}}."
+Cardinality $=\aleph_1$,P000114,1,1,"The cardinality of the space is equal to $\aleph_1$, the cardinality of the first uncountable ordinal $\omega_1$.
+
+See section 1.19 of {{zb:1052.54001}}."
+Subparacompact,P000115,1,2,"Every open cover of $X$ has a $\sigma$-discrete closed refinement.
+
+This is equivalent to each of the following:
+
+- Every open cover of $X$ has a $\sigma$-locally finite closed refinement.
+
+- Every open cover of $X$ has a $\sigma$-closure preserving closed refinement.
+
+- For every open cover $\mathscr U$ of $X$, there is a sequence $\left<\mathscr V_n : n \in \omega\right>$ of open covers where each $\mathscr V_n$ is a refinement of $\mathscr U$ and, for each $x \in X$, there is some $n$ with $\operatorname{st}(x,\mathscr V_n)\subseteq U$ for some $U\in\mathscr U$.
+
+- For every open cover $\mathscr U$ of $X$, there is a sequence $\left<\mathscr V_n : n \in \omega\right>$ of open covers where each $\mathscr V_n$ is a refinement of $\mathscr U$ and, for each $x \in X$, there is some $n$ with $\operatorname{ord}(x,\mathscr V_n)=1$.
+
+Some of the terms used above: 
+For some topological property $\mathcal P$, a collection of sets is called $\sigma$-$\mathcal P$ if it is a countable union of collections, each satisfying $\mathcal P$.
+For $\mathscr W$ a collection of subsets of $X$, $\mathscr W$ is *closure preserving*
+if for each $\mathscr W'\subseteq\mathscr W$,
+$\overline{\bigcup\mathscr W'}=\bigcup\{\overline U:U\in\mathscr W'\}$.
+Also, $\operatorname{st}(x,\mathscr W)=\bigcup\{W\in\mathscr W:x\in W\}$
+and $\operatorname{ord}(x,\mathscr W)=|\{W\in\mathscr W:x\in W\}|$.
+
+See Theorem 3.1 in {{zb:0569.54022}}
+(the whole chapter assumes {P3}, but that property is not used to show the equivalences)
+and Theorem V.7 on p. 217 in {{zb:0598.54001}}.
+See also {{zb:0569.54022}} for references and original names for the properties when they were first introduced.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Polish,P000116,0,2,"A space that is {P26} and {P55}.
+
+See Definition 3.1 in {{doi:10.1007/978-1-4612-4190-4}}."
+Has a $\sigma$-locally finite network,P000117,0,1,"A space with a $\sigma$-locally finite network.
+
+A family $\mathcal N$ of subsets of $X$ is called a *network* if every open set is the union of a subfamily of $\mathcal N$; that is, for every open set $U$ and point $x\in U$ there is some $A\in\mathcal N$ with $x\in A\subseteq U$.  The family $\mathcal N$ is *$\sigma$-locally finite* if it is a countable union of locally finite families.
+
+See for example page 127 of {{zb:0684.54001}}."
+Has a $\sigma$-locally finite $k$-network,P000118,0,1,"A space with a $\sigma$-locally finite $k$-network.
+
+A family $\mathcal N$ of subsets of $X$ is called a *$k$-network* if for every compact set $K$ and open set $U$ in $X$ with $K\subseteq U$, there exists a finite $\mathcal{N}^* \subseteq \mathcal{N}$ with $K \subseteq \bigcup\mathcal{N}^* \subseteq U$.  The family $\mathcal N$ is *$\sigma$-locally finite* if it is a countable union of locally finite families.
+
+See for example Definition 2.1 in {{doi:10.1016/j.topol.2015.05.085}}."
+Pseudometrizable,P000121,0,1,"A space $X$ whose topology is induced by some pseudometric.
+
+A *pseudometric* on $X$ is a map $d:X\times X\to\Bbb{R}$ such that for all $x,y,z \in X$
+(i) $d(x,y) \geq 0$ and $d(x,x)=0$,
+(ii) $d(x,y) = d(y,x)$,
+(iii) $d(x,z) \leq d(x,y) + d(y,z)$.
+That is, a pseudometric satisfies the same properties as a metric, except that distinct points can have $d(x,y)=0$.
+The topology induced by $d$ is the topology generated by all the open balls $B(x,\epsilon) = \{y \in X:d(x,y)<\epsilon\}$ with $x\in X$, $\epsilon>0$.
+
+Defined in Example 3.2(a) of {{zb:1052.54001}}.
+
+----
+#### Meta-properties
+
+- $X$ is {P121} iff its Kolmogorov quotient $\text{Kol}(X)$ is {P53}."
+Locally Euclidean,P000122,0,2,"Each point has a neighborhood homeomorphic to an open subset of $\mathbb R^n$
+with its Euclidean topology for some $n\ge 0$. Equivalently, each point has a neighborhood
+homeomorphic to $\mathbb R^n$ for some $n$. Note that the value of $n$ is allowed
+to differ between points; if it does not vary, then the space has the stronger
+property {P123}.
+
+In the case that $n=0$, the point having a neighborhood homeomorphic to
+$\mathbb R^0=\{0\}$ means it is an isolated point.
+
+The closely related {P123} property is
+defined on page 316 of {{zb:0951.54001}} and on page 38 of {{mr:2766102}}."
+Locally $n$-Euclidean,P000123,1,2,"There exists some integer $n\ge 0$ such that each point of the
+space has a neighborhood homeomorphic to an open subset of $\mathbb R^n$
+with its Euclidean topology. Equivalently, each point has a neighborhood
+homeomorphic to $\mathbb R^n$. Note that the value of $n$ is not allowed
+to differ between points; if it can vary, then the space has the weaker
+property {P122}.
+
+In the case that $n=0$, the point having a neighborhood homeomorphic to
+$\mathbb R^0=\{0\}$ means it is an isolated point.
+
+Defined on page 316 of {{zb:0951.54001}} and on page 38 of {{mr:2766102}}."
+Topological $n$-manifold,P000124,1,3,"A {P123} space that is {P3} and {P27}.
+
+Defined on page 225 of {{zb:0951.54001}} and on page 39 of {{mr:2766102}}."
+Has multiple points,P000125,2,0,"The cardinality of the space is at least $2$, that is, the space is not {S162} and not {S163}."
+Door,P000126,1,2,"Every subset of the space is open or closed (or both).
+
+See {{mr:0923909}}, available at <https://www.jstor.org/stable/20489255>.
+
+#### Meta-properties
+
+- This property is hereditary."
+Dowker,P000127,0,2,"A normal Hausdorff space $X$ such that the product $X\times[0,1]$ is not normal.
+
+Equivalently, by Dowker's theorem, a {P7} space that is not {P32}.
+
+The equivalence follows for example from Theorem 21.4 in {{zb:1052.54001}}.
+See also {{mr:0776636}}."
+$k$-Lindelöf,P000128,0,1,"Every open $k$-cover of $X$ has a countable $k$-subcover.  (A family $\mathcal U$ of open subsets of $X$ is called a *$k$-cover* if each compact subset of $X$ is contained in an element of $\mathcal U$ and $X \notin \mathcal U$.)
+
+Defined on page 3279 of {{doi:10.1016/j.topol.2005.07.015}}."
+Indiscrete,P000129,1,1,"The only open sets are $\emptyset$ and $X$.
+
+See 3.2d of {{zb:1052.54001}}."
+Locally compact,P000130,0,1,"Each point has a local basis of compact neighborhoods.
+
+Given as condition (3) in {{wikipedia:Locally_compact_space}}.  See also the article ""What is locally compact?"" on p. 390 [here](http://www.pme-math.org/journal/issues/PMEJ.Vol.9.No.6.pdf), which discusses various kinds of local compactness."
+Hereditarily Lindelöf,P000131,0,3,"A space for which every subspace is {P18}.  Equivalently, a space in which every open set is {P18}.
+
+The equivalence between the two is shown for example in {{mathse:494918}}.
+
+Defined in 16E of {{zb:1052.54001}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+$G_\delta$ space,P000132,1,3,"A space in which every closed set is a $G_\delta$ set (a countable intersection of open sets).
+Equivalently, a space in which every open set is an $F_\sigma$ set (a countable union of closed sets).
+
+Defined on page 162 of {{doi:10.1007/978-1-4612-6290-9}}.
+
+Note: A $G_\delta$ space is sometimes called a ""perfect space"" (Exercise 1.5.H(a) in {{zb:0684.54001}}). Not to be be confused with a space that is a ""perfect"" in the sense of ""perfect set"" (= a set equal to its derived set = a closed set that is dense-in-itself), that is, a space without isolated point. See the discussion in <https://en.wikipedia.org/wiki/Talk:Perfect_set#Terminology_issue>."
+LOTS,P000133,2,5,"A space whose topology is the order topology for some total order on the underlying set.
+
+If $X$ is a set and $<$ is a total order on $X$, the order topology on $(X,<)$ is generated by the subbase consisting of the open rays $(a,\to) = \{x\in X: a < x\}$ and $(\leftarrow, a) = \{x\in X: x < a\}$.
+
+Defined on page 84 of {{zb:0951.54001}}, in 6D of {{zb:1052.54001}}, 1.7.4 of {{zb:0684.54001}}, and example 39 of {{doi:10.1007/978-1-4612-6290-9}}."
+$R_1$,P000134,2,2,"A space in which any two topologically distinguishable points can be separated by disjoint neighbourhoods. (Two points are *topologically distinguishable* if there is an open set containing one of the points and not the other.)
+
+Equivalently, a space whose Kolmogorov quotient is Hausdorff.
+
+Defined in {{wikipedia:Hausdorff_space}}, and in definition 16.10, p. 439 of {{mr:1417259}}.
+
+----
+#### Meta-properties
+
+- $X$ is {P134} iff its Kolmogorov quotient $\text{Kol}(X)$ is {P3}."
+$R_0$,P000135,2,2,"Given any two topologically distinguishable points, each has a neighborhood not including the other point. (Two points are *topologically distinguishable* if there is an open set containing one of the points and not the other.)
+
+Equivalently, any of the following equivalent properties holds:
+
+- The Kolmogorov quotient of the space is {P2}.
+- Every neighborhood of a point $x\in X$ contains $\operatorname{cl}\{x\}$.
+- Every open set is a union of closed sets.
+- For each $x\in X$, the closure $\operatorname{cl}\{x\}$ is precisely the set of points topologically indistinguishable from $x$.
+- The closures of any two points are either identical or disjoint (so $\{\operatorname{cl}\{x\}\mid x\in X\}$ is a partition of the space $X$).
+
+See {{wikipedia:T1_space}} for a more extensive list.
+
+Also defined in definition 16.6, p. 438 of {{mr:1417259}} as ""symmetric space"". Not to be confused with symmetric spaces from Riemannian geometry.
+
+----
+#### Meta-properties
+
+- $X$ is {P135} iff its Kolmogorov quotient $\text{Kol}(X)$ is {P2}.
+- This property is preserved by arbitrary products and box products."
+Anticompact,P000136,1,2,"Every compact subset of the space is finite.
+
+----
+#### Meta-properties
+
+- This property is preserved by finite products."
+Empty,P000137,1,1,"A space with no element, necessarily equal to {S163}."
+Countably-many continuous self-maps,P000138,0,1,A space with only countably-many continuous maps from the space to itself.
+Has an isolated point,P000139,0,0,"Some singleton $\{x\}$ of the space is open.
+
+Compare with {P107}."
+$k_1$-space,P000140,4,3,"A space whose topology coincides with the final topology with respect the family of all inclusions from compact subspaces.  A subset $A\subseteq X$ is open (resp. closed) whenever $A\cap K$ is open (resp. closed) in $K$ for every compact subspace $K$ of $X$.
+
+Equivalently, a space whose topology coincides with the final topology with respect the family of all continuous maps from arbitrary compact spaces.  A subset $A\subseteq X$ is open (resp. closed) whenever $f^{-1}(A)$ is open (resp. closed) in $K$ for every compact space $K$ and every continuous map $f:K\to X$."
+$k_2$-space,P000141,4,2,A space whose topology coincides with the final topology with respect the family of all continuous maps from arbitrary compact Hausdorff spaces.  A subset $A\subseteq X$ is open (resp. closed) whenever $f^{-1}(A)$ is open (resp. closed) in $K$ for every compact Hausdorff space $K$ and every continuous map $f:K\to X$.
+$k_3$-space,P000142,4,2,A space whose topology coincides with the final topology with respect the family of all inclusions from compact Hausdorff subspaces.  A subset $A\subseteq X$ is open (resp. closed) whenever $A\cap K$ is open (resp. closed) in $K$ for every compact Hausdorff subspace $K$ of $X$.
+Weak Hausdorff,P000143,1,2,"A space $X$ such that for every compact Hausdorff space $K$ and every continuous map $f:K\to X$, the image $f(K)$ is closed in $X$.
+
+Originally defined on p. 275 of {{doi:10.1090/S0002-9947-1969-0251719-4}}.  See also <https://ncatlab.org/nlab/show/weakly+Hausdorff+topological+space>."
+Locally pseudometrizable,P000144,0,1,"Every point has a neighborhood that is {P121}.
+
+----
+#### Meta-properties
+
+- $X$ is {P144} iff its Kolmogorov quotient $\text{Kol}(X)$ is {P82}."
+Strongly paracompact,P000145,0,1,"Every open cover has a star-finite open refinement.
+
+A family $\mathscr A$ of subsets of $X$ is called *star-finite* if each element of $\mathscr A$ meets at most finitely many elements of $\mathscr A$.
+
+Defined on p. 326 of {{zb:0684.54001}} together with the condition that the space is {P3}.  Here we do not assume any separation axiom as part of the definition.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Ultraparacompact,P000146,0,2,"Every open cover of the space has an open (hence clopen) refinement partitioning the space. (We do not assume {P3}.)
+
+Equivalently, every open cover of the space is refined by a locally finite clopen cover.  The equivalence between the two definitions is shown in Lemma 1.3 and Corollary 1.4 of {{mr:261565}} (<https://eudml.org/doc/161976>)."
+P-space,P000147,0,1,"A space in which every countable intersection of open sets is open.
+
+Equivalently, a space in which every countable union of closed sets is closed.
+
+Equivalently, a space in which every point is a P-point, that is, a point for which the family of neighborhoods is closed under countable intersections.
+
+Defined in {{doi:10.1016/0016-660X(72)90026-8}} with the additional assumption of {P2}, which is not assumed here.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+CGWH,P000148,0,1,"A space that is both {P141} and {P143}.  Equivalently, a space that is both {P142} and {P143}.
+
+CGWH stands for ""compactly generated weak Hausdorff"".  Mentioned for example in {{mo:251490}}.
+
+A good reference for these spaces is [N. Strickland, ""The category of CGWH spaces""](https://ncatlab.org/nlab/files/StricklandCGHWSpaces.pdf)."
+$\omega$-Lindelöf,P000149,1,2,"Every $\omega$-cover of $X$ has a countable $\omega$-subcover.  (A family $\mathcal U$ of open subsets of $X$ is called an *$\omega$-cover* if each finite subset of $X$ is contained in an element of $\mathcal U$ and $X \notin \mathcal U$.)
+
+Equivalently, every finite power of $X$ is {P18}.
+
+See {{doi:10.1016/0166-8641(82)90065-7}}; the equivalence with every finite power being {P18} is on page 156.
+
+The name $\omega$-Lindelöf used in e.g.
+{{zb:1153.54009}} is motivated as the adaptation of
+{P18} for $\omega$-covers. This property is
+often called $\varepsilon$-space as it originally appeared
+as the fifth item ""$\varepsilon$"" in a list from
+{{doi:10.1016/0166-8641(82)90065-7}}."
+$\omega$-Rothberger,P000150,0,1,"The space satisfies the selection principle $\mathsf S_1(\Omega,\Omega)$: for every sequence $\langle \mathscr U_n : n \in \omega \rangle$ of $\omega$-covers of $X$, there exist choices $U_n \in \mathscr U_n$ so that $\{ U_n :n \in \omega \}$ is an $\omega$-cover of $X$.
+(A family $\mathcal U$ of open subsets of $X$ is called an *$\omega$-cover* if each finite subset of $X$ is contained in an element of $\mathcal U$ and $X \notin \mathcal U$.)
+
+Equivalently, every finite power of $X$ is {P68}.
+
+See {{doi:10.1090/S0002-9939-1988-0964873-0}}; the equivalence with every finite power being {P68} is on page 918."
+Strategically Rothberger,P000151,1,2,"Strategically Rothberger: The second player has a winning strategy in the Rothberger game $\mathsf{G}_1(\mathcal O_X,\mathcal O_X)$. See pages 2 and 3 of {{doi:10.1016/j.topol.2019.07.008}} for more details.
+
+Strategically $\Omega$-Rothberger: The second player has a winning strategy in the game $\mathsf{G}_1(\Omega_X,\Omega_X)$. See pages 2 and 3 of {{doi:10.1016/j.topol.2019.07.008}} for more details.
+
+Theorem 15 of {{doi:10.1016/j.topol.2019.07.008}} states the equivalence for {P6} spaces, but the equivalence is shown to not require any separations axioms at {{mathse:4738368}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does.
+- $X$ satisfies the property if it is a countable union of subspaces with the property
+(idea: interleave strategies, one for each subspace)."
+Markov Rothberger,P000152,2,3,"Markov Rothberger: The second player has a Markov winning strategy in the Rothberger game $\mathsf{G}_1(\mathcal O_X,\mathcal O_X)$ (relying on only the round number and most recent move of the opponent). See pages 2 and 3 of {{doi:10.1016/j.topol.2019.07.008}} for more details.
+
+Markov $\Omega$-Rothberger: The second player has a Markov winning strategy in the game $\mathsf{G}_1(\Omega_X,\Omega_X)$ (relying on only the round number and most recent move of the opponent). See pages 2 and 3 of {{doi:10.1016/j.topol.2019.07.008}} for more details.
+
+Topologically countable: If there is $\{ x_n : n \in \omega \} \subseteq X$ so that, for every $x \in X$, there is some $n \in \omega$ so that every neighborhood of $x_n$ contains $x$. See {{doi:10.4995/agt.2024.21437}} for more on this property.
+
+These are all shown to be equivalent in Theorem 4.17 of {{doi:10.4995/agt.2024.21437}} and also at {{mathse:4737285}}."
+$\omega$-Menger,P000153,0,1,"The space satisfies the selection principle $\mathsf S_{\mathrm{fin}}(\Omega,\Omega)$: for every sequence $\langle \mathscr U_n : n \in \omega \rangle$ of $\omega$-covers of $X$, there exist choices $\mathcal F_n$, a finite subset of $\mathscr U_n$, so that $\bigcup_{n\in\omega} \mathcal F_n$ is an $\omega$-cover of $X$.
+(A family $\mathcal U$ of open subsets of $X$ is called an *$\omega$-cover* if each finite subset of $X$ is contained in an element of $\mathcal U$ and $X \notin \mathcal U$.)
+
+Equivalently, every finite power of $X$ is {P66}.
+
+See {{doi:10.1016/S0166-8641(96)00075-2}}; the equivalence with every finite power being {P66} is Theorem 3.9."
+GO-space,P000154,2,3,"The space $X$ is {P2} and there is a linear order $<$ on $X$ such that every point
+has a local base of order-convex neighborhoods.
+(A subset $A$ of an ordered set $(X,<)$ is *order-convex* if for each $a,b\in A$ with $a<b$,
+$A$ contains all points of $X$ between $a$ and $b$.)
+
+Equivalently, there is a linear order $<$ on $X$ such that rays $(a,\rightarrow)=\{x:a<x\}$
+and $(\leftarrow,b)=\{x:x<b\}$ are open,
+and every point has a local base of order-convex neighborhoods.
+
+Equivalently, $X$ is homeomorphic to a subspace of a {P133}.
+
+For more details and the proof of these equivalences, see {{zb:0228.54026}} (<https://eudml.org/doc/268514>)
+and {{mathse:4917398}}.
+
+Such spaces are also called *suborderable* (as an example, in {{doi:10.1016/j.topol.2017.09.030}})."
+$k$-Rothberger,P000156,0,1,"The space satisfies the selection principle $\mathsf S_1(\mathcal K,\mathcal K)$: for every sequence $\langle \mathscr U_n : n \in \omega \rangle$ of $k$-covers of $X$, there exist choices $U_n \in \mathscr U_n$ so that $\{ U_n :n \in \omega \}$ is an $k$-cover of $X$.
+(A family $\mathcal U$ of open subsets of $X$ is called a *$k$-cover* if each compact subset of $X$ is contained in an element of $\mathcal U$ and $X \notin \mathcal U$.)"
+Strategically $k$-Rothberger,P000157,0,1,"The second player has a winning strategy in the game $\mathsf{G}_1(\mathcal K_X,\mathcal K_X)$. See Remark 2.4 and Definition 2.7 of {{doi:10.1016/j.topol.2021.107772}} for more details."
+Markov $k$-Rothberger,P000158,0,1,"The second player has a Markov winning strategy in the game $\mathsf{G}_1(\mathcal K_X,\mathcal K_X)$ (relying on only the round number and most recent move of the opponent). See Remark 2.4 and Definition 2.7 of {{doi:10.1016/j.topol.2021.107772}} for more details.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+$k$-Menger,P000159,0,1,"The space satisfies the selection principle $\mathsf S_{\mathrm{fin}}(\mathcal K,\mathcal K)$: for every sequence $\langle \mathscr U_n : n \in \omega \rangle$ of $k$-covers of $X$, there exist choices $\mathcal F_n$, a finite subset of $\mathscr U_n$, so that $\bigcup_{n\in\omega} \mathcal F_n$ is an $k$-cover of $X$.
+(A family $\mathcal U$ of open subsets of $X$ is called a *$k$-cover* if each compact subset of $X$ is contained in an element of $\mathcal U$ and $X \notin \mathcal U$.)"
+Strategically $k$-Menger,P000160,0,1,"The second player has a winning strategy in the game $\mathsf{G}_{\mathrm{fin}}(\mathcal K_X,\mathcal K_X)$. See Remark 2.4 and Definition 2.7 of {{doi:10.1016/j.topol.2021.107772}} for more details."
+Markov $k$-Menger,P000161,0,1,"The second player has a Markov winning strategy in the game $\mathsf{G}_{\mathrm{fin}}(\mathcal K_X,\mathcal K_X)$ (relying on only the round number and most recent move of the opponent). See Remark 2.4 and Definition 2.7 of {{doi:10.1016/j.topol.2021.107772}} for more details."
+Realcompact,P000162,0,3,"A space $X$ that is homeomorphic to a closed subset of $\mathbb{R}^\kappa$ for some cardinal $\kappa$.
+
+Equivalently (see {{doi:10.1007/978-1-4615-7819-2}}), $X$ is {P6} and every real $z$-ultrafilter $\mathcal U$ on the space $X$ is fixed,
+that is, $\bigcap\mathcal{U}\neq\emptyset$.
+
+A *$z$-ultrafilter* is an ultrafilter on the lattice of zero-sets of $X$ (see {{wikipedia:Ultrafilter}} for the general definition of an ultrafilter on a poset). A *real $z$-ultrafilter* is a $z$-ultrafilter with countable intersection property, that is, for any countable $\mathcal{F}\subseteq \mathcal{U}$ we have $\bigcap\mathcal{F}\neq \emptyset$.
+
+See also section 3.11 in {{zb:0684.54001}}."
+Cardinality $\leq\mathfrak c$,P000163,0,0,The cardinality of the space is less than or equal to the cardinality of $\mathbb R$.
+Cardinality less than every measurable cardinal,P000164,1,3,"The cardinality of the space is smaller than every measurable cardinal, if one exists.
+
+A cardinal $\kappa$ is called *measurable* if $\kappa$ is uncountable and there exists a measure $\mu:2^\kappa\to \{0, 1\}$ such that 
+
+1. $\mu$ is *$\kappa$-additive*: $\mu(\bigcup_{i\in I} A_i) = \sum_{i\in I} \mu(A_i)$ for any family $(A_i)_{i\in I}\subseteq 2^\kappa$ of pairwise disjoint sets with $|I| < \kappa$,
+
+2. $\mu$ is non-trivial: $\mu(\kappa) = 1$ and $\mu(\{x\}) = 0$ for all $x\in \kappa$. 
+
+Equivalently, $\kappa$ is uncountable and there exists a free ultrafilter $\mathcal{U}$ on $\kappa$ such that $\mathcal{U}$ is *$\kappa$-complete*, i.e., if $\mathcal{F}\subseteq \mathcal{U}$ and $|\mathcal{F}| < \kappa$ then $\bigcap\mathcal{F}\in \mathcal{U}$. (See {{wikipedia:Measurable_cardinal}} for more details.)
+
+Note: Some authors, for example {{doi:10.1007/978-1-4615-7819-2}}, refer to measurable cardinals as those cardinals $\kappa$ for which there exists a $\sigma$-additive measure $\mu:2^\kappa\to \{0, 1\}$ which is non-trivial. If $\kappa$ is the smallest such cardinal, then a non-trivial $\sigma$-additive measure $\mu:2^\kappa\to \{0, 1\}$ is $\kappa$-additive (see lemma 10.2 of {{doi:10.1007/3-540-44761-X}} and comments preceeding it), so $\kappa$ is also measurable by the above definition.
+
+(The existence of a measurable cardinal cannot be proven in ZFC.
+So spaces whose construction does not depend on set-theoretic axioms beyond ZFC should never have this property marked as false.)"
+Pseudonormal,P000165,1,2,"For every countable closed set $H$ and open set $U\supseteq H$,
+there exists an open set $V$ with $H\subseteq V\subseteq cl(V)\subseteq U$.
+In other words, countable closed sets have arbitrarily small closed neighborhoods.
+
+Equivalently, any two disjoint closed sets, at least one of which is countable, can be separated by open sets.
+
+Defined for example on p. 8 of {{doi:10.1007/978-3-319-91680-4}}.
+
+See also <https://dantopology.wordpress.com/2014/02/17/pseudonormal-spaces/>."
+Has a coarser separable metrizable topology,P000166,1,1,"The topology contains a coarser topology which is both {P26} and {P53}.
+
+N.B. if the space is also {P6}, by page 54 of {{doi:10.1007/BFb0098389}} this is equivalent to
+the function space $C_p(X)$ being {P26}."
+Sequentially discrete,P000167,0,2,"Every convergent sequence in the space is eventually constant.
+
+Equivalently, every set is sequentially closed.  That is, the sequential coreflection of the space is discrete.
+
+See {{mo:451796}}."
+Countable sets are discrete,P000168,3,3,"Every {P57} subspace is {P52}.
+
+Equivalently (see comments of {{mathse:4995501}}), every {P57}
+subset is closed in the space.
+
+Defined as ""cid"" in {{zb:0665.54003}} (pg. 283 of 
+[https://gdz.sub.uni-goettingen.de/id/PPN311571026_0039](https://gdz.sub.uni-goettingen.de/id/PPN311571026_0039?tify=%7B%22pages%22%3A%5B299%5D%2C%22view%22%3A%22%22%7D))
+with the weaker meaning that ""countable infinite subspaces are discrete"".  If $X$ is infinite, the two notions are equivalent."
+Semi-Hausdorff,P000169,1,2,"For any two distinct points $x,y$, there exists a regular open neighborhood
+of $x$ missing $y$, where an open set is *regular* provided it equals the interior
+of its closure.
+
+Not to be confused with other notions of ""semi-Hausdorff"" from the literature,
+e.g. separation by semi-open sets."
+$k_1$-Hausdorff,P000170,3,3,"A space $X$ such that the diagonal $\Delta$ of $X\times X$ is k-closed, where k-closed is in terms of the {P140} property (see Wikipedia).  In other words, $\Delta\cap K$ is closed in $K$ for every compact subspace $K$ of $X\times X$.
+
+Equivalently, every {P16} subspace is {P3}.
+
+Equivalently, every {P16} subspace is closed in $X$ and {P130}.
+
+The property is defined in section 2 of {{doi:10.1007/BF02194829}}, where Theorem 2.1 shows the equivalences above.
+
+Note: this property is not to be confused with other variants of k-Hausdorff (e.g. {P171}), where k-closed is defined in terms of different notions of compactly generated space or k-space."
+$k_2$-Hausdorff,P000171,3,1,"A space $X$ such that the diagonal $\Delta$ of $X\times X$ is k-closed, where k-closed is in terms of the {P141} property (see Wikipedia).  In other words, the inverse image of $\Delta$ is closed for every continuous map from a
+{P16} {P3} space to $X\times X$.
+
+Equivalently, for every pair of continuous maps $f,g:K\to X$ with {P16} {P3} domain $K$,
+the set $\{a\in K:f(a)=g(a)\}$ is closed in $K$.
+
+And alternatively, for every {P16} {P3} space $K$ and
+continuous map $f:K\to X$ and points $k,l\in K$ with $f(k)\not=f(l)$,
+there exist open neighborhoods $U,V$ of $k,l$ with $f[U],f[V]$
+disjoint. See 4.2.4 of <https://ncatlab.org/nlab/files/Rezk_CompactlyGeneratedSpaces.pdf>.
+
+See also <https://zbmath.org/0345.54025> for an earlier
+reference to this weakening of {P3}.
+
+Note: this property is not to be confused with other variants of k-Hausdorff (e.g. {P170}),
+where k-closed is defined in terms of different notions of compactly generated space or k-space."
+Radial,P000172,1,1,"A space such that for each $A\subseteq X$ and each $p\in \overline A$ there is a transfinite sequence $(x_\alpha)_{\alpha<\lambda}$ of points of $A$ converging to $p$.  (Here $\lambda$ is a limit ordinal and can always be taken to be a regular cardinal.)
+
+See the chapter ""d-4 Pseudoradial spaces"" in {{zb:1059.54001}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Pseudoradial,P000173,1,1,"A space in which every radially closed set is closed, where a set $A\subseteq X$ is *radially closed* if it contains the limits of all convergent transfinite sequences consisting of points of $A$.  In other words, for every non-closed set $A\subseteq X$ there is a point $p\in \overline A\setminus A$ and a transfinite sequence $(x_\alpha)_{\alpha<\lambda}$ of points of $A$ that converges to $p$.  (Here $\lambda$ is a limit ordinal and can always be taken to be a regular cardinal.)
+
+See the chapter ""d-4 Pseudoradial spaces"" in {{zb:1059.54001}}."
+Well-based,P000174,1,4,"Each point $x\in X$ has a neighborhood base well-ordered by reverse inclusion.
+
+Equivalently, each point $x\in X$ has a neighborhood base totally ordered by reverse inclusion.  The two are equivalent since a linear order admits a well-ordered cofinal subset.
+
+Such spaces are called *well-based* in {{doi:10.1016/j.topol.2014.08.002}} and *lob-spaces* (lob = ""linearly ordered (local) base"") in {{mr:0540476}}.
+
+One says that $X$ is *well-based at the point $x$* if the conditions above hold at the specific point.
+So $X$ is well-based if it is well-based at every point.
+
+See also {{mo:202280}} and {{mo:322162}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does.
+- This property is hereditary."
+Cardinality $\geq 3$,P000175,0,0,The space contains at least three points.
+Cardinality $\geq 4$,P000176,0,0,The space contains at least four points.
+$\sigma$-space,P000177,0,2,"A space that is {P5} and {P117}.
+
+The name ""$\sigma$-space"" was introduced by A. Okuyama (see {{doi:10.3792/pja/1195521153}}) to denote only the {P117} property. But most later papers, for example {{doi:10.1016/j.topol.2015.05.085}}, also include {P5} in this definition."
+$\aleph$-space,P000178,0,2,"A space that is {P5} and {P118}.
+
+The notion was introduced in {{doi:10.1090/S0002-9939-1971-0276919-3}}."
+$\aleph_0$-space,P000179,0,2,"A space that is {P5} and {P183}.
+
+Originally defined in {{mr:206907}}, available at <https://www.jstor.org/stable/24901448>."
+Hereditarily separable,P000180,0,1,"A space for which every subspace is {P26}.
+
+Defined on page 182 of {{doi:10.1016/B978-0-444-50355-8.X5000-4}}."
+Countably infinite,P000181,2,0,The cardinality of the space is equal to the cardinality of $\mathbb N$.
+Has a countable network,P000182,0,1,"A space with a (finite or infinite) countable network.
+
+A family $\mathcal N$ of subsets of $X$ is called a *network* if every open set is the union of a subfamily of $\mathcal N$.  That is, for every open set $U$ and point $x\in U$ there is some $A\in\mathcal N$ with $x\in A\subseteq U$.
+
+Defined on page 127 of {{zb:0684.54001}}."
+Has a countable $k$-network,P000183,0,2,"A space with a (finite or infinite) countable $k$-network.
+
+Equivalently, a space with a countable pseudobase.
+
+A family $\mathcal N$ of subsets of $X$ is called a *$k$-network* if for every compact set $K$ and open set $U$ in $X$ with $K\subseteq U$, there exists a finite $\mathcal{N}^* \subseteq \mathcal{N}$ with $K \subseteq \bigcup\mathcal{N}^* \subseteq U$.
+
+And a family $\mathcal{N}$ of subsets of $X$ is called a *pseudobase* if for every compact set $K$ and open set $U$ in $X$ with $K\subseteq U$, there exists some $A\in\mathcal{N}$ with $K \subseteq A \subseteq U$.
+
+For the equivalence between the two characterizations, note that every pseudobase is a $k$-network.  And conversely given a countable $k$-network $\mathcal N$, the collection of finite unions of elements of $\mathcal N$ is a countable pseudobase.
+
+See {{mr:206907}}, available at <https://www.jstor.org/stable/24901448>."
+Embeddable into Euclidean space,P000184,1,1,"Homeomorphic to a subspace of $\mathbb R^n$ for some finite $n$.
+
+Per Theorems 1.1.2 and 1.11.4 of {{zb:0401.54029}}, this is equivalent to being {P27}, {P53}, and finite-dimensional, using any of the small inductive, large inductive, or covering dimensions by Theorem 1.7.7."
+Partition topology,P000185,0,2,"There exists a basis for the topology that is also a partition into disjoint sets.
+
+This is equivalent to each of the following:
+
+- Every open set is closed.
+- Every closed set is open.
+- The space's Kolmogorov quotient is {P52}.
+- The space is the disjoint union of a collection of {P129} spaces.
+
+For proof of the equivalences and further characterizations, see section 13 of {{doi:10.5186/aasfm.1977.0321}}.
+
+Defined as example #5 (""Partition Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Embeds in a topological $W$-group,P000186,0,1,Homeomorphic to a subspace of a space that is {P87} and {P187}.
+W-space,P000187,0,2,"P1 has a winning strategy at each point $x\in X$ 
+for the following game defined by Gruenhage in {{zb:0327.54019}}.
+
+During each round $n<\omega$, P1 chooses some neighborhood $U_n$ of $x$,
+then P2 chooses some point $x_n\in U_n$. P1 wins provided the sequence
+of $x_n$ converges to $x$; P2 wins otherwise.
+
+See also section 2 of {{zb:1141.54020}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary.
+- This property is preserved by countable products (see Theorem 4.1 of {{zb:0327.54019}}).
+- This property is preserved by $\Sigma$-products (see Theorem 4.6 of {{zb:0327.54019}}).
+- A locally $W$-space (every point has a neighborhood with the property) is a $W$-space."
+Continuum,P000188,1,2,"A {P3}, {P16}, and {P36} space, as defined in e.g.
+{{doi:10.1016/B978-0-444-50355-8.X5000-4}}.
+
+Note that many authors (e.g. {{doi:10.1201/9781315274089}}) use the
+term ""continuum"" to refer to spaces that are also {P53}, which is
+not assumed here."
+$\sigma$-connected,P000189,0,2,"The space cannot be partitioned into more than one and at most countably infinitely many nonempty closed sets.
+
+Equivalently, $X$ is {P36} and cannot be written as a countably infinite union of pairwise disjoint nonempty closed sets.
+
+Equivalently, every continuous map from $X$ to {S15} is constant. (This is easy to check using the fact that the codomain is countable and $T_1$, and each of its proper closed subsets is a finite union of singletons.)
+
+Defined in Chapter 5, Section 4, Definition 5.15 of {{doi:10.1201/9781315274089}}.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does.
+- If a dense subspace of $X$ satisfies this property, so does $X$ (see Fact 3 in {{mathse:4975867}}).
+- The continuous image of a {P189} space is {P189} (see Fact 2 in {{mathse:4975867}})."
+Ordinal space,P000190,0,2,"The space is homeomorphic to an ordinal number $\alpha$, viewed as the set of ordinals less than $\alpha$, together with the corresponding order topology.  For each point $\beta<\alpha$, the collection of intervals $(\gamma,\beta]$ with $\gamma<\beta$ forms a local base of open neighborhoods of $\beta$.
+
+Equivalently, the topology is the order topology induced by a well-order on the underlying set.
+
+Studied as spaces #40-#43 in {{doi:10.1007/978-1-4612-6290-9_6}}."
+Has points $G_\delta$,P000191,1,1,"A space in which every singleton is a $G_\delta$ set (a countable intersection of open sets).
+
+See exercise 3.1.F(a) of {{zb:0684.54001}}.
+
+----
+#### Meta-properties
+
+- This property is hereditary."
+Quasi-sober,P000192,0,1,"Every nonempty irreducible (= {P39}) closed subset of $X$ is the closure of a point of $X$, not necessarily unique;
+that is, every nonempty irreducible closed subset has at least one *generic point*.
+
+See {P201} for several equivalent formulations.
+
+Equivalently, the Kolmogorov quotient of the space is {P73}. (See {T512}.)
+
+See for example Definition 5.8.6 in the section on [Irreducible components](https://stacks.math.columbia.edu/tag/004U) from the Stacks project,
+or the paragraph after Definition 1.2 in {{doi:10.35834/mjms/1316032836}}.
+
+Note: With an additional uniqueness condition on the generic points, the corresponding property is {P73}.
+
+----
+#### Meta-properties
+
+- $X$ is {P192} iff its Kolmogorov quotient $\text{Kol}(X)$ is {P73}."
+Shrinking,P000193,1,3,"A space in which every open cover admits a shrinking; that is, a space $X$ in which, given any open cover $\{ U_\alpha : \alpha \in A\}$, there is an open cover $\{ V_\alpha : \alpha \in A\}$ such that $\overline{V_\alpha} \subseteq U_\alpha$ for each $\alpha \in A$.
+
+See also [Dan Ma's Topology Blog post on Spaces with shrinking properties](https://dantopology.wordpress.com/2017/01/05/spaces-with-shrinking-properties/)."
+Submetacompact,P000194,1,3,"Every open cover of $X$ has a $\theta$-*sequence* of open refinements; that is, for every open cover $\mathscr U$, there exists a sequence $\langle \mathscr V_n : n \in \omega\rangle$ of open covers where each $\mathscr V_n$ is a refinement of $\mathscr U$ and, for each point $x \in X$, there exists $n \in \omega$ such that $\mathscr V_n$ is point-finite at $x$.
+
+This property was introduced in {{zb:0132.18401}} under the name of *$\theta$-refinable*, and later renamed to *submetacompact* in {{zb:0413.54027}} (full article available [here](http://topology.nipissingu.ca/tp/reprints/v03/tp03207s.pdf))."
+Stone space,P000195,2,3,"The space is {P16}, {P3}, and {P47}.
+
+This is equivalent to each of the following:
+
+- The space is {P16} and {P48}.
+- The space is {P16}, {P1}, and {P50}.
+- The space is {P75} and {P2}.
+
+The equivalence follows from various theorems in pi-base.
+
+Also known as *profinite* spaces, referring to the fact that such spaces are precisely the cofiltered limits of finite discrete spaces. See the section on [Profinite spaces](https://stacks.math.columbia.edu/tag/08ZW) at the Stacks project."
+Hereditarily connected,P000196,1,1,"Every subspace is connected.
+
+This is equivalent to each of the following:
+
+- The open sets are totally ordered by inclusion.
+- The closed sets are totally ordered by inclusion.
+- The specialization preorder is total.
+
+For proof of the equivalences and further characterizations, see section 12 of {{doi:10.5186/aasfm.1977.0321}}."
+Has countable spread,P000197,0,2,"A space with countable spread, where the *spread* of $X$ is
+$s(X) = \sup\{|D| : D \subseteq X, D \text{ is discrete } \} + \omega$.
+
+That is, every discrete subspace of $X$ is countable.
+
+Equivalently, every uncountable set $S\subseteq X$ has a limit point in $S$.
+
+See {{mr:0776620}} or section a-3 of {{doi:10.1016/B978-0-444-50355-8.X5000-4}}."
+Has countable extent,P000198,0,2,"A space with countable extent, where the *extent* of $X$ is
+$e(X) = \sup\{|D| : D \subseteq X, D \text{ is closed and discrete } \} + \omega$.
+
+That is, every closed discrete subspace of $X$ is countable.
+
+Equivalently, every uncountable set $S\subseteq X$ has a limit point in $X$.
+
+See {{mr:0776620}} or section a-3 of {{doi:10.1016/B978-0-444-50355-8.X5000-4}}."
+Contractible,P000199,0,2,"$X$ is [homotopy equivalent](https://en.wikipedia.org/wiki/Homotopy#Homotopy_equivalence) to {S162}.
+
+Equivalently: 
+- $X \neq \emptyset$ and the identity map of $X$ is [homotopic](https://en.wikipedia.org/wiki/Homotopy#Formal_definition) to a constant map.
+- $X \neq \emptyset$, and for every nonempty space $Y$, any map $Y \to X$ is homotopic to a constant map.
+
+Defined on page 4 of {{zb:1044.55001}}."
+Simply connected,P000200,1,4,"$X$ is {P37} and the [fundamental group](https://en.wikipedia.org/wiki/Fundamental_group) $\pi_1(X)$ is trivial.
+
+Also called $1$-*connected*.  See [n-connected space in nLab](https://ncatlab.org/nlab/show/n-connected+space).
+
+Equivalently: 
+- Every pair of points in $X$ is connected by a unique homotopy class of paths. See Proposition 1.6. of {{zb:1044.55001}}.
+- $X$ is {P37} and every continuous map $S^1 \to X$ extends to a continuous map $D^2 \to X$. 
+- $X$ is {P37} and every continuous map $S^1 \to X$ is homotopic to a constant map.
+
+Defined on page 28 of {{zb:1044.55001}}. See {{mathse:4044399}} for additional equivalent characterizations."
+Has a generic point,P000201,0,3,"There exists a generic point $p \in X$.
+
+The point $p$ is called a *generic point* of $X$ if any of the following equivalent conditions holds:
+
+- $\{p\}$ is dense in $X$.
+- $X$ is the only closed set containing $p$.
+- $p$ is an element of every nonempty open subset of $X$.
+- $p$ is a *generalization* of every point of $X$, according to the specialization preorder. See {{wikipedia:Specialization_(pre)order}}.
+- The topology is coarser than or equal to an included point/particular point topology (e.g. {S8}).
+
+Compare with {P202}.
+
+See Definition 1.1.7 on page 3 of {{zb:1325.14001}}."
+Has a point with a unique neighborhood,P000202,2,2,"There exists a point $p\in X$ whose only neighborhood is the entire space.
+
+Equivalently:
+
+- $p$ is contained in all nonempty closed sets.
+- $p$ is a specialization of every point. See {{wikipedia:Specialization_(pre)order}}.
+- The topology is coarser than or equal to an excluded point topology (e.g. {S12}).
+
+See Section C1.5 page 523 of {{zb:1071.18002}} using the terminology ""focal point"".
+
+Compare with {P201} and {P203}."
+Almost discrete,P000203,0,2,"All points except for one are isolated.
+
+Equivalently, the topology is not {P52} and is equal to or finer than an excluded point topology (e.g. {S12}).
+
+There have been various slightly different definitions of ""almost discrete"" in the literature.
+Most definitions exclude discrete spaces; see for example {{zb:0791.54049}} and {{zb:1542.54005}}.
+Sometimes {P3} is assumed, but we don't make that assumption here.
+
+Compare with {P202}."
+Has a cut point,P000204,0,3,"There exists a cut point $p \in X$.
+A point $p$ is called a *cut point* of $X$ if $X$ is {P36} but $X \setminus \{p\}$ is not.
+
+See also {P205}."
+Cut point space,P000205,0,2,"Every point in the space is a cut point, and the space is nonempty.
+A point $p$ is called a *cut point* of $X$ if $X$ is {P36} but $X \setminus \{p\}$ is not.
+
+See also {P204}."
+Strongly Choquet,P000206,0,2,"Player 2 has a winning strategy in the *strong Choquet game* played on a nonempty space.
+
+Let $V_{-1}=X$. During round $n<\omega$
+of this game, Player 1 chooses a point $x_n$ with an open neighborhood $U_n\subseteq V_{n-1}$,
+and Player 2 chooses some open neighborhood $V_n\subseteq U_n$ of $x_n$.
+
+Player 2 wins this game provided $\bigcap\{U_n:n<\omega\}\not=\emptyset$.
+
+----
+#### Meta-properties
+
+- $X$ satisfies this property iff its Kolmogorov quotient $\text{Kol}(X)$ does."
+Strongly collectionwise normal,P000207,2,3,"For each neighborhood $U$ of the diagonal $\Delta=\{(x,x)\mid x\in X\}$
+in $X\times X$, there is a neighborhood $V$ of the diagonal such that
+$V\circ V\subseteq U$.
+
+In Theorem 2.6 of {{doi:10.2307/1993026}} this property was shown to be equivalent to
+almost $2$-fully normal: each open cover $\mathcal U$ has an open almost $2$-star
+refinement $\mathcal V$, that is $\mathcal{V}$ is a refinement of $\mathcal{U}$ and for any $x, y, z$ with $y, z\in \text{St}(x, \mathcal{V})$ there exists $U\in\mathcal{U}$ with $y, z\in U$.
+
+Originally studied by Cohen in {{zb:0046.16403}}
+(<http://gallica.bnf.fr/ark:/12148/bpt6k3186w/f290.image>),
+where it was shown to be
+strictly stronger than {P88}.
+See also {{doi:10.1090/S0002-9939-1981-0630058-4}}."
+Noetherian,P000208,1,3,"A space for which every subspace is compact.
+
+Equivalently:
+- Every open subset is compact.
+- The open sets satisfy the *ascending chain condition*: There is no infinite strictly increasing sequence $O_1 \subsetneq O_2 \subsetneq \cdots$ of open sets.
+- The closed sets satisfy the *descending chain condition*: There is no infinite strictly decreasing sequence $Y_1 \supsetneq Y_2 \supsetneq \cdots$ of closed sets.
+
+Defined on page 5 of {{zb:1325.14001}}, and on page 248 of {{doi:10.1017/9781316543870}}. Also see the section on [Noetherian topological spaces](https://stacks.math.columbia.edu/tag/0050) from the Stacks project."
+Density $\leq\mathfrak c$,P000209,0,0,There exists a dense subset with cardinality $\leq \mathfrak c=2^{\aleph_0}=|\mathbb R|$.

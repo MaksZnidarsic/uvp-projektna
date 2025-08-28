@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup as bs
 STRAN = 'https://topology.pi-base.org/'
 
 def link():
+    """ Za hec vrne link do naključne strani. Distribucija žal ni enakomerna :( """
     r = random.choice(( '', 'spaces', 'spaces/all', 'properties', 'theorems', 'questions', 'dev' ))
     if r in ( '', 'spaces', 'questions', 'dev' ): return STRAN + r
     u = { 'spaces/all' : ( 3, 'S' ), 'properties' : ( 3, 'P' ), 'theorems' : ( 4, 'T' ) }
@@ -15,18 +16,19 @@ def link():
     pot = random.choice(juha.find('table').find_all('td')[::u[r][0]])
     return STRAN + r.split('/')[0] + '/' + re.findall(u[r][1] + '\\d{6}', str(pot))[0]
 
-def preurediPogoj(pogoj):
+def preimenujPogoj(pogoj):
     return { 'lastnost' : pogoj['property'], 'vrednost' : pogoj['value'] }
 
-def preurediIzreke(podatki):
+def poenostaviIzreke(podatki) -> list:
     izreki = []
     for x in podatki:
         izrek = {}
         izrek['uid'] = x['uid']
-        if x['when']['kind'] == 'atom': izrek['pogoj'] = [ preurediPogoj(x['when']) ]
-        else: izrek['pogoj'] = [ preurediPogoj(y) for y in x['when']['subs'] ]
-        izrek['posledica'] = preurediPogoj(x['then'])
+        if x['when']['kind'] == 'atom': izrek['pogoj'] = [ preimenujPogoj(x['when']) ]
+        else: izrek['pogoj'] = [ preimenujPogoj(y) for y in x['when']['subs'] ]
+        izrek['posledica'] = preimenujPogoj(x['then'])
         izrek['opis'] = x['description']
+        izrek['št. sklicev'] = len(x['refs'])
         izreki.append(izrek)
     return izreki
 
@@ -43,7 +45,7 @@ def slediIzKontrapozicije(izrek, lastnost, lastnosti):
     return all([ not (1 - x['vrednost'] == lastnosti[x['lastnost']])
                 for x in izrek['pogoj'] if x['lastnost'] != lastnost ])
 
-def preveriIzrek(izrek, lastnosti):
+def uporabiIzrek(izrek, lastnosti):
     if sledi(izrek, lastnosti):
         lastnosti[izrek['posledica']['lastnost']] = izrek['posledica']['vrednost']
         return True
@@ -56,13 +58,12 @@ def preveriIzrek(izrek, lastnosti):
     if slediIzKontrapozicije(izrek, lastnost, lastnosti): lastnosti[lastnost] = bool(1 - vrednost)
     return True
 
-
 def dopolniLastnosti(lastnosti, izreki, vse_lastnosti):
     dolzina = len(lastnosti)
     uporabljen = { x['uid'] : False for x in izreki }
     while True:
         for x in izreki:
-            if not uporabljen[x['uid']]: uporabljen[x['uid']] = preveriIzrek(x, lastnosti)
+            if not uporabljen[x['uid']]: uporabljen[x['uid']] = uporabiIzrek(x, lastnosti)
         if dolzina == (dolzina := len(lastnosti)): break
     for x in vse_lastnosti: lastnosti.setdefault(x)
     return lastnosti
@@ -103,7 +104,7 @@ def shrani(
     podatki = json.loads(json.loads(juha.find('body').find('script').text)['body'])
     print('pobrano iz', pot)
 
-    izreki = preurediIzreke(podatki['theorems'])
+    izreki = poenostaviIzreke(podatki['theorems'])
     vse_lastnosti = [ x['uid'] for x in podatki['properties'] ]
     vsi_prostori = [ x['uid'] for x in podatki['spaces'] ]
     lastnosti_prostorov = preberiLastnosti(podatki['traits'])
@@ -112,15 +113,12 @@ def shrani(
 
     with open(prostori_pot, 'w', encoding = 'utf-8', newline = '') as f:
         w = csv.writer(f)
-        w.writerow(( 'prostor', 'uid', ' aliasov', 'št. sklicev', 'opis' ))
+        w.writerow(( 'prostor', 'uid', 'št. aliasov', 'št. sklicev', 'opis' ))
         for x in podatki['spaces']: w.writerow(( x['name'], x['uid'],
                 len(x.get('aliases', [])), len(x.get('refs', [])), x['description'] ))
 
-    with open(prostori_lastnosti_pot, 'w', encoding = 'utf-8', newline = '') as f:
-        w = csv.writer(f)
-        w.writerow(( 'prostor', *vse_lastnosti ))
-        for x in vsi_prostori: w.writerow(( x,
-                *[ lastnosti_prostorov[x][y] for y in vse_lastnosti ] ))
+    with open(prostori_lastnosti_pot, 'w', encoding = 'utf-8') as f:
+        print(json.dumps(lastnosti_prostorov, indent = 2), file = f)
 
     with open(rocno_pregledane_lastnosti_pot, 'w', encoding = 'utf-8', newline = '') as f:
         w = csv.writer(f)
@@ -137,11 +135,11 @@ def shrani(
     with open(izreki_pot, 'w', encoding = 'utf-8') as f:
         print(json.dumps(izreki, indent = 2), file = f)
 
-    with open(protiprimeri_pot, 'w', encoding = 'utf-8', newline = '') as f:
-        w = csv.writer(f)
-        w.writerow(( 'izrek', *vsi_prostori ))
-        for x in izreki: w.writerow(( x['uid'],
-                *[ jeProtiprimer(x, lastnosti_prostorov[y]) for y in vsi_prostori ] ))
+    with open(protiprimeri_pot, 'w', encoding = 'utf-8') as f:
+        protiprimeri = dict()
+        for x in izreki: protiprimeri[x['uid']] = { y : jeProtiprimer(x, lastnosti_prostorov[y])
+                for y in vsi_prostori }
+        print(json.dumps(protiprimeri, indent = 2), file = f)
 
     with open(sklici_pot, 'w', encoding = 'utf-8', newline = '') as f:
         w = csv.writer(f)
@@ -149,9 +147,3 @@ def shrani(
                 'št. v lastnosti', 'št. v izreki', 'skupaj' )
         w.writerow(( 'ime', *macke ))
         for x in sklici.keys(): w.writerow(( x, *[ sklici[x][y] for y in macke ] ))
-
-if __name__ == '__main__':
-    juha = bs(requests.get(pot := link()).text, features = 'html.parser')
-    podatki = json.loads(json.loads(juha.find('body').find('script').text)['body'])
-
-    print(podatki['traits'][30])

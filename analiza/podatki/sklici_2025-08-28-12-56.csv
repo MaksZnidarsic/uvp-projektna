@@ -1,0 +1,648 @@
+ime,vrsta,ekstra,št. v prostori,št. v prostori-lastnosti,št. v lastnosti,št. v izreki,skupaj
+Counterexamples in Topology,doi,10.1007/978-1-4612-6290-9,134,763,57,86,1040
+T1 space on Wikipedia,wikipedia,T1_space,0,0,2,1,3
+General Topology (Willard),zb,1052.54001,2,12,31,30,75
+Urysohn and completely Hausdorff spaces,wikipedia,Urysohn_and_completely_Hausdorff_spaces,0,0,2,0,2
+Tychonoff space,wikipedia,Tychonoff_space,0,0,1,0,1
+Uniform space on Wikipedia,wikipedia,Uniform_space,0,0,1,0,1
+Normal space on Wikipedia,wikipedia,Normal_space,0,0,2,0,2
+"General Topology (Engelking, 1989)",zb,0684.54001,3,7,17,26,53
+Why are these two definitions of a perfectly normal space equivalent?,mathse,72138,0,0,1,0,1
+Compact space on Wikipedia,wikipedia,Compact_space,0,0,1,0,1
+Countably compact space on Wikipedia,wikipedia,Countably_compact_space,0,0,1,0,1
+Limit point compact on Wikipedia,wikipedia,Limit_point_compact,0,0,1,0,1
+Locally compact space on Wikipedia,wikipedia,Locally_compact_space,0,0,2,3,5
+Exhaustion by compact sets on Wikipedia,wikipedia,Exhaustion_by_compact_sets,0,0,1,0,1
+"Answer to ""A question about local compactness and σ-compactness""",mathse,4568032,0,0,1,1,2
+Countable chain condition on Wikipedia,wikipedia,Countable chain condition,0,0,1,0,1
+On Countably Paracompact Spaces (F. Ishikawa),zb,0066.41001,0,0,1,0,1
+Star refinement on Wikipedia,wikipedia,Star_refinement,0,0,1,0,1
+"Answer to ""Fully normal implies paracompact without a $T_1$ assumption?""",mathse,4862626,0,0,1,3,4
+Hyperconnected space on wikipedia,wikipedia,Hyperconnected_space,0,0,1,0,1
+An anti-Hausdorff Fréchet space in which convergent sequences have unique limits,doi,10.1016/0166-8641(93)90147-6,1,4,1,0,6
+Are ultraconnected spaces divisible?,mathse,5006424,0,0,1,0,1
+"The Mazurkiewicz distance and sets that are finitely connected at the boundary (Björn, Björn, Shanmugalingam)",zb,1342.30054,0,0,2,0,2
+Locally connected space on Wikipedia,wikipedia,Locally_connected_space,0,0,2,0,2
+"Answer to ""Investigating a property related to the biconnected property""",mathse,4654942,0,0,1,0,1
+A biconnected set in the plane (M.E. Rudin),doi,10.1016/0166-8641(95)00005-2,0,0,1,0,1
+Rings of Continuous Functions (Gillman & Jerison),doi,10.1007/978-1-4615-7819-2,0,0,2,1,3
+Dense Subspace of Extremally Disconnected Space is Extremally Disconnected,mathse,3769214,0,0,1,0,1
+"Answer to ""Which spaces admit only extremally disconnected compactifications?""",mathse,5025114,0,0,1,0,1
+Scattered space on Wikipedia,wikipedia,Scattered_space,0,0,1,0,1
+Total paracompactness and paracompact dispersed spaces (Telgársky),zb,0164.53101,0,0,1,1,2
+Countable products of scattered paracompact spaces. (Rudin and Watson),zb,0518.54021,0,0,1,0,1
+Meagre set on Wikipedia,wikipedia,Meagre_set,0,0,1,3,4
+Products of cozero complemented spaces (G. Gruenhage),mr,2247908,0,0,1,0,1
+Products of weakly-א-compact spaces (M. Ulmer),doi,10.2307/1996310,0,0,1,0,1
+Baire space on Wikipedia,wikipedia,Baire_space,0,3,1,1,5
+Combinatorics of open covers I: Ramsey theory (M. Scheepers),doi,10.1016/0166-8641(95)00067-4,0,0,2,0,2
+Applications of limited information strategies in Menger's game (S. Clontz),doi,10.14712/1213-7243.2015.201,0,0,3,8,11
+"Relating games of Menger, countable fan tightness, and selective separability (S. Clontz)",doi,10.1016/j.topol.2019.02.062,0,0,2,0,2
+Limited information strategies and discrete selectivity (Clontz & Holshouser),doi,10.1016/j.topol.2019.07.008,0,0,4,9,13
+How are the Menger and Ω-Menger games related?,mathse,4730419,0,0,2,0,2
+Applications of limited information strategies in Menger's game,doi,10.14712/1213-7243.2015.201,0,2,1,1,4
+Sober space on Wikipedia,wikipedia,Sober_space,0,0,1,0,1
+Topology via logic (S. Vickers),mr,1002193,0,0,1,0,1
+$\aleph_0$-spaces (E. Michael),zb,0148.16701,1,3,3,2,9
+$\mathfrak P$-spaces and related concepts (Gabriyelyan & Kakol),doi,10.1016/j.topol.2015.05.085,0,0,6,0,6
+"Spectral spaces (Dickmann, Schwartz, Tressl)",doi,10.1017/9781316543870,0,0,3,1,4
+Stone spaces (Johnstone),mr,861951,0,0,2,2,4
+Spectral space on Wikipedia,wikipedia,Spectral_space,0,0,1,2,3
+An infinite game with topological consequences (Bell),doi,10.1016/j.topol.2014.06.014,0,1,1,4,6
+Tactic-proximal compact spaces are strong Eberlein compact (Clontz),doi,10.1016/j.topol.2016.03.022,0,0,1,0,1
+Is a space proximal whenever its $T_0$ quotient is?,mathse,5044579,0,0,1,0,1
+On function spaces of compact subspaces of Σ-products of the real line.,mr,584666,0,0,1,0,1
+Products of convergence properties,mr,687569,0,0,3,3,6
+Fréchet Urysohn space on Wikipedia,wikipedia,Fréchet–Urysohn_space,0,0,1,0,1
+Topology (Munkres),zb,0951.54001,3,3,6,14,26
+Encyclopedia of general topology,zb,1059.54001,0,0,4,4,8
+A note on the locally Hausdorff property (S. B. Niefield),mr,702721,0,0,1,1,2
+Locally Hausdorff space on Wikipedia,wikipedia,Locally_Hausdorff_space,0,0,1,0,1
+Manifolds: Hausdorffness versus homogeneity (Baillif & Gabard),doi,10.1090/S0002-9939-07-09100-9,1,9,1,1,12
+Collectionwise Normal Space on Wikipedia,wikipedia,Collectionwise_normal_space,0,0,1,0,1
+Collectionwise Hausdorff versus collectionwise normal with respect to compact sets (Reed),zb,0529.54017,0,0,1,0,1
+Baireness of $C_k(X)$ for locally compact $X$ (Gruenhage & Ma),doi,10.1016/S0166-8641(96)00163-0,0,0,1,0,1
+Nonexpansive nonlinear operators in a Banach space.,mr,187120,0,0,1,0,1
+Fixed-Point Property on Wikipedia,wikipedia,Fixed-point_property,0,0,1,0,1
+Alexandroff spaces (F. G. Arenas),mr,1711071,0,0,1,0,1
+Alexandrov Topology on Wikipedia,wikipedia,Alexandrov_topology,0,0,1,0,1
+A note on Eberlein compacts,doi,10.2140/pjm.1977.72.487,0,0,1,2,3
+"A survey of $k_\omega$-spaces (Franklin, Smith Thomas)",zb,0416.54027,0,0,1,1,2
+Free $k$-groups and free topological groups (Ordman),doi,10.1016/0016-660X(75)90021-5,0,0,1,0,1
+"Countably compact, locally countable T2-spaces.",mr,574525,0,0,1,0,1
+"Some applications of minimal open sets (Nakaoka, Oda)",doi,10.1155/S0161171201006482,0,0,1,0,1
+Locally finite space on Wikipedia,wikipedia,Locally_finite_space,0,0,1,0,1
+Real line on Wikipedia,wikipedia,Real_line,1,0,1,0,2
+"Quotients of k-semigroups. (Lawson, J.; Madison, B.)",zb,0288.22006,0,0,1,0,1
+Between T1 and T2 (Wilanski),doi,10.2307/2316017,0,0,1,0,1
+Minimal properties between T1 and T2 (Alas & Wilson),mr,2219327,0,0,1,0,1
+Semi-Hausdorff Spaces (Murdeshwar & Naimpally),doi,10.4153/CMB-1966-045-1,0,0,1,0,1
+"Answer to ""Can the US separation axiom be characterized by compact sets?""",mathse,5011974,0,0,1,0,1
+Between T1 and T2,doi,10.2307/2316017,0,0,1,0,1
+"""All retracts are closed"" as separation axiom",mo,191016,0,0,1,1,2
+"""All retracts are closed"" and ""all compacts are closed""",mo,434451,0,1,1,1,3
+Arc-wise connectedness in semi-metric spaces (Heath),zb,0113.16501,0,0,1,0,1
+A regular semi-metric space for which there is no semimetric under which all spheres are open (Heath),zb,0116.14303,0,0,1,0,1
+"Generalized Metric Spaces and Mappings (Lin , Yun)",doi,10.2991/978-94-6239-216-8,0,0,2,1,3
+On semi-metric spaces (Wilson),doi,10.2307/2370790,0,0,2,0,2
+On minimal strongly KC-spaces,doi,10.1007/s10587-009-0022-6,0,0,1,2,3
+Encyclopedia of general topology (Hart et al),zb,1059.54001,0,0,1,1,2
+"Generalized metric spaces (G. Gruenhage), Ch. 10 of Handbook of set-theoretic topology",zb,0555.54015,0,0,1,1,2
+Collectionwise normal space on Wikipedia,wikipedia,Collectionwise_normal_space,0,0,1,0,1
+Definition of hereditarily collectionwise normal spaces using separated families,mathse,4737011,0,0,1,0,1
+"Monotonically normal spaces (Heath, Lutzer, Zenor)",zb,0269.54009,0,0,1,2,3
+Monotonically normal space on Wikipedia,wikipedia,Monotonically_normal_space,0,0,1,0,1
+Mary Ellen Rudin and monotone normality (Bennett & Lutzer),zb,1327.54003,0,0,1,0,1
+A study of monotonically normal spaces (Borges),zb,0257.54018,0,0,1,0,1
+A topology for spaces of transformations,mr,17525,0,0,1,0,1
+Submetrizable spaces and almost $\sigma$-compact function spaces (R. McCoy),doi,10.1090/S0002-9939-1978-0482639-9,0,0,1,0,1
+"Covering properties (D. Burke), Ch. 9 of Handbook of set-theoretic topology",zb,0569.54022,0,0,1,0,1
+"Modern General Topology (Nagata, 1985)",zb,0598.54001,0,0,1,0,1
+Classical Descriptive Set Theory (Kechris),doi,10.1007/978-1-4612-4190-4,0,1,2,3,6
+Polish space on Wikipedia,wikipedia,Polish_space,0,0,1,3,4
+Introduction to topological manifolds (Lee),mr,2766102,1,0,3,0,4
+Manifold on Wikipedia,wikipedia,Manifold,0,2,1,0,3
+Door spaces are identifiable (S. D. McCartan),zb,0646.54028,0,0,1,2,3
+Door space on Wikipedia,wikipedia,Door_space,0,0,1,1,2
+Dowker spaces (M.E. Rudin),mr,776636,1,0,1,0,2
+Applications of k-covers II,doi,10.1016/j.topol.2005.07.015,0,0,3,2,5
+Lindelöf space,wikipedia,Lindelöf_space,0,0,1,1,2
+"Showing that if every open subspace is Lindelöf, then the space is hereditarily Lindelöf.",mathse,494918,0,0,1,0,1
+G-delta space,wikipedia,Gδ_space,0,0,1,0,1
+Order topology on Wikipedia,wikipedia,Order_topology,0,1,1,0,2
+Handbook of Analysis and its Foundations (Schechter),mr,1417259,0,0,2,1,3
+Hausdorff space on Wikipedia,wikipedia,Hausdorff_space,0,0,1,3,4
+Can a hemicompact space fail to be weakly locally compact?,mathse,4566624,0,2,1,1,4
+The total negation of a topological property,doi,10.1215/ijm/1256048236,0,0,1,0,1
+Empty set on Wikipedia,wikipedia,Empty_set,0,1,1,1,3
+Is there an infinite topological space with only countably many continuous functions to itself?,mo,418619,0,0,1,2,3
+Unraveling the various definitions of k-space or compactly generated space,mathse,4646084,0,0,3,2,5
+Compactly generated space on Wikipedia,wikipedia,Compactly_generated_space,0,0,5,1,6
+Classifying spaces and infinite symmetric products (M. C. McCord),doi,10.1090/S0002-9947-1969-0251719-4,0,0,1,0,1
+Weak Hausdorff space on Wikipedia,wikipedia,Weak_Hausdorff_space,0,0,1,1,2
+How can the implication metrizable -> first countable be generalized?,mathse,4659902,0,0,1,3,4
+Ultraparacompactness and Ultranormality (J. Van Name),doi,10.48550/arXiv.1306.6086,0,0,1,2,3
+Extending continuous functions on zero-dimensional spaces (R. Ellis),mr,261565,0,0,1,0,1
+A topological view of P-spaces (A. Misra),doi,10.1016/0016-660X(72)90026-8,2,11,1,7,21
+"Answer to ""The 'right' topological spaces""",mo,251490,0,0,1,0,1
+"Some properties of C(X), I (Gerlits & Nagy)",doi,10.1016/0166-8641(82)90065-7,0,0,1,1,2
+Selection principles related to α-properties (Kočinac),zb,1153.54009,0,0,1,0,1
+Property $C''$ and Function Spaces (Sakai),doi,10.1090/S0002-9939-1988-0964873-0,0,0,1,1,2
+Can P1 improve an open cover to an omega-cover in the finite-open game?,mathse,4738368,0,0,1,0,1
+Do uncountable spaces admit Markov strategies in Rothberger-style games?,mathse,4737285,0,0,1,1,2
+"On traditional Menger and Rothberger variations (Caruvana, Clontz, Holshouser)",doi,10.4995/agt.2024.21437,0,0,1,1,2
+The combinatorics of open covers II,doi,10.1016/S0166-8641(96)00075-2,0,0,1,2,3
+On generalized ordered spaces (D. Lutzer),zb,0228.54026,0,0,1,4,5
+Equivalent definitions for GO-spaces (generalized ordered spaces),mathse,4917398,0,0,1,4,5
+The existence of continuous weak selections and orderability-type properties in products and filter spaces (Motooka et al.),doi,10.1016/j.topol.2017.09.030,0,0,1,0,1
+Selection games and the Vietoris space,doi,10.1016/j.topol.2021.107772,0,0,4,11,15
+Rings of Continuous Functions (Gillman and Jerison),doi,10.1007/978-1-4615-7819-2,0,4,2,2,8
+Ultrafilter on Wikipedia,wikipedia,Ultrafilter,0,0,1,0,1
+Measurable cardinal on Wikipedia,wikipedia,Measurable_cardinal,0,0,1,1,2
+Set Theory (Jech),doi,10.1007/3-540-44761-X,0,0,1,0,1
+Pseudocompact topological spaces (Hrusak et al.),doi,10.1007/978-3-319-91680-4,0,0,1,0,1
+Pseudonormal space on Wikipedia,wikipedia,Pseudonormal_space,0,0,1,0,1
+Topological Properties of Spaces of Continuous Functions,doi,10.1007/BFb0098389,0,0,1,0,1
+Topological property of convergent sequences being eventually constant,mo,451796,0,0,1,0,1
+Sequential space on Wikipedia,wikipedia,Sequential_space,0,0,1,0,1
+"Answer to ""Does every door space with an infinite compact set have a single non-isolated point?""",mathse,4995501,0,0,1,0,1
+"On spaces whose denumerable subspaces are discrete (Ganster, Reilly, Vamanamurthy)",zb,0665.54003,0,0,1,0,1
+Answer to What separation is required to ensure extremally disconnected spaces are sequentially discrete?,mathse,4751818,0,0,1,2,3
+Each regular paratopological group is completely regular,doi,10.1090/proc/13318,0,0,1,0,1
+Examples of strongly rigid countable (semi)Hausdorff spaces,mr,4614765,0,0,1,0,1
+Quotients of k-semigroups (Lawson & Madison),doi,10.1007/BF02194829,0,0,1,0,1
+How are k-Hausdorff and weakly Hausdorff distinct?,mathse,4760309,0,2,1,2,5
+An internal characterisation of radiality (R. Leek),doi,10.1016/j.topol.2014.08.002,0,0,1,1,2
+Spaces with linearly ordered local bases (S. W. Davis),mr,540476,0,0,1,1,2
+Convergent filters generated by (not necessarily countable) chains,mo,202280,0,0,1,0,1
+Name for topological spaces where 'every point has a local base wellordered by reverse inclusion',mo,322162,0,0,1,0,1
+"$\sigma$-spaces and closed mappings, I (A. Okuyama)",doi,10.3792/pja/1195521153,0,0,1,0,1
+On paracompactness in function spaces with the compact-open topology (P. O'Meara),doi,10.1090/S0002-9939-1971-0276919-3,0,0,1,0,1
+Encyclopedia of General Topology,doi,10.1016/B978-0-444-50355-8.X5000-4,0,0,3,0,3
+Dimension Theory (Engelking),zb,0401.54029,0,1,1,1,3
+On ultrapseudocompact and related spaces (T. Nieminen),doi,10.5186/aasfm.1977.0321,0,0,2,1,3
+A compact space $K$ is Corson compact if and only if $C_p(K)$ has a dense lc-scattered subspace (Tkachuk),zb,1535.54012,0,0,1,1,2
+Infinite games and generalizations of first-countable spaces (Gruenhage),doi,10.1016/0016-660X(76)90024-6,0,0,1,6,7
+The story of a topological game (Gruenhage),zb,1141.54020,0,0,1,0,1
+Encyclopedia of General Topology (Hart et al),doi,10.1016/B978-0-444-50355-8.X5000-4,0,0,1,0,1
+Continuum Theory: An introduction (Nadler),doi,10.1201/9781315274089,0,0,1,0,1
+Continuum Theory (Nadler),doi,10.1201/9781315274089,0,0,1,0,1
+"Answer to ""$\sigma$-connected spaces and path-connected property""",mathse,4975867,0,2,1,0,3
+Ordinal number on Wikipedia,wikipedia,Ordinal_number,0,0,1,0,1
+Sober spaces and sober sets (Echi & Lazaar),doi,10.35834/mjms/1316032836,0,0,1,0,1
+Generalized paracompactness (Y. Yasui),zb,0712.54016,0,0,2,3,5
+Shrinking space,wikipedia,Shrinking_space,0,0,1,0,1
+Characterizations of developable topological spaces (J. Worrell and H. Wicke),zb,0132.18401,0,0,1,0,1
+On Submetacompactness (H. Junnila),zb,0413.54027,0,0,1,1,2
+Stone space on Wikipedia,wikipedia,Stone_space,0,0,1,2,3
+Cardinal functions. I. Handbook of set-theoretic topology (R. Hodel),mr,776620,0,0,2,2,4
+Contractible space on Wikipedia,wikipedia,Contractible_space,0,0,1,0,1
+Algebraic Topology (Hatcher),zb,1044.55001,1,12,2,2,17
+Simply connected space on Wikipedia,wikipedia,Simply_connected_space,0,0,1,0,1
+Fundamental group on Wikipedia,wikipedia,Fundamental_group,0,0,1,0,1
+Characterizing simply connected spaces,mathse,4044399,0,0,1,0,1
+Generic point on Wikipedia,wikipedia,Generic_point,0,0,1,0,1
+Specialization (pre)order on Wikipedia,wikipedia,Specialization_(pre)order,0,0,2,0,2
+Algebraic Geometry II (Mumford-Oda),zb,1325.14001,0,0,2,0,2
+Sketches of an elephant. A topos theory compendium (Johnstone),zb,1071.18002,0,0,1,0,1
+On the product of almost discrete Grothendieck spaces (Osipov),zb,1542.54005,0,0,1,0,1
+"Almost discrete SV-spaces (Henrikson, Wilson)",zb,0791.54049,0,0,1,0,1
+Cut-point spaces (Honari & Bahrampour),doi,10.1090/s0002-9939-99-04839-x,1,1,2,1,5
+Cut point on Wikipedia,wikipedia,Cut_point,0,0,2,0,2
+Choquet game on Wikipedia,wikipedia,Choquet_game,0,0,1,0,1
+Sur une problème de M. Dieudonné (Cohen),zb,0046.16403,1,2,1,1,5
+Strong collectionwise normality and M. E. Rudin’s Dowker space (Hart),doi,10.1090/S0002-9939-1981-0630058-4,0,0,1,0,1
+Some Generalizations of Full Normality (M. J. Mansfield),doi,10.2307/1993026,0,0,1,0,1
+Noetherian topological space on Wikipedia,wikipedia,Noetherian_topological_space,0,0,1,0,1
+Discrete Space on Wikipedia,wikipedia,Discrete_space,4,0,0,0,4
+Trivial topology on Wikipedia,wikipedia,Trivial_topology,4,0,0,0,4
+Partition topology on Wikipedia,wikipedia,Partition_topology,2,0,0,0,2
+Particular point topology on Wikipedia,wikipedia,Particular_point_topology,3,0,0,0,3
+Sierpinski space on Wikipedia,wikipedia,Sierpinski_space,1,0,0,0,1
+Excluded point topology on Wikipedia,wikipedia,Excluded_point_topology,3,0,0,0,3
+Either-or topology on Wikipedia,wikipedia,Either-or_topology,1,0,0,0,1
+Finite complement topology on Wikipedia,wikipedia,Finite_complement_topology,2,0,0,0,2
+Cocountable topology on Wikipedia,wikipedia,Cocountable_topology,1,0,0,0,1
+Compact complement topology,wikipedia,Compact_complement_topology,1,0,0,0,1
+Fort space on Wikipedia,wikipedia,Fort_space,4,0,0,0,4
+Handbook of Analysis and Its Foundations,doi,10.1016/B978-0-12-622760-4.X5000-6,1,7,0,0,8
+Functional Analysis,doi,10.1007/978-93-86279-42-2,1,1,0,0,2
+Weak topology on Wikipedia,wikipedia,Weak_topology,1,0,0,0,1
+Arens-Fort space,wikipedia,Arens-Fort_space,1,0,0,0,1
+Fort space,wikipedia,Fort_space,2,0,0,0,2
+Cantor set on Wikipedia,wikipedia,Cantor_set,1,0,0,0,1
+Rational number on Wikipedia,wikipedia,Rational_number,1,1,0,0,2
+Two topological uniqueness theorems for spaces of real numbers (M. Francis),doi,10.48550/arXiv.1210.1008,1,0,0,0,1
+Furstenberg topology on Wikipedia,wikipedia,Furstenberg_topology,1,0,0,0,1
+Irrational number on Wikipedia,wikipedia,Irrational_number,1,0,0,0,1
+Baire space (set theory) on Wikipedia,wikipedia,Baire_space_(set_theory),1,0,0,0,1
+Baire space homeomorphic to irrationals,mathse,352547,1,0,0,0,1
+Alexandroff extension on Wikipedia,wikipedia,Alexandroff_extension,2,1,0,0,3
+Hilbert space on Wikipedia,wikipedia,Hilbert_space,1,0,0,0,1
+A complete elementary proof that Hilbert space is homeomorphic to the countable infinite product of lines (Anderson & Bing),doi,10.1090/S0002-9904-1968-12044-0,1,0,0,0,1
+Selected topics in infinite-dimensional topology (Bessaga & Pełczyński),mr,0478168,1,0,0,0,1
+Weak Hausdorff space not KC,mathse,632320,1,4,0,0,5
+Hilbert cube on Wikipedia,wikipedia,Hilbert_cube,1,0,0,0,1
+"Answer to ""Relationship between weak Hausdorff and US properties""",mathse,4268177,1,1,0,0,2
+Long line on Wikipedia,wikipedia,Long_line_(topology),3,4,0,0,7
+Lower limit topology on Wikipedia,wikipedia,Lower_limit_topology,1,0,0,0,1
+Nested interval topology on Wikipedia,wikipedia,Nested_interval_topology,1,0,0,0,1
+Overlapping interval topology on Wikipedia,wikipedia,Overlapping_interval_topology,1,0,0,0,1
+Zariski topology,wikipedia,Zariski_topology,1,0,0,0,1
+Divisor topology on Wikipedia,wikipedia,Divisor_topology,1,0,0,0,1
+"On Generalized Digital Lines (Nakaoka, Tamari, Maki)",doi,10.32219/isms.80.1_15,1,0,0,0,1
+Arithmetic progression topologies on Wikipedia,wikipedia,Arithmetic_progression_topologies,2,0,0,0,2
+K-topology on Wikipedia,wikipedia,K-topology,1,0,0,0,1
+Is every rational sequence topology homeomorphic?,mo,447593,1,0,0,0,1
+The product of a normal space and a metric space need not be normal (E. Michael),doi,10.1090/S0002-9904-1963-10931-3,1,0,0,0,1
+Double origin topology on Wikipedia,wikipedia,Double_origin_topology,1,0,0,0,1
+A connected countable Hausdorff space (R.H. Bing),zb,0051.13902,1,0,0,0,1
+Moore plane on Wikipedia,wikipedia,Moore_plane,1,0,0,0,1
+Sorgenfrey plane on Wikipedia,wikipedia,Sorgenfrey_plane,1,0,0,0,1
+Tychonoff plank on Wikipedia,wikipedia,Tychonoff_plank,2,0,0,0,2
+"Answer to ""Is Arens Square a Urysohn space?""",mathse,1716095,1,3,0,0,4
+Non-Hausdorff manifold on Wikipedia,wikipedia,Non-Hausdorff_manifold,3,17,0,0,20
+"Answer to ""T1 spaces where the closure of a compact set is not compact""",mathse,3678440,1,0,0,0,1
+Dieudonné plank on Wikipedia,wikipedia,Dieudonné_plank,1,0,0,0,1
+Split interval on Wikipedia,wikipedia,Split_interval,1,0,0,0,1
+Appert topology on Wikipedia,wikipedia,Appert_topology,1,0,0,0,1
+"Answer to ""Are hereditarily connected spaces and ultraconnected spaces contractible?""",mathse,5001004,1,10,0,0,11
+Helly space on Wikipedia,wikipedia,Helly_space,1,0,0,0,1
+Stone–Čech compactification on Wikipedia,wikipedia,Stone–Čech_compactification,1,0,0,0,1
+Topologist's sine curve on Wikipedia,wikipedia,Topologist's_sine_curve,3,0,0,0,3
+Infinite broom on Wikipedia,wikipedia,Infinite_broom,2,0,0,0,2
+Infinite broom topology on Wikipedia,wikipedia,Integer_broom_topology,1,0,0,0,1
+Knaster-Kuratowski fan,wikipedia,Knaster-Kuratowski_fan,2,0,0,0,2
+Pseudo-arc,wikipedia,Pseudo-arc,1,0,0,0,1
+"Sequential fans in topology (Eda, Gruenhage, et al.)",doi,10.1016/0166-8641(95)00016-X,1,1,0,0,2
+"Answer to ""Can a Fréchet-Urysohn hemicompact Hausdorff space fail to be locally compact?""",mathse,4844916,2,7,0,0,9
+A topology for sequences of integers I (R. L. Duncan),zb,0109.03302,2,0,0,0,2
+Name for topology generated by the standard open sets of reals and every point that isn't zero.,mathse,4833751,1,1,0,0,2
+Hedgehog space,wikipedia,Hedgehog_space,1,0,0,0,1
+"Bing, R.H., Metrization of Topological Spaces",doi,10.4153/CJM-1951-022-3,1,1,0,0,2
+A normal space X for which X×I is not normal (M.E. Rudin),doi,10.4064/fm-73-2-179-186,1,3,0,0,4
+Wedge sum on Wikipedia,wikipedia,Wedge_sum,1,0,0,0,1
+Rose (topology) on Wikipedia,wikipedia,Rose_(topology),1,0,0,0,1
+Answer to 'Radial/pseudoradial implies Fréchet-Urysohn/sequential for locally countable spaces',mathse,4850979,1,4,0,0,5
+"What are the compactness properties of $\mathbb R$, extended by a point with co-countable open neighborhoods?",mathse,4854178,1,6,0,0,7
+Are linearly ordered topological spaces well-based?,mathse,4884795,1,3,0,0,4
+"Answer to ""Totally disconnected implies base of closed sets?""",mathse,151954,1,2,0,0,3
+Alexandrov topology on Wikipedia,wikipedia,Alexandrov_topology,3,1,0,2,6
+"Diamond-free families (Griggs, Li & Lu)",doi,10.1016/j.jcta.2015.03.010,1,0,0,0,1
+Examples of connected door spaces,mathse,3088994,1,3,0,0,4
+"Connected door spaces and topological solutions of equations (Wu, Wang, Zhang)",zb,1400.39025,1,0,0,1,2
+"Answer to ""Are there uncountably many non homeomorphic ways to topologize a countably infinite set?""",mathse,34841,1,0,0,0,1
+What spaces are homeomorphic to $\mathbb Q^\omega = \mathbb Q^\mathbb N = \mathbb Q^\infty$?,mathse,4416328,1,0,0,0,1
+Characterizations of the countable infinite product of rationals and some related problems (van Engelen),zb,0642.54033,1,0,0,0,1
+Countable products of zero-dimensional absolute $F_{\sigma \delta}$ spaces (van Engelen),zb,0562.54054,1,0,0,0,1
+Luzin spaces (K. Kunen),zb,0389.54004,2,0,0,0,2
+The combinatorics of open covers II (Just et al),doi,10.1016/S0166-8641(96)00075-2,2,2,0,0,4
+"Answer to ""For a compact sober ""highly non-$T_1$"" space, how much ""highly connectedness"" is needed to imply it's a spectral space?""",mathse,5007860,2,6,0,1,9
+Note on convergence in topology (Arens),mr,37500,1,0,0,0,1
+Mapping theorems on countable tightness and a question of F. Siwiec (Lin & Zhang),mr,3269014,1,0,0,0,1
+Finite topological space,wikipedia,Finite_topological_space,1,0,0,0,1
+Initial and terminal objects,wikipedia,Initial_and_terminal_objects,1,0,0,0,1
+"Answer to """"All retracts are closed"" and ""all compacts are closed""""",mo,435257,1,3,0,0,4
+Real projective plane of Wikipedia,wikipedia,Real_projective_plane,1,0,0,0,1
+Sphere on Wikipedia,wikipedia,Sphere,1,0,0,0,1
+Circle on Wikipedia,wikipedia,Circle,1,1,0,0,2
+Example of an uncountable scattered space with some properties,mo,416331,1,5,0,0,6
+"Answer to ""Is there an infinite topological space with only countably many continuous functions to itself?""",mo,434266,1,3,0,0,4
+"Constructions and applications of rigid spaces, I",doi,10.1016/0001-8708(78)90006-3,1,0,0,0,1
+"Answer to ""Example of a locally compact + Hausdorff + ¬normal + connected space""",mathse,3145712,1,3,0,0,4
+A perfectly normal locally metrizable non-paracompact space,doi,10.4064/FM-97-2-53-55,1,5,0,0,6
+Is the core topology on R2 a group topology?,mathse,2250999,1,0,0,0,1
+Convex sets in linear spaces (Klee 1951),mr,44014,1,0,0,0,1
+Some topological properites on convex sets (Klee 1955),mr,69388,1,0,0,0,1
+Problem 5468 of The American Mathematical Monthly,doi,10.2307/2315929,1,7,0,0,8
+A Lindelöf group with non-Lindelöf square,doi,10.1016/j.aim.2017.11.021,1,6,0,0,7
+A Scattered Space that is not Zero-Dimensional (R. C. Solomon),doi,10.1112/blms/8.3.239,1,5,0,0,6
+Vietoris topology on spaces dominated by second countable ones,doi,10.1515/math-2015-0018,1,1,0,0,2
+Domination by second countable spaces and Lindelöf Σ-property,doi,10.1016/j.topol.2010.10.014,1,1,0,0,2
+"Answer to ""A space which is 𝜎-compact but neither hemicompact nor second countable""",mathse,4736740,1,4,0,0,5
+"Answer to ""Meager topological spaces of uncountable size""",mathse,3947741,1,0,0,0,1
+Must US extremally disconnected spaces be sequentially discrete?,mo,452903,1,4,0,0,5
+"Answer to 'A ""simple"" space with closed retracts but non-unique sequential limits'",mo,460346,1,2,0,0,3
+"On first countable, countably compact spaces. III. The problem of obtaining separable noncompact examples. (Nyikos)",mr,MR1078644,1,0,0,0,1
+"Answer to ""Is there a first countable, $T_1$, weakly Lindelof, sequentially compact space which is not also compact?""",mathse,4874321,1,5,0,0,6
+"Answer to ""Path-connected and locally connected space that is not locally path-connected""",mathse,1499512,1,4,0,0,5
+On locally simply connected toposes and their fundamental groups. (Barr & Diaconescu),mr,MR0649078,1,0,0,0,1
+Two nonmetrizable manifolds (Mary Ellen Rudin),doi,10.1016/0166-8641(90)90099-N,1,4,0,0,5
+Hawaiian earring on Wikipedia,wikipedia,Hawaiian_earring,1,0,0,0,1
+An Introduction to Algebraic Topology (Rotman),doi,10.1007/978-1-4612-4576-6,1,0,0,0,1
+Completeness properties in the compact-open topology on fans (Gruenhage and Hughes),zb,1339.54022,1,0,0,0,1
+Warsaw circle on Wikipedia,wikipedia,Warsaw_circle,1,0,0,0,1
+Milnor–Thurston homology groups of the Warsaw Circle (J. Przewocki),doi,10.1016/j.topol.2013.07.001,1,0,0,0,1
+"Answer to ""Are submetrizable semiregular spaces regular?""",mathse,4996886,1,11,0,0,12
+"Answer to ""Is every $T_4$ topological space divisible?""",mathse,5004796,1,1,0,1,3
+"Answer to ""Is there a nontrivial LOTS that is connected and totally path disconnected?""",mathse,4453440,1,2,0,0,3
+"Answer to ""Does locally compact and σ-compact non-Hausdorff space imply hemicompact?""",mathse,4569500,0,0,0,1,1
+"Answer to ""What separation is required to ensure extremally disconnected spaces are sequentially discrete?""",mathse,4751804,0,0,0,1,1
+"Some results on weak covering conditions (Gittings, Raymond F.)",zb,0268.54018,0,0,0,1,1
+Nagata-Smirnov Metrization Theorem for Pseudometric Spaces,mathse,3777706,0,0,0,2,2
+"Answer to ""Does separability imply the Lindelöf property?""",mathse,1095781,0,0,0,1,1
+Locally compact preregular spaces are completely regular,mathse,4503299,0,0,0,1,1
+$R_0$ and normal implies completely regular,mathse,3990826,0,0,0,1,1
+Totally path disconnected spaces are $T_1$,mathse,4580119,0,0,0,1,1
+Compactly generated space,mathse,919892,0,0,0,1,1
+A first countable Hausdorff space is compactly generated,mathse,2026072,0,0,0,1,1
+Is a σ-locally finite collection of open sets locally countable?,mathse,4878507,0,0,0,1,1
+A Course on Borel Sets,doi,10.1007/b98956,0,0,0,2,2
+Continuum hypothesis,wikipedia,Continuum_hypothesis,0,0,0,1,1
+Equivalent criteria for being a compactly closed set,mathse,4303611,0,0,0,1,1
+Answer to Unraveling the various definitions of k-space or compactly generated space,mathse,4647078,0,0,0,1,1
+Relationship between dispersion point and biconnected property,mathse,4812062,0,0,0,2,2
+Extremally disconnected without Hausdorff,mathse,4742443,0,0,0,2,2
+A note on compactness and metacompactness (Boyte),doi,10.3792/pja/1195526497,0,0,0,1,1
+Are biconnected spaces T_0?,mathse,4814029,0,0,0,1,1
+Products of cozero complemented spaces,mr,2247908,0,0,0,3,3
+Products of weakly-א-compact spaces,doi,10.2307/1996310,0,0,0,1,1
+Handbook of Set-Theoretic Topology,doi,10.1016/c2009-0-12309-7,0,0,0,1,1
+Is every ccc space weakly Lindelöf?,mathse,4743458,0,0,0,1,1
+Choquet game,wikipedia,Choquet_game,0,0,0,2,2
+General Topology (Kelley),mr,370454,0,0,0,4,4
+How do finite door spaces work?,mo,405781,0,0,0,1,1
+"In a Hausdorff door space, at most one point is a limit point",mathse,3789612,0,0,0,1,1
+Dowker space on Wikipedia,wikipedia,Dowker_space,0,0,0,3,3
+A note on the Menger (Rothberger) property and topological games (Peng & Shen),doi,10.1016/j.topol.2015.12.059,0,0,0,1,1
+Definitions of relatively compact,mathse,4702452,0,0,0,1,1
+"Answer to ""Showing that $R_1$ paracompact spaces are regular.""",mathse,4969398,0,0,0,1,1
+Topology via logic,mr,1002193,0,0,0,1,1
+Lindelof and locally Euclidean implies second countable,mathse,4416020,0,0,0,1,1
+"General topology I (Arkhangelʹskiĭ, Pontryagin)",mr,1077251,0,0,0,2,2
+Proximal and semi-proximal spaces.,mr,3288115,0,0,0,1,1
+Proximal compact spaces are Corson compact,doi,10.1016/j.topol.2014.05.010,0,0,0,1,1
+Locally countable implies countably tight?,mathse,3809662,0,0,0,1,1
+Do CGWH spaces form an exponential ideal in Condensed Sets?,mo,455457,0,0,0,1,1
+The equivalence relations of local homeomorphisms and Fell algebras,mr,3084709,0,0,0,2,2
+"Answer to ""Is every compact space compactly generated?""",mathse,1072014,0,0,0,1,1
+Locally Euclidean space implies T1 space,mathse,3142975,0,0,0,2,2
+Cardinality of connected LOTS,mathse,4968515,0,0,0,2,2
+Connected sets in GO-spaces,mathse,4968678,0,0,0,1,1
+Radial/pseudoradial implies Fréchet-Urysohn/sequential for locally countable spaces,mathse,4785088,0,0,0,1,1
+"Answer to ""Radial/pseudoradial implies Fréchet-Urysohn/sequential for locally countable spaces""",mathse,4850979,0,0,0,1,1
+"Answer to ""Fully normal implies collectionwise normal?""",mathse,5005987,0,0,0,1,1
+Some generalizations of full normality (Mansfield),zb,0078.14803,0,0,0,1,1
+A Cp-Theory Problem Book,doi,10.1007/978-3-319-16092-4,0,0,0,1,1
+Quotienten geordneter Räume und Folgenkonvergenz (H. Herrlich),doi,10.4064/fm-61-1-79-81,0,0,0,1,1
+Countably tight well-based spaces are first countable,mathse,4856518,0,0,0,1,1
+Sequential space methods (T. Kremsater),doi,10.14288/1.0080490,0,0,0,1,1
+Is the Sorgenfrey line a P-space?,mathse,832888,0,0,0,1,1
+Minimal properties between T1 and T2.,mr,2219327,0,0,0,1,1
+"If every convergent sequence has a unique limit point in space X, then is X Hausdorff?",mathse,1369459,0,0,0,1,1
+"Answer to ""A subspace of $\mathbb R$ is zero-dimensional iff it is totally disconnected""",mathse,3824535,0,0,0,1,1
+"Answer to ""The convex subsets of $\mathbb R$ are intervals or singletons""",mathse,3617167,0,0,0,1,1
+Is there a generalized order space $X$ with countable tightness which is not first countable?,mo,312803,0,0,0,1,1
+"Answer to ""Does path-connected imply simple path-connected?""",mathse,4862260,0,0,0,2,2
+"Answer to ""Weak Hausdorff space not KC""",mathse,964546,0,0,0,1,1
+Weakly locally compact vs. locally compact,mathse,3812324,0,0,0,1,1
+Finite Topological space,wikipedia,Finite_topological_space,0,0,0,3,3
+Finite set,wikipedia,Finite_set,0,0,0,1,1
+What topological properties are trivially/vacuously satisfied by any indiscrete space?,mathse,3844039,0,0,0,4,4
+Kolmogorov space,wikipedia,Kolmogorov_space,0,0,0,1,1
+"Answer to ""Another question on hereditarily Lindelöf space""",mathse,322506,0,0,0,1,1
+T1 space,wikipedia,T1_space,0,0,0,1,1
+Hyperconnected space,wikipedia,Hyperconnected_space,0,0,0,1,1
+Every hereditarily Lindelöf scattered space is countable,mathse,4955301,0,0,0,1,1
+Pseudometric space,wikipedia,Pseudometric_space,0,0,0,1,1
+Alexandroff spaces,mr,1711071,0,0,0,1,1
+Is a metric space perfectly normal?,mathse,73609,0,0,0,1,1
+"Answer to ""Any two points in a Stone space can be disconnected by clopen sets""",mathse,11423,0,0,0,1,1
+Is every second countable space k-Lindelof?,mathse,4727903,0,0,0,1,1
+Why are ordered spaces normal?,mathse,322683,0,0,0,1,1
+Verification of basic properties of order topology,mathse,3429751,0,0,0,1,1
+"Is a totally ordered, separable and connected topological space metrizable (in the order topology)?",mathse,3534793,0,0,0,1,1
+"Separability, the countable chain condition and the Lindelöf property in linearly orderable spaces (Lutzer & Bennet)",doi,10.1090/S0002-9939-1969-0248762-3,0,0,0,2,2
+A first countable hemicompact space is locally compact,mathse,2919068,0,0,0,1,1
+Why are the integers with the cofinite topology not path-connected?,mo,48970,0,0,0,1,1
+Separation axiom on Wikipedia,wikipedia,Separation_axiom,0,0,0,1,1
+$T_1$ space on Wikipedia,wikipedia,T1_space,0,0,0,2,2
+$G_\delta$ spaces are $R_0$,mathse,4547643,0,0,0,1,1
+Intersection of two open dense sets is dense,mathse,1143211,0,0,0,1,1
+Is there an infinite topological space with only countably many continuous maps to itself?,mathse,4231158,0,0,0,3,3
+Prove that a countable completely regular space is zero dimensional,mathse,4528918,0,0,0,1,1
+Does a countably infinite preorder admit continuum many endomorphisms?,mathse,4575225,0,0,0,1,1
+Every countable compact Hausdorff space is metrizable?,mathse,3705764,0,0,0,1,1
+The total negation of a topological property (P. Bankston),doi,10.1215/ijm/1256048236,0,0,0,2,2
+Every sequentially discrete space is totally path disconnected,mathse,4882280,0,0,0,1,1
+"Answer to ""How many T0 topologies are possible for a set of 3 elements?""",mathse,4583879,0,0,0,1,1
+Countable connected spaces,mathse,1650818,0,0,0,1,1
+is retract of a hausdorff space closed in that space?,mathse,805274,0,0,0,1,1
+Hyperconnected space on Wikipedia,wikipedia,Hyperconnected_space,0,0,0,1,1
+Are minimal neighborhoods in an Alexandrov topology path-connected?,mathse,2965227,0,0,0,1,1
+"Coding strategies, the Choquet game, and domain representability (L. Yengulalp)",zb,1348.91079,0,0,0,1,1
+"Without Hausdorff, what implications can we prove about $k_\omega$ related to other covering properties?",mathse,4585825,0,0,0,2,2
+"Without Hausdorff, what implications can we prove about kω related to other covering properties?",mathse,4585825,0,0,0,1,1
+Is every $k_\omega$ space a $k$ space?,mathse,4633318,0,0,0,1,1
+Metric space on Wikipedia,wikipedia,Metric_space,0,0,0,1,1
+Pseudometric space on Wikipedia,wikipedia,Pseudometric_space,0,0,0,1,1
+Every manifold is locally compact?,mathse,103774,0,0,0,1,1
+Rothberger space,wikipedia,Rothberger_space,0,0,0,1,1
+Answer to What separation properties are satisfied by the Arens space?,mathse,4673639,0,0,0,1,1
+Topological groups are completely regular,mathse,427510,0,0,0,1,1
+Topological group on Wikipedia,wikipedia,Topological_group,0,0,0,5,5
+Selection games on hyperspaces (Caruvana & Holshouser),doi,10.1016/j.topol.2021.107771,0,0,0,1,1
+Combinatorics of open covers I Ramsey theory (Scheepers),doi,10.1016/0166-8641(95)00067-4,0,0,0,3,3
+Is every k-Lindelof space an epsilon-space?,mathse,4717687,0,0,0,1,1
+Applications of k-covers,doi,10.1007/s10114-005-0753-8,0,0,0,2,2
+Closed discrete selection in the compact open topology,mr,3991109,0,0,0,1,1
+Closed discrete selection in the compact open topology (Caruvana & Holshouser),zb,1446.54012,0,0,0,1,1
+Does there exist a non-hemicompact regular space for which the 2nd player in the K-Rothberger game has a winning Markov strategy?,mo,450531,0,0,0,1,1
+Certain Subsets of Products of θ-refinable Spaces are Realcompact (P. Zenor),doi,10.1090/S0002-9939-1973-0322812-9,0,0,0,1,1
+Realcompact space on Wikipedia,wikipedia,Realcompact_space,0,0,0,1,1
+"Compactness, pseudocompactness, and realcompactness without Hausdorff",mathse,4728863,0,0,0,1,1
+On Countably Paracompact Spaces,doi,10.4153/CJM-1951-026-2,0,0,0,1,1
+Does there exist a non-hemicompact regular space for which the 2nd player in the 𝐾-Rothberger game has a winning Markov strategy?,mo,450531,0,0,0,1,1
+"If $X$ is metrizable, then $X$ is realcompact iff $|X|$ is non-measurable",mo,469593,0,0,0,1,1
+Every Hausdorff Lindelöf P-space is normal,mathse,4744652,0,0,0,1,1
+Is every T_3 pseudocompact P-space finite?,mathse,4744697,0,0,0,1,1
+Why do pseudonormal spaces have property D?,mathse,4745000,0,0,0,1,1
+"Answer to ""Is every T3 pseudocompact P-space finite?""",mathse,4744732,0,0,0,1,1
+"Answer to ""Does a separable, $US$, sequential space have cardinality at most the continuum?""",mathse,4850951,0,0,0,1,1
+How separated is a submetrizable space?,mathse,4749941,0,0,0,1,1
+Each regular paratopological group is completely regular (Banakh and Ravsky),doi,10.1090/proc/13318,0,0,0,1,1
+Reference search: separation by regular open sets,mathse,4840550,0,0,0,1,1
+Quotients of k-semigroups,doi,10.1007/BF02194829,0,0,0,1,1
+Why does the existence of a dispersion point imply total path disconnectedness?,mathse,4807248,0,0,0,1,1
+"Answer to ""Is a locally compact Hausdorff space, that is also σ-compact, normal?""",mathse,4810248,0,0,0,1,1
+When can we upgrade $k$-space definitions under a local Hausdorff condition?,mathse,4848174,0,1,0,2,3
+Do compactness and sequential compactness coincide in countable spaces?,mathse,4851117,0,0,0,1,1
+"Answer to ""σ-compact and Hausdorff implies paracompact""",mathse,4856188,0,0,0,1,1
+"Answer to ""Use compactness to prove that a closed bounded set of real numbers has a maximum""",mathse,4786659,0,0,0,1,1
+"Answer to ""Are biconnected spaces T0?""",mathse,4895754,0,0,0,1,1
+Every second countable LOTS is embeddable in $\mathbb R$,mathse,4913495,0,0,0,1,1
+A second countable GO-space can be homeomorphically embedded in a second countable LOTS,mathse,4925245,0,0,0,1,1
+On the dimension of ordered spaces (B. Brunet),zb,0905.54021,0,0,0,1,1
+"Is $[0,1]$ a countable disjoint union of closed sets?",mathse,6314,0,0,0,1,1
+Spaces which Cannot be Written as a Countable Disjoint Union of Closed Subsets,doi,10.4153/CMB-1973-069-1,0,0,0,1,1
+"A locally compact, connected, Hausdorff and locally connected space is not the countable disjoint union of nonempty closed subsets",mathse,4906575,0,0,0,1,1
+Every sequence has a monotone subsequence,mathse,1706258,0,0,0,1,1
+"In a regular space with a $\sigma$-locally finite network, is every closed set a $G_\delta$?",mathse,4944702,0,0,0,1,1
+"Some generalizations of metric spaces, their metrization theorems and product spaces (A. Okuyama)",zb,0153.52404,0,0,0,1,1
+"Answer to ""Show that every locally compact Hausdorff space is regular""",mathse,4940160,0,0,0,1,1
+"Answer to ""$G_{\delta}$ singletons in compact Hausdorff and first countability""",mathse,240480,0,0,0,1,1
+"Answer to ""Are $k_\omega$ spaces Hausdorff?""",mathse,4952092,0,0,0,1,1
+"Answer to ""Every regular, scattered and Lindelöf space with countable pseudocharacter has countable cardinality.""",mathse,4954574,0,0,0,1,1
+The Lindelöf degree of scattered spaces and their products (M. Gewand),doi,10.1017/S1446788700021777,0,0,0,1,1
+Does second countable and functionally Hausdorff imply submetrizable?,mo,280359,0,0,0,1,1
+"Answer to ""Finite $T_0$ spaces are sober""",mathse,5017256,0,0,0,1,1
+Is every well-based space with countable pseudocharacter first-countable?,mathse,4963514,0,0,0,1,1
+Are path-connected LOTS also locally path-connected?,mathse,4965472,0,0,0,1,1
+Improvements of the Baire Category Theorem under (not CH)?,mo,22830,0,0,0,1,1
+Is the cardinality of an open set in a complete metric space $X$ with no isolated points equal to $|X|$?,mathse,2304575,0,0,0,1,1
+A note on Gul'ko compact spaces (Gruenhage),doi,10.1090/S0002-9939-1987-0884482-0,0,0,0,1,1
+Stone's representation theorem for Boolean algebras on Wikipedia,wikipedia,Stone's_representation_theorem_for_Boolean_algebras,0,0,0,1,1
+"Answer to ""Weight of locally compact Hausdorff space does not exceed its cardinality""",mathse,2500413,0,0,0,1,1
+Invariance of domain on Wikipedia,wikipedia,Invariance_of_domain,0,0,0,1,1
+Countable union of closed subsets of a pseudoradial and sequentially closed topological space is closed,mathse,4975331,0,0,0,1,1
+Is there a nondiscrete linearly ordered topological space (LOTS) that is extremally disconnected?,mathse,4913523,0,0,0,1,1
+$T_2$ + Hereditarily Lindelöf implies countable pseudocharacter,mathse,4972410,0,0,0,1,1
+$\sigma$-connected spaces and path-connected property,mathse,4975686,0,0,0,1,1
+General Topology (S. Willard),zb,1052.54001,0,0,0,1,1
+Why should the union of such a family of sets have cardinality $\aleph_1$?,mathse,342091,0,0,0,1,1
+Hyperconnected ultraconnected spaces are not biconnected,mathse,4987074,0,0,0,1,1
+Countable spread implies countable chain condition,mathse,4988266,0,0,0,1,1
+"Proximal compact spaces are Corson compact (Clontz, Gruenhage)",doi,10.1016/j.topol.2014.05.010,0,0,0,1,1
+A contractible space is path connected.,mathse,715720,0,0,0,1,1
+Are hereditarily connected spaces and ultraconnected spaces contractible?,mathse,5000498,0,0,0,1,1
+Is a path-connected space with a dispersion point necessarily contractible?,mathse,4993007,0,0,0,3,3
+Connections between almost discrete spaces and sober/spectral spaces,mathse,5012490,0,0,0,2,2
+Is the generic point of an irreducible sober topological space an isolated point?,mathse,4994238,0,0,0,1,1
+Radial space with countable pseudocharacter that isn't Fréchet Urysohn,mathse,4993377,0,0,0,1,1
+Is every developable space semimetrizable?,mathse,5041858,0,0,0,1,1
+"Answer to ""Symmetrizability and Semimetrizability of one-point compactifications""",mathse,5016336,0,1,0,2,3
+Cut-Point Spaces (Honari & Bahrampour),doi,10.1090/s0002-9939-99-04839-x,0,0,0,2,2
+"Answer to ""Is every paracompact CCC space Lindelöf?""",mathse,5005198,0,0,0,1,1
+"Answer to ""Are Čech complete spaces with no isolated points non-Rothberger?""",mathse,5004551,0,0,0,1,1
+"Answer to ""Are almost discrete metrizable spaces always completely metrizable?""",mathse,4987327,0,0,0,2,2
+Handbook of Set-Theoretic Topology (Kunen & Vaughan),doi,10.1016/C2009-0-12309-7,0,0,0,1,1
+High-level overview and detailed proof that monotonically normal spaces are countably paracompact,mathse,5012078,0,0,0,1,1
+What is an almost discrete space that isn't semiregular like?,mathse,5016854,0,0,0,2,2
+"Answer to ""A question on monotonically normal spaces""",mo,313089,0,0,0,1,1
+Noetherian spaces with a generic point have the fixed point property,mathse,5014330,0,0,0,1,1
+"Answer to ""Are all connected manifolds homogeneous?""",mathse,5015469,0,0,0,1,1
+Is there a compact contractible manifold?,mathse,418509,0,0,0,1,1
+"Answer to ""Existence of non-discrete Tychonoff extremally disconnected P-space and measurable cardinals""",mathse,5022632,0,0,0,1,1
+A stronger version of paracompactness,mo,433812,0,0,0,1,1
+"Answer to ""Connected, locally compact, paracompact Hausdorff space is exhaustible by compacts""",mathse,5028016,0,0,0,1,1
+Does every door space with an infinite compact set have a single non-isolated point?,mathse,4995169,0,0,0,1,1
+"Answer to ""Locally Euclidean space implies T1 space""",mathse,3142995,0,0,0,1,1
+"Answer to ""Is every developable space semimetrizable?""",mathse,5041859,0,0,0,1,1
+Lindelof developable spaces are second countable,mathse,148565,0,0,0,1,1
+Subparacompact spaces and paracompactness,mathse,5061701,0,0,0,1,1
+"Answer to ""Subparacompact spaces and paracompactness""",mathse,5062920,0,0,0,1,1
+Example of retract which is not closed,mathse,3330529,0,1,0,0,1
+Cardinality of the permutations of an infinite set,mo,27785,0,1,0,0,1
+Fundamental group of uncountable space with cofinite topology,mathse,3098561,0,1,0,0,1
+"Answer to ""Is the compact complement topology locally arc connected?""",mathse,2272196,0,1,0,0,1
+"Answer to ""Is R with compact complement topology simply connected?""",mathse,5069153,0,1,0,0,1
+Classical Descriptive Set Theory,doi,10.1007/978-1-4612-4190-4,0,1,0,0,1
+The Mackey dual of a Banach space,doi,10.1285/I15900932V11P273,0,1,0,0,1
+What kinds of selection principles hold for Fortissimo space?,mathse,4727833,0,4,0,0,4
+LOTS and radial properties for generalized Fort/Fortissimo spaces,mathse,4833761,0,5,0,0,5
+Rational numbers are not locally compact,mathse,2934970,0,1,0,0,1
+"Answer to ""Is every Lindelöf space Menger?""",mathse,4727297,0,1,0,0,1
+Baire_space_(set_theory) on Wikipedia,wikipedia,Baire_space_(set_theory),0,1,0,0,1
+Is the one-point compactification of the rationals sequential or Frechet-Urysohn?,mathse,4709641,0,1,0,0,1
+Does the one-point compactification of $\mathbb{Q}$ have the fixed point property?,mathse,5070817,0,2,0,0,2
+When are Compact and Closed Equivalent?,doi,10.2307/2312998,0,1,0,0,1
+Are compact subsets closed in the one-point compactification of $\mathbb Q$?,mathse,2524171,0,1,0,0,1
+Easy proof of the uncountability of bijections on natural numbers,mo,29475,0,1,0,0,1
+"Answer to ""Are W-spaces with countable pseudocharacter first countable?""",mathse,4973385,0,6,0,0,6
+The Hilbert cube cannot be embedded in some Euclidean space $\mathbb R^n$,mathse,5009117,0,2,0,0,2
+Are retracts always closed in a compact weak Hausdorff space?,mathse,4762250,0,1,0,0,1
+"Answer to ""Does the one-point compactification of $\mathbb Q$ have the fixed point property?""",mathse,5070821,0,1,0,0,1
+"$(X\times Y)\setminus (A\times B)$ is connected for $A,B$ proper subsets of connected $X,Y$",mathse,214317,0,1,0,0,1
+Why is the Hilbert Cube homogeneous?,mathse,2194,0,1,0,0,1
+Homogeneous topological space with the fixed-point property,mathse,884045,0,1,0,0,1
+Schauder fixed-point theorem on Wikipedia,wikipedia,Schauder_fixed-point_theorem,0,1,0,0,1
+"On minimal strongly KC-spaces (Sun, Xu, Li)",zb,1224.54011,0,1,0,0,1
+Relationship between weak Hausdorff and US properties,mathse,4267169,0,7,0,0,7
+Prove the long line is not contractible.,mathse,1282097,0,3,0,0,3
+"Answer to ""Are linearly ordered topological spaces well-based?""",mathse,4886508,0,1,0,0,1
+"Is there a first countable, $T_1$, weakly Lindelof, sequentially compact space which is not also compact?",mathse,4874239,0,1,0,0,1
+Answer to Rothberger game and Meager set.,mathse,3200061,0,1,0,0,1
+"Answer to ""Is every Baire space Cech-complete?""",mathse,5011073,0,1,0,0,1
+Combinatorics of open covers (IX): Basic properties (Babinkostova & Scheepers),doi,10.1285/i15900932v22n2p167,0,1,0,0,1
+Situation where a non-$T_0$ path-connected space is injectively path-connected,mathse,5006475,0,2,0,0,2
+Is the interlocking interval topology contractible?,mathse,5003024,0,1,0,0,1
+Is the divisor topology from Steen-Seebach contractible?,mathse,4999893,0,1,0,0,1
+On continuous self-maps and homeomorphisms of the Golomb space.,doi,10.14712/1213-7243.2015.269,0,1,0,0,1
+The cartesian product of contractible spaces is contractible,mathse,4463999,0,3,0,0,3
+Please clarify proof that $\mathbb{R}_K$ is not path connected.,mathse,2960540,0,1,0,0,1
+Some properties about $K$-topology,mathse,1903761,0,1,0,0,1
+Proving that $\mathbb R_K$ is connected,mathse,3331141,0,1,0,0,1
+Indiscrete rational extension of $\mathbb R$ is developable,mathse,5045688,0,1,0,0,1
+Pointed rational extension of reals is a homogeneous space,mathse,5013911,0,1,0,0,1
+Semimetrizability of pointed irrational/rational extensions of reals,mathse,5016298,0,1,0,0,1
+Proof about a topological space being arc connected,mathse,1853792,0,5,0,0,5
+"Answer to ""Does the double origin plane have a cut point?""",mathse,5012402,0,1,0,0,1
+The connected countable spaces of Bing and Ritter are topologically homogeneous (Banakh et al.),zb,1453.54006,0,2,0,0,2
+Is the irrational slope topology semimetrizable?,mathse,5019665,0,1,0,0,1
+Is Arens Square a Urysohn space?,mathse,1715435,0,3,0,0,3
+"Answer to ""The Sorgenfrey plane and the Niemytzki plane are Baire spaces""",mathse,5036245,0,1,0,0,1
+Why is Niemytzki plane locally metrizable?,mathse,4412125,0,1,0,0,1
+Does Niemytzki plane have a σ-locally finite k-network?,mathse,5037333,0,1,0,0,1
+"Answer to ""Does every product of copies of $\mathbb Z$ fail to be pseudocompact?""",mathse,4991560,0,3,0,0,3
+A property of the Sorgenfrey line,mr,287515,0,1,0,0,1
+Radial and pseudoradial properties for Tychonoff plank and variants,mathse,4789562,0,3,0,0,3
+Paracompactness properties of the deleted Tychonoff plank,mathse,4819068,0,2,0,0,2
+Example: limit point compact + ¬countably compact+ ¬Lindelöf,mathse,3155216,0,6,0,0,6
+Line with two origins is a manifold but not Hausdorff,mathse,1038320,0,1,0,0,1
+Paracompactness properties of the line with multiple origins,mathse,4756135,0,3,0,0,3
+How to show that the space 'line with two origins' is path connected?,mathse,2761248,0,1,0,0,1
+Fundamental group of the line with the double origin.,mo,25472,0,1,0,0,1
+Is the line with multiple origins locally compact?,mathse,2404301,0,2,0,0,2
+Paracompactness of the Everywhere doubled line,mathse,4771463,0,1,0,0,1
+Answer to Paracompactness of the Everywhere doubled line,mathse,4772218,0,1,0,0,1
+Accumulation points of uncountable sets,mathse,310113,0,1,0,0,1
+Does the Everywhere doubled line have a $\sigma$-locally finite $k$-network?,mathse,5034748,0,1,0,0,1
+"Answer to ""Is there a metacompact space that fails to be para-Lindelöf?""",mathse,5006891,0,1,0,0,1
+Radial and pseudoradial properties for Dieudonné plank and variant,mathse,4821179,0,3,0,0,3
+Thomas plank is not realcompact,mathse,4732529,0,1,0,0,1
+The product of uncountably many copies of the real line is not a k-space,mathse,4644785,0,2,0,0,2
+"van Douwen, Eric; The box product of countably many metrizable spaces need not be normal",doi,10.4064/fm-88-2-127-132,0,1,0,0,1
+Is Rω endowed with the box topology completely normal (or hereditarily normal)?,mathse,3039316,0,1,0,0,1
+"Answer to ""Is $\ell^\infty$ with box topology connected?""",mathse,5012784,0,1,0,0,1
+Topological group with box topology,mathse,2322269,0,1,0,0,1
+"Answer to ""Familiar spaces in which every one point set is Gδ but space is not first countable""",mathse,1644041,0,1,0,0,1
+Non-trivial convergent sequence in Stone-Čech compactification of N,mo,138161,0,1,0,0,1
+"Answer to ""Is the Single ultrafilter topology compact?""",mathse,4681271,0,1,0,0,1
+Does the topologist's sine curve have the fixed point property?,mathse,5051764,0,2,0,0,2
+Star domain on Wikipedia,wikipedia,Star_domain,0,1,0,0,1
+What separation axioms are held by Gustin's sequence space?,mathse,4895698,0,1,0,0,1
+"Answer to ""Is Gustin's sequence space locally connected?""",mathse,5029225,0,1,0,0,1
+"Answer to ""What separation axioms are held by Gustin's sequence space?""",mathse,5009961,0,1,0,0,1
+Pseudo-arc on Wikipedia,wikipedia,Pseudo-arc,0,1,0,0,1
+The collected papers of R. H. Bing,zb,0665.01012,0,1,0,0,1
+A Topology for Sequences of Integers II (R. L. Duncan),doi,10.2307/2309171,0,2,0,0,2
+"Answer to ""Must scattered spaces with points $G_\delta$  be locally countable?""",mathse,4945909,0,1,0,0,1
+Topics in General Topology,doi,10.1016/s0924-6509(08)x7010-2,0,1,0,0,1
+Is Rudin's Dowker space hereditarily normal?,mathse,5013612,0,1,0,0,1
+More on M. E. Rudin’s Dowker space (K. P. Hart),doi,10.1090/S0002-9939-1982-0671226-6,0,1,0,0,1
+Baire spaces (R. C. Haworth; R. A McCoy),mr,431104,0,2,0,0,2
+Baire space,wikipedia,Baire_space,0,2,0,0,2
+"What are the compactness properties of $\mathbb{R}$, extended by a point with co-countable open neighborhoods?",mathse,4854178,0,1,0,0,1
+Pseudocharacter of $T_1$ spaces with a countable k-network,mathse,4972337,0,1,0,0,1
+"Answer to ""A question about cardinal functions""",mo,160496,0,2,0,0,2
+Is the butterfly space contractible?,mathse,4998216,0,1,0,0,1
+Does a free ultrafilter topology have the fixed point property?,mathse,5021484,0,1,0,0,1
+Why can't a Lusin set be sigma-compact?,mathse,4744210,0,2,0,0,2
+Every Lusin set is undetermined in the point-open game.,mr,1271477,0,1,0,0,1
+Does the two-sided long line have the fixed point property?,mathse,5046157,0,1,0,0,1
+"Answer to ""Product of Countable Well-Ordered Set with $[0,1)$ is Homeomorphic to $[0,1)$""",mathse,4623422,0,1,0,0,1
+Homogeneous space minus a point,mathse,1641524,0,1,0,0,1
+"Answer to ""Is every uncountable, homogeneous connected T2-space isomorphic to a subspace of $\mathbb R^\omega$?""",mo,314665,0,1,0,0,1
+Weakly compact sets - their topological properties and the Banach spaces they generate (J. Lindenstrauss),zb,0232.46019,0,1,0,0,1
+Is the one-point compactification of an uncountable discrete space Eberlein compact?,mathse,5071093,0,1,0,0,1
+What separation properties are satisfied by the Arens space?,mathse,4673615,0,2,0,0,2
+Note on convergence in topology.,mr,37500,0,1,0,0,1
+A note on the Arens' space and sequential fan.,mr,1485766,0,1,0,0,1
+Is the Arens space symmetrizable?,mathse,5012106,0,1,0,0,1
+Is the Arens space hemicompact but not locally compact?,mathse,4672783,0,1,0,0,1
+"Answer to ""Is the Arens space hemicompact but not locally compact?""",mathse,4673444,0,1,0,0,1
+Why does the union of a chain of countable sets have cardinality at most $\aleph_1$?,mathse,342091,0,1,0,0,1
+"Answer to ""For a compact sober ""highly non-$T_1$"" space, how much ""highly connectedness"" is needed to imply it's a spectral space?",mathse,5007860,0,2,0,0,2
+Singleton (mathematics),wikipedia,Singleton_(mathematics),0,2,0,0,2
+Open sets in compactly generated spaces,mathse,4640637,0,1,0,0,1
+fixed point of a continuous map on a projective space,mathse,406851,0,1,0,0,1
+"Projective plane, fixed point",mathse,3672897,0,1,0,0,1
+Topology and geometry (Bredon),zb,0791.55001,0,1,0,0,1
+Separation axiom,wikipedia,Separation_axiom,0,1,0,0,1
+Compact space,wikipedia,Compact_space,0,1,0,0,1
+Connected space,wikipedia,Connected_space,0,1,0,0,1
+Complex number on Wikipedia,wikipedia,Complex_number,0,1,0,0,1
+"Answer to ""An arbitrary product of contractible spaces is contractible""",mathse,4996405,0,1,0,0,1
+Is the radial plane radial?,mathse,4784524,0,1,0,0,1
+Answer to Radially open set topology is separable?,mathse,3634961,0,1,0,0,1
+A space which is 𝜎-compact but neither hemicompact nor second countable,mathse,4736734,0,1,0,0,1
+Meager topological spaces of uncountable size,mathse,3198478,0,7,0,0,7
+Show that the product topology on $X\times Y$ is the same as the disjoint union topology on $\bigsqcup_{y\in Y}X$.,mathse,2726886,0,1,0,0,1
+"Answer to ""Is every second-countable weakly locally compact space also locally compact?""",mathse,4985015,0,1,0,0,1
+Connectedness of a certain space with closed retracts but non-unique sequential limits,mathse,4828298,0,5,0,0,5
+"Why is the ""long circle"" completely normal ($T_5$)?",mathse,5017774,0,1,0,0,1
+Why isn't every subspace of $\mathbb R$ a linearly ordered topological space (LOTS)?,mathse,4915404,0,1,0,0,1
+How to show Warsaw circle is non-contractible?,mathse,1004837,0,1,0,0,1
+To show that Warsaw circle is simply connected,mathse,3705688,0,1,0,0,1
+Countable chain condition in topology,mo,459262,0,1,0,0,1
+A remark on density characters (Hewitt),doi,10.1090/S0002-9904-1946-08613-9,0,1,0,0,1

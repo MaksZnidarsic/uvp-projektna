@@ -1,0 +1,1283 @@
+prostor,uid,št. aliasov,št. sklicev,opis
+Discrete topology on a two-point set,S000001,1,2,"Let $X=2=\{0,1\}$ be the space containing two points and
+let all subsets of $X$ be open.
+
+Defined as counterexample #1 (""Finite Discrete Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Discrete Topology on a Countably Infinite Set,S000002,2,2,"Let $X=\omega=\{0,1,2,\dots\}$ be the space containing countably-many
+points and let all subsets of $X$ be open.
+
+Defined as counterexample #2 (""Countable Discrete Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+This space is metrizable, with the standard metric for a discrete space given by $d(x,y)=1$ for $x\ne y$.  A different metric that generates the same topology for $X$ is the Sierpinski metric ($d(x,y)=1+1/(x+y+2)$ for $x\ne y$ in $\omega$) given in counterexample #135 in {{doi:10.1007/978-1-4612-6290-9}}.  Since pi-base is meant to model topological properties and not properties of metrics, it only keeps track of topological spaces up to homeomorphism, and thus does not keep a separate entry for the Sierpinski metric.
+
+<!-- [[Proof of Topology]]
+1) $U=\emptyset$ is open by definition. Let $U = X$ is open by definition.
+
+2) Let $A$ be an arbitrary union of the elements of any subcollection of $\tau$. Since every element in the subcollection are subsets of $X$ their union must be a subset of $X$. Thus, $A$ is a subset of $X$ and is open by definition.
+
+3) Let $A$ be a finite intersection of elements from any subcollection of $\tau$. Since every element in the subcollection are subsets of $X$ their intersection must necessarily be a subset of $X$. Thus, $A$ is a subset of $X$ and is open by definition. -->"
+Discrete Topology on the Real Numbers,S000003,1,2,"Let $X=\mathbb R$ be the set of all real numbers,
+and let all subsets of $X$ be open.
+
+Defined as counterexample #3 (""Uncountable Discrete Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Indiscrete Topology on a Two-Point Set,S000004,0,2,"Let $X=2=\{0,1\}$ be the space containing two points and
+let only the sets $X$ and $\emptyset$ be open.
+
+
+Defined as counterexample #4 (""Indiscrete Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Odd-Even Topology,S000005,0,2,"Define a topology on $\mathbb{N}$ by taking as a basis all sets of the form $\{\{2k-1,2k\}\mid k \in \mathbb{N}\}$.
+
+Homeomorphic to the product of {S2} and {S4}.
+
+Defined as counterexample #6 (""Odd-Even Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+<!-- [[Proof of Topology]]
+Let $X=\{\{2k-1, 2k\} | k \in \mathbb{N}\}$. Also, let $\tau = \{$Collection of all subsets, $B$, of $X\}$. Finally, let $\mathcal{B} = \{$collection of all $B\}$ Now, for any $k \in \mathbb{N}$, $\{2k-1, 2k\} \in X$. Since $B \subseteq X$, we know that for any $\{2k-1, 2k\}$ chosen, it is in an arbitrary $B$, that it is in at least one $B$. Without loss of generality, let $\{2k-1, 2k\}$ be in $B_1$ and $B_2$. Let $B_1 \cap B_2 = \{2k-1, 2k\}$. Again, without the loss of generality, let there be a $B_3$ such that $\{2k-1, 2k\} \in B_3$. This means that $B_3 \subset B_1 \cap B_2$, which is vacuously true. -->"
+Deleted integer topology on $\mathbb R\setminus\mathbb Z$,S000006,0,2,"Let $X=\mathbb R\setminus\mathbb Z$, and
+take as a basis $\{(n,n+1)\mid n \in \mathbb{Z}\}$.
+
+Equivalently, the product of {S2} and {S194}.
+
+Defined as counterexample #7 (""Deleted Integer Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Particular point topology on a three-point set,S000007,2,2,"Let $X=\{0,1,2\}$ be a finite set with three elements.
+A set is open in this topology if it contains the particular point $p=0$ or is empty.
+
+Defined as counterexample #8 (""Finite Particular Point Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Particular point topology on a countably infinite set,S000008,2,2,"Let $X=\omega=\{0,1,2,\dots\}$.
+A set is open in this topology if it contains the particular point $p=0$ or is empty.
+
+Defined as counterexample #9 (""Countable Particular Point Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Particular point topology on $\mathbb R$,S000009,2,2,"Let $X=\mathbb R$ be the set of real numbers. A set is open in this
+topology if it contains the particular point $p=0$ or is empty.
+
+Defined as counterexample #10 (""Uncountable Particular Point Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Sierpinski space,S000010,4,2,"Let $X = \{0,1\}$ with open sets $\{\emptyset, \{0\}, X \}$.
+This space may be characterized as the particular point ($0$) topology on a
+two-point set, or the excluded point ($1$) topology on a two-point set.
+
+Defined as counterexample #11 (""Sierpinski Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Excluded Point Topology on a Three-Point Set,S000011,1,2,"Let $X=\{0,1,2\}$ be a finite set with three elements.
+A set is closed in this topology if it contains the particular point $p=0$ or is empty.  A set is open if it does not contain $p$ or is the whole space.
+
+Defined as counterexample #13 (""Finite Excluded Point Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Excluded Point Topology on a Countably Infinite Set,S000012,1,2,"Let $X=\omega=\{0,1,2,\dots\}$.
+A set is closed in this topology if it contains $0$ or is empty.
+
+Defined as counterexample #14 (""Countable Particular Point Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+<!-- [[Proof of Topology]]
+To prove the first condition, note that $X\in \tau$ by definition. Now, note that $\emptyset \subset X$ and $p\notin \emptyset$. It follows that $\emptyset \in \tau$.
+Now to prove the second condition, consider $\bigcup_{i\in I} U_i$ where $I$ is some arbitrary indexing set. It follows that there are two cases, either $p\in \bigcup_{i\in I} U_i$ or $p\notin \bigcup_{i\in I} U_i$. For the case in which $p$ is in the union, it must be the case that $X$ is in the union, because the only open set containing $p$ is $X$. It follows then that the union is $X$. So in this case, the second condition holds. To prove the second case, when $p$ is not in the union, we simply have an arbitrary union of subsets of $X$ which must be a subset of $X$ that does not contain $p$. So, the second condition holds for this case.
+To prove the final condition, consider $\bigcap_i^n U_i$. Again, there are two cases here, either $p$ is in the intersection, or it is not. For when $p$ is in the intersection, note that every open set other than $X$ does not contain $p$. So for $p$ to be in the intersection, it must be the case that $X$ is the only set in the intersection and thus it is open. Now if $p$ is not in the intersection, it must be a subset of $X$ that does not contain $p$. So in both cases, the intersection is open, and thus the final condition holds and $\tau$ is a topology on $X$.
+ -->"
+Excluded point topology on $\mathbb R$,S000013,1,2,"Let $X=\mathbb R$ be the set of real numbers.  A set is open in this
+topology if it excludes a particular point $p=0$ or is the whole space.
+
+Defined as counterexample #15 (""Uncountable Excluded Point Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Either-Or Topology,S000014,0,2,"Let $X = [-1,1]$ as a set and declare $U \subset X$ open if and only if $0 \not\in U$ or $(-1,1) \subset U$.
+
+The space is homeomorphic to the topological sum of
+{S13} and {S1}.
+(The sets $\{-1\}$, $\{1\}$, $(-1,1)$ form a partition of $X$ into clopen sets.
+And the subspace topology on the interval $(-1,1)$ is an ""excluded point topology"" on a set of cardinality $\mathfrak c$.)
+
+Defined as counterexample #17 (""Either-Or Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Cofinite topology on $\omega$,S000015,2,2,"The finite complement topology on a space $X$ is defined by taking
+$U \subset X$ to be open if and only if $X \setminus U$ is finite or
+$U = \emptyset$. In this case we let \(X=\omega=\{0,1,2,\dots\}\).
+
+Defined as counterexample #18 (""Finite Complement Topology on a Countable Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+<!-- [[Proof of Topology]]
+When know that $U = \emptyset$ is open by definition. Now let $U = X$. This implies $X/U = X/X = \emptyset$. Now let $A$ be a collection of open sets in $X$. Let $U = \bigcup\limits_{i=1}^{\infty}a_i$ where $a_i \in U$ (show that $X/U$ is finite or $\emptyset$). So, $X/U = X /\bigcup\limits_{i=1}^{\infty}a_i = (X/ a_i) \cap (X/a_{i+1}) \cap \dots$. An arbitrary intersection of finite sets is finite. Now let $A$ be a collection of open sets in $X$. Let $U = \bigcap\limits_i^j a_i$ where $a_i \in A$. So, $X/U = X/\bigcap\limits_i^j a_i = (X/a_i) \cup (X/a_{i+1}) \cup \dots \cup (X/a_j)$. A finite union of finite sets is finite. -->"
+Cofinite topology on $\mathbb R$,S000016,3,2,"The finite complement topology on a set $X$ is defined by taking
+$U \subset X$ to be open if and only if $X \setminus U$ is finite or
+$U = \emptyset$. In this case we let \(X=\mathbb R\) so it has cardinality
+\(\mathfrak c\).
+
+Defined as counterexample #19 (""Finite Complement Topology on an Uncountable Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+<!-- [[Proof of Topology]]
+1) $U = \emptyset$ is open by definition. Now let $U = X$. This implies $X/U = X/X = \emptyset$.
+
+2) Let $A$ be a collection of open sets in $X$. Let $U = \bigcup\limits_{i=1}^{\infty}a_i$ where $a_i \in U$. We want to show that $X/U$ is finite or $\emptyset$. So, $X/U = X /\bigcup\limits_{i=1}^{\infty}a_i = (X/ a_i) \cap (X/a_{i+1}) \cap \dots$. An arbitrary intersection of finite sets is finite.
+
+3) Let $A$ be a collection of open sets in $X$. Let $U = \bigcap\limits_i^j a_i$ where $a_i \in A$. So, $X/U = X/\bigcap\limits_i^j a_i = (X/a_i) \cup (X/a_{i+1}) \cup \dots \cup (X/a_j)$. A finite union of finite sets is finite. -->"
+Cocountable topology on $\mathbb R$,S000017,2,2,"Let $X=\mathbb R$ be the set of real numbers.  Define the topology on $X$ by letting a set in $X$ be open iff it is empty or its complement is countable. 
+
+Defined as counterexample #20 (""Countable Complement Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Double pointed cocountable topology on $\mathbb R$,S000018,1,1,"$X$ is the product of {S17} with {S4}.
+
+Defined as counterexample #21 (""Double Pointed Countable Complement Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Compact Complement Topology for the Euclidean Real Numbers,S000019,1,2,"Define a topology $\tau$ on $\mathbb{R}$ by letting $U \subset \mathbb{R}$ be open if and only if $\mathbb{R} \setminus U$ is compact in the usual Euclidean topology or $U=\emptyset$.
+
+Note that this topology is coarser than {S25}.
+
+Defined as counterexample #22 (""Compact Complement Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Fort space on a countably infinite set,S000020,3,2,"Let $X=\omega\cup\{\infty\}=\{0,1,2\dots\}\cup\{\infty\}$.
+Define $U \subseteq X$ to be open if its complement either is finite or includes $\infty$.
+
+This space is the one-point compactification of a countably infinite discrete space.
+It is homeomorphic to $\{0\}\cup\{2^{-n}:n<\omega\}$ as a subspace of {S25},
+and is also homeomorphic to the ordinal space $\omega+1$.
+
+Defined as counterexample #23 (""Countable Fort Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Weak topology on separable Hilbert space,S000021,0,3,"Let $H$ be a infinite-dimensional separable real Hilbert space (such
+as the space $l^2$ of square-summable sequences) with inner product
+$\langle \cdot, \cdot \rangle$.  (All such spaces are isometrically
+isomorphic.)  The continuous dual $H^*$ is the set of all linear
+functionals $f : H \to \mathbb{R}$ that are continuous with respect to
+the topology generated by the inner product.  By the Riesz
+representation theorem, every such functional $f$ is of the form $f(x)
+= \langle x, y \rangle$ for some $y \in H$.
+
+The weak topology on the set $H$ is the coarsest topology such that
+every element of $H^*$ is continuous.  That is, a basis for this
+topology at $x \in H$ is the collection of all sets of the form $\{ y
+\in H : |\langle y -x , x_i\rangle| < \epsilon, i = 1, \dots, n \}$
+for some $x_1, \dots, x_n \in H$ and some $\epsilon > 0$.
+
+See Definition 5.1.1 of {{doi:10.1007/978-93-86279-42-2}} or 28.16 of
+{{doi:10.1016/B978-0-12-622760-4.X5000-6}}.  Note that the weak
+topology on $H$ is homeomorphic to the weak-\* topology on $H^*$."
+Fortissimo space on $\mathbb R$,S000022,1,2,"Let $X=\mathbb R$ and let $p$ be a distinguished point of $X$.
+Every point not equal to $p$ is isolated and the open neighborhoods of $p$ are the cocountable subsets of $X$ containing that point.
+
+This space is the one-point Lindelöfication of an uncountable discrete space.
+
+Compare with {S155} and {S157}.
+With a suitable assumption on $|\mathbb R|$ so that the cardinalities match, $X$ will be homeomorphic to one of them.
+
+Defined as counterexample #25 (""Fortissimo Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Arens-Fort Space,S000023,0,2,"Let $X = \{(n,m) : n,m \in \omega\}$ with all singletons
+except $\{(0,0)\}$ open.
+Define a set containing $(0,0)$ to be open if and only if it contains all but
+a finite number of points in all but a finite number of columns.
+
+Defined as counterexample #26 (""Arens-Fort Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+This space is homeomorphic to a subspace of {S156}."
+Modified Fort space on $\mathbb R$,S000024,0,2,"Let $X=\mathbb{R}\cup\{\infty_1,\infty_2\}$.
+Every point of $\mathbb R$ is isolated and the open neighborhoods of each point $\infty_i$ are the cofinite subsets of $X$ containing the point.
+
+Defined as counterexample #27 (""Modified Fort Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Euclidean real numbers $\mathbb R$,S000025,2,2,"The usual topology on \(\mathbb R\) with a topology generated by the basis
+of open intervals \(\{(a,b):a<b\in\mathbb R\}\).
+
+Defined as counterexample #28 (""Euclidean Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Cantor space $2^\omega$,S000026,1,2,"$X = 2^\omega$ with the product topology.
+
+Equivalently, $X$ may be defined geometrically using the 'middle-thirds' construction, so $X = [0,1]\setminus \bigcup_{m=1}^\infty \bigcup_{k=0}^{3^{m-1}-1} \left(\frac{3k+1}{3^m},\frac{3k+2}{3^m}\right)$.
+
+Defined as counterexample #29 (""The Cantor Set"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Rational numbers $\mathbb Q$,S000027,3,4,"Let $X=\mathbb Q$, the set of rational numbers, with the subspace topology induced from {S25}.
+
+Defined as counterexample #30 (""The Rational Numbers"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+----
+A purely topological characterization of the space $\mathbb Q$, due to Sierpinski, is given by the following equivalent theorems:
+- Every countably infinite, {P53} space without isolated point is homeomorphic to $\mathbb Q$.
+- Every countably infinite, {P5}, {P28} space without isolated point is homeomorphic to $\mathbb Q$.
+
+For a proof, see [Countable metric spaces without isolated points (A. Dasgupta)](http://at.yorku.ca/p/a/c/a/25.pdf) or {{doi:10.48550/arXiv.1210.1008}}.
+And for the equivalence between the two theorems, the second one easily follows from the first; and the reverse direction follows from {T212} together with Urysohn's metrization theorem.
+
+----
+It follows for example that the following spaces are homeomorphic to $\mathbb Q$.
+
+(1) The space $\mathbb{Z}$ with the **Furstenberg topology**, generated by all sets of
+the form $a + k \mathbb{Z} = \{a+kn : n\in\mathbb{Z}\}$ with $a\in\mathbb Z$ and positive integer $k$.
+
+Defined as counterexample #58 (""**Evenly Spaced Integer Topology**"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+(2) The space $\mathbb{Z}$ with the topology generated by all sets of the form $a+p^\alpha\mathbb Z=\{a+p^\alpha n:n\in\mathbb Z\}$ with $a\in\mathbb Z$ and non-negative integer $\alpha$.  Here $p$ is a fixed prime.
+
+Defined as counterexample #59 (""**The $p$-adic Topology on $\mathbb{Z}$**"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+(3) The product space $\mathbb Q \times \mathbb Q$.
+
+(4) The Sorgenfrey topology on $\mathbb Q$, generated by all half-open intervals $[p,q)\cap\mathbb Q$ with $p,q\in\mathbb Q$."
+Irrational numbers $\mathbb R\setminus\mathbb Q$,S000028,3,4,"Let $X$ be the complement of the rational numbers in $\mathbb{R}$ with the subspace topology.
+
+This space is homeomorphic to the *Baire space* $\omega^\omega$ with the
+product topology.  See for example {{mathse:352547}}.
+
+Defined as counterexample #31 (""The Irrational Numbers"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+Also defined as counterexample #102 (""$\mathbb Z^{\mathbb Z}$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+One-point compactification of $\mathbb Q$,S000029,1,2,"The space $X = \mathbb{Q} \cup \{\infty\}$ is the Alexandroff one-point compactification of {S27}.
+The open sets in $X$ are the open subsets of $\mathbb Q$ together with the sets $X\setminus C$ with $C$ compact in $\mathbb Q$.
+
+Defined as counterexample #35 (""One Point Compactification of the Rationals"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Countable product of reals $\mathbb R^\omega$,S000030,5,4,"The countable product of copies of {S25}.
+
+This space is homeomorphic to the space $\ell^2$ of all sequences $x = \langle x_i \rangle$ of real numbers such that $\Sigma x_i^2$ converges, with topology generated by the metric $d(x,y) = \sqrt{\Sigma(x_i - y_i)^2}$. For this deep result due to R. D. Anderson, see for example {{doi:10.1090/S0002-9904-1968-12044-0}}.
+Note also that any separable Hilbert space is isomorphic to $\ell^2$.
+
+More generally, any infinite-dimensional separable Banach space or, even more generally, any infinite-dimensional separable Fréchet space is homeomorphic to $\mathbb R^\omega$. This is stated in Theorem VI.5.2 (Anderson-Kadec) on page 189 of {{mr:0478168}}. See also {{wikipedia:Anderson–Kadec theorem}}.
+
+In particular, the following are all homeomorphic as topological spaces:
+- $\mathbb R^\omega$
+- Sequence spaces $\ell^p$ ($1 \leq p < + \infty$)
+- Spaces $L^p([0,1])$ ($1 \leq p < + \infty$) of Lebesgue measurable functions with finite $L^p$-norm
+- The Banach space $C([0,1])$ of real-valued continuous functions on $[0,1]$ with the supremum norm
+
+Moreover, by Theorem VI.2.1, Corollary VI.2.2, and Theorem VI.5.1 of {{mr:0478168}} and Corollary 9.3 of {{doi:10.1090/S0002-9904-1968-12044-0}}, the following are also homeomorphic to $\mathbb R^\omega$:
+- The closed upper half-space of $\ell^2$, i.e., $\{\langle x_i \rangle \in \ell^2: x_1 \geq 0\}$, given the subspace topology
+- The subspace of $\ell^2$ consisting of all elements with infinitely many nonzero entries, i.e., $\{\langle x_i \rangle \in \ell^2: x_i \neq 0 \text{ for infinitely many } i\}$, given the subspace topology
+- The cone over $\mathbb R^\omega$, i.e., the quotient of $\mathbb R^\omega \times [0, 1]$ with $\mathbb R^\omega \times \{0\}$ identified to a single point
+- The open cone over $\mathbb R^\omega$, i.e., the quotient of $\mathbb R^\omega \times [0, \infty)$ with $\mathbb R^\omega \times \{0\}$ identified to a single point
+- The unit sphere of any infinite-dimensional separable Banach space, i.e., $\{x \in E: \|x\| = 1\}$ where $E$ is an infinite-dimensional separable Banach space under the norm $\|\cdot\|$, given the topology generated by the metric $d(x,y) = \|x-y\|$; in particular, the unit sphere of $\ell^2$
+- The closed unit ball of any infinite-dimensional separable Banach space, i.e., $\{x \in E: \|x\| \leq 1\}$ where $E$ is an infinite-dimensional separable Banach space under the norm $\|\cdot\|$, given the topology generated by the metric $d(x,y) = \|x-y\|$; in particular, the closed unit ball of $\ell^2$
+
+Specific instances of the above are counterexamples #36 (""Hilbert Space""), #37 (""Fréchet Space""), and #108 (""$C[0,1]$"")  in {{doi:10.1007/978-1-4612-6290-9}}."
+Square of one-point compactification of $\mathbb Q$,S000031,1,1,The space $X$ is the product $\mathbb Q^*\times \mathbb Q^*$ with $\mathbb Q^*=\mathbb Q\cup\{\infty\}$ equal to {S29}.
+"Hilbert cube $[0,1]^\omega$",S000032,0,2,"$X = [0,1]^\omega$ with the product topology.
+
+Defined as counterexample #38 (""Hilbert Cube"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Ordinal space $\omega+\omega$,S000033,1,1,"The set of all ordinal numbers less than the 
+ordinal $\omega+\omega$, paired with the order topology.
+
+Defined as counterexample #40 (""Open Ordinal Space $[0,\Gamma)$"")
+in {{doi:10.1007/978-1-4612-6290-9}},
+more generally for any limit ordinal $\Gamma<\omega_1$."
+Ordinal space $\omega+\omega+1$,S000034,1,1,"The set of all ordinal numbers less than or equal to the
+ordinal $\omega+\omega$, paired with the order topology.
+
+Defined as counterexample #41 (""Closed Ordinal Space $[0,\Gamma]$"")
+in {{doi:10.1007/978-1-4612-6290-9}}, more generally for any limit ordinal
+$\Gamma<\omega_1$."
+Ordinal space $\omega_1$,S000035,1,1,"The set of all ordinal numbers less than the least uncountable ordinal $\omega_1$, paired with the order topology.
+
+Defined as counterexample #42 (""Open Ordinal Space $[0,\Omega)$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Ordinal space $\omega_1+1$,S000036,1,1,"The set of all ordinal numbers less than or equal to
+the least uncountable ordinal $\omega_1$, paired with the order topology.
+
+Defined as counterexample #43 (""Closed Ordinal Space $[0,\Omega]$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+$\omega_1+1$ with endpoint doubled,S000037,1,1,"Let $\omega_1$ be the first uncountable ordinal.  Take $\omega_1+1=[0,\omega_1]$ with its usual order topology and then split the maximum point into two points, similar to the construction of {S65}.  In other words, take $X=[0,\omega_1]\cup\{\omega'_1\}$ where sets of the form $(\beta,\omega_1)\cup\{\omega'_1\}$ with $\beta<\omega_1$ form a neighborhood basis at $\omega'_1$.
+
+See Example 1 in {{mathse:4268177}}."
+Long ray,S000038,1,2,"The lexicographic order topology on $X=\omega_1 \times [0,1)$.
+
+Defined as counterexample #45 (""The Long Line"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Closed long ray,S000039,1,1,"The unique (one-point) compactification of {S38}. Equivalently,
+the space $\omega_1\times[0,1)\cup\{\langle\omega_1,0\rangle\}$
+with the lexicographic order topology.
+
+Defined as counterexample #46 (""The Extended Long Line"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Altered long ray,S000040,1,1,"$X=Y\cup\{\infty\}$,
+where $Y=\omega_1\times[0,1)$ with its lexicographic topology is an open copy
+of {S38}, and each neighborhood of $\infty$ contains some
+$U_\alpha=\{\infty\}\cup\Big(\big(\omega_1\setminus\alpha\big) \times (0,1)\Big)$.
+
+Defined as counterexample #47 (""An Altered Long Line"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Lexicographic unit square,S000041,1,1,"The space $[0,1] \times [0,1]$ with the order topology generated by the
+lexicographical order.
+
+Defined as counterexample #48 (""Lexicographic Ordering on the Unit Square"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Right ray topology on the reals,S000042,3,1,"The space $\mathbb R$ of real numbers with a basis of right rays of the form
+$B_y=\{x\in\mathbb R:y<x\}$.
+(Equivalently, one could use the basis of left rays $B_y=\{x\in\mathbb R:x<y\}$ instead.)
+
+Defined as counterexample #50 (""Right Order Topology on $\mathbb R$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Sorgenfrey line,S000043,2,2,"Let $X$ be the set $\mathbb{R}$ with a basis consisting of all intervals of the form $[a,b)$ for $a,b \in X$.
+
+Defined as counterexample #51 (""Right Half-Open Interval Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Nested interval topology,S000044,0,2,"Let $X$ be the interval $(0,1)$ with the topology
+$\{\emptyset,X\}\cup\{(0,\frac{1}{2}),(0,\frac{2}{3}),(0,\frac{3}{4}),\dots\}$.
+
+Equivalently, the product of {S199}
+and {S194}.
+
+Defined as counterexample #52 (""Nested Interval Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Overlapping interval topology,S000045,0,2,"Let $X$ be the set $[-1,1]$ with topology generated by the subbasis of all sets of the form $[-1,b)$ with $b>0$ and $(a,1]$ with $a < 0$. Note that any $(a,b)$ with $a < 0 < b$ is open in $X$ and so this topology is coarser than the Euclidean topology on $[-1,1]$.
+
+Defined as counterexample #53 (""Overlapping Interval Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Interlocking interval topology,S000046,0,1,"Let $X = (0,\infty)\setminus\mathbb Z$, the set of positive real numbers excluding the integers.  Let $S_n = (0,1/n) \cup (n,n+1)$ for $n \geq 1$. Define a topology on $X$ by taking $\{S_n\}$ as a subbase.
+
+A base for the topology is given by the sets $S_n$ for $n\ge 1$ together with the intervals $(0,1/n)$ for $n\ge 2$.
+
+Defined as counterexample #54 (""Interlocking Interval Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Countable sum of Sierpinski spaces,S000047,1,1,"Let $X$ be the set of positive integers and define a topology by declaring $U \subseteq X$ to be open if for every odd $p \in U$, $p+1 \in U$. Equivalently, $A \subseteq X$ is closed iff for every even $p \in A$, $p-1 \in A$.
+
+This space is a topological sum of countably-many copies of the {S10}.
+
+Defined as counterexample #55 (""Hjalmar Ekdal Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+A piece of trivia: the origin of the name Hjalmar Ekdal is explained [here](https://proofwiki.org/wiki/Mathematician:Hjalmar_Ekdal).
+
+
+<!-- [[Proof of Topology]]
+1. Note that $X$ contains all positive integers thus every integer $p$ is in $X$ thus $X$ is open. See that $\emptyset$ contains no integers therefore $\emptyset$ satisfies the condition vacuously therefore it is open.
+
+2. Let $\left\{U_i | i \in I \right\}$ be an arbitrary collection of open sets. Consider any odd $p \in \bigcup\limits_{i \in I} U_i$ since every $U_i$ is open this means $p+1$ is also in the union therefore the union is open.
+
+3. Given any intersection $\bigcap\limits_{n=1}^N U_n$ with $U_n$ an open set and $N \in \mathbb{N}$. Given an odd $p \in \bigcap\limits_{n=1}^N U_n$ then $p \in U_n$ for all $n \leq N$. Thus by definition of open $p+1$ also exists in $U_n$ for all $n \leq N$ therefore $p+1 \in \bigcap\limits_{n=1}^N U_n$ thus $\bigcap\limits_{n=1}^N U_n$ is open. -->"
+Cofinite topology on $\omega$ extended by a non-open generic point,S000048,2,2,"Let $X = \omega \sqcup \{p\}$. A nonempty set is open if and only if it contains $p$ and has a finite complement. Hence the subspace $\omega \subseteq X$ equals {S15}. Note that $p$ is a generic point of $X$ and $\{p\}$ is not open; see {P201}.
+
+$X$ is homeomorphic to the set of prime ideals of the ring $\mathbb{Z}$ with basis consisting of the sets $V_x = \{P \in X : x \notin P\}$ for all $x \in \mathbb{Z}_{n\ge 0}$. The zero ideal identifies with the generic point $p \in X$. This is the Zariski topology on $\mathrm{Spec}(\mathbb{Z})$, the prime spectrum of the ring of integers. See {{wikipedia:Zariski_topology}} for the general construction of the Zariski topology on the prime spectrum of a commutative ring.
+
+Appears as counterexample #56 (""Prime Ideal Topology"") in {{doi:10.1007/978-1-4612-6290-9}}."
+Divisor topology,S000049,0,2,"Let $X = \{x \in \mathbb{N} : x \geq 2\}$ with topology generated by all $U_n = \{x \in X : x$ divides $n\}$ for $n \in X$.
+
+Defined as counterexample #57 (""Divisor Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+<!-- [[Proof of Topology]]
+To prove the set $\mathscr{B}=\{B_n : n\in X\}$ is a basis for a topology on $X$, we must prove:
+$$\text{ For every } x\in X \text{ there exists some } B_n \text{ such that } x\in B_n$$
+$$\text{ If }x\in B_a \cap B_b, \text{ there exists some } B_c \text{ such that } x\in B_c\subset B_a\cap B_b$$
+To prove the first condition, note that for every $x\in X$, $x$ divides $x$. So by definition, $x \in B_x$.
+To prove the second, let $x\in B_a\cap B_b$. It follows that $x\in B_a$ and $x\in B_b$ This is to say, $x$ is a common divisor of $a$ and $b$. Note that if $x \in B_n$, it follows that $x$ divides $n$. Therefore, all of the divisors of $x$ divide $n$ and thus are in $B_n$. The set $B_x$ is the set of all divisors of $x$, so $x\in B_x \subset B_a\cap B_b$. We have shown that both conditions hold, so therefore the set $\mathscr{B}$ is a basis for topology on $X$.
+ -->"
+$\mathbb Q$ extended by a focal point,S000050,3,0,"Let $X = \mathbb{Q} \cup \{\infty\}$, where $\mathbb{Q}$ has the usual topology
+of {S27} and is open in $X$,
+and the only neighborhood of $\infty$ is $X$.
+See {P202}."
+Khalimsky line,S000051,1,2,"The integers $\mathbb Z$ with $\{\{2i-1,2i,2i+1\}\mid i\in\mathbb Z\}\cup\{\{2i+1\}\mid i\in\mathbb Z\}$ as a basis for the topology.
+
+It is the unique {P205} such that no proper subspace is also a cut point space.
+See Theorem 4.5 of {{doi:10.1090/s0002-9939-99-04839-x}} for a proof.
+
+Also named the *digital line* in the subject of digital topology, e.g. in {{doi:10.32219/isms.80.1_15}}."
+Relatively prime integer topology,S000052,1,2,"Let $X=\mathbb{Z}^+$, the set of positive integers.  For $a,b \in X$, let $U_a(b) = \{b+na \in X : n \in \mathbb{Z}\} = (b+a\mathbb{Z})\cap X$.  Then $\{U_a(b) : a,b \in X, gcd(a,b)=1\}$ forms a basis for the relatively prime integer topology on $X$.
+
+Defined as counterexample #60 (""Relatively Prime Integer Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Prime integer topology,S000053,1,2,"The prime integer topology on the set $X = \mathbb{Z}^+$ of positive integers is generated by the subbasis of all sets of the form $U_p(b) = \{b+np \in X : n \in \mathbb{Z}\}$ for all $p$ prime and $b$ not divisible by $p$.  A base for the topology is given by the collection of all $U_a(b) = \{b+na \in X : n \in \mathbb{Z}\}$ with $a,b>0$ and with $a$ squarefree and relatively prime to $b$.
+
+Defined as counterexample #61 (""Prime Integer Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Double pointed reals,S000054,0,1,"The double pointed reals is the product topology on $X = \mathbb{R} \times \{0,1\}$ where $\mathbb{R}$ has the usual topology and $\{0,1\}$ has the indiscrete topology.
+
+Defined as counterexample #62 (""Double Pointed Reals"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+<!-- [[Proof of Topology]]
+A basis for topology on $\mathbb{R}\times \{0,1\}$ is generated by crossing basic open sets of $\mathbb{R}$ with basic open sets of $\{0,1\}$. The basis for the standard topology on $\mathbb{R}$ is defined by the set $\mathscr{R}=\{(a,b) : a,b\in \mathbb{R} \text{ and }a<b\}$, where $(a,b)$ is an interval. So, the basis for topology on the Double Pointed Reals is defined by the set $\mathscr{B}=\{A\times \{0,1\}:A\in \mathscr{R}\}$. More simply, $\mathscr{B}=\{(c,d) : c\in\mathscr{R},d\in\{0,1\}$, where $(c,d)$ is an ordered pair. In a sense, the Double Pointed Reals Topology is like keeping parallel copies of the standard topology on $\mathbb{R}$; one mapped to 0 and one mapped to 1.
+To prove the set $\mathscr{B}$ is a basis for a topology on $\mathbb{R}\times\{0,1\}$, we must prove
+$$\text{ For every } x\in X \text{ there exists some } B_n \text{ such that } x\in B_n$$
+$$\text{ If }x\in B_a \cap B_b, \text{ there exists some } B_c \text{ such that } x\in B_c\subset B_a\cap B_b$$
+So to prove the first condition, let $x\in \mathbb{R}\times \{0,1\}$. This implies $x$ is of the form $(x,0) \text{ or } (x,1)$. Suppose $x$ is of the form $(x,0)$. Let $A$ be some interval $(a,b)$ that contains $x$. It is obvious that $x$ belongs to the ordered pair $(A,0)$. A similar argument follows for the case when $x$ is of the form $(x,1)$.
+To prove the second condition, let $x\in B_1\cap B_2$. This implies $B_1 \text{ and } B_2$ have the same component of the set $\{0,1\}$.  Furthermore, the first element in the ordered pair of $B_1$ and $B_2$ are both of the form $(a,b)$ and $(c,d)$ respectively such that $x\in (a,b) \text{ and } (c,d)$. Construct a new interval of the form, $(\text{max}(a,c),\text{min}(b,d))$. It follows that $x$ is in this interval, and $x$ is in the basic open set $B_3$ with the first element as $(\text{max}(a,c),\text{min}(b,d))$ and the second element the same as $B_1$ and $B_2$. Both 1 and 2 hold, so the Double Pointed Reals is a basis topology.
+ -->"
+Countable complement extension topology on the real numbers,S000055,0,1,"The countable complement extension topology on $\mathbb{R}$ is the smallest topology generated by the union of the topologies from {S25} and {S17}.
+
+Defined as counterexample #63 (""Countable Complement Extension Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Smirnov's deleted sequence topology,S000056,1,2,"Let $K = \{\frac{1}{n} : n \in \mathbb{N}\}$. Smirnov's Deleted Sequence Topology is the topology on $\mathbb{R}$ consisting of all sets of the form $U \setminus B$ where $U \subset \mathbb{R}$ is open in the standard topology and $B \subset K$.
+
+Defined as counterexample #64 (""Smirnov's Deleted Sequence Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Rational sequence topology,S000057,0,2,"For each irrational $x \in \mathbb{R}$ fix a sequence of rational numbers $x_i \rightarrow x$. The rational sequence topology on $\mathbb{R}$ is defined by declaring each rational point open and letting $U_n(x) = \{x_i : i>n\} \cup \{x\}$ be a local basis at each irrational $x$.
+
+Note that in {{mo:447593}} it was shown there are $2^{\mathfrak c}$ distinct topologies defined in this way, depending on the choices made for $x_i$. However, none of the properties currently tracked for this space rely on this information.
+
+Defined as counterexample #65 (""Rational Sequence Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Indiscrete rational extension of $\mathbb R$,S000058,0,1,"Let $D = \mathbb{Q}$, the set of rational numbers.
+The space $X$ is $\mathbb R$ with the topology generated by the Euclidean open sets
+together with the sets of the form $D\cap U$ with $U\subseteq\mathbb R$ Euclidean open.
+
+The topology is finer than {S25}.
+And it is coarser than {S60}
+and coarser than {S62}.
+
+Defined as counterexample #66 (""Indiscrete Rational Extension of $\mathbb{R}$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Indiscrete irrational extension of $\mathbb R$,S000059,0,1,"Let $D=\mathbb R\setminus\mathbb Q$, the set of irrational numbers.
+The space $X$ is $\mathbb R$ with the topology generated by the Euclidean open sets
+together with the sets of the form $D\cap U$ with $U\subseteq\mathbb{R}$ Euclidean open.
+
+The topology is finer than {S25}.
+And it is coarser than {S61}
+and coarser than {S63}.
+
+Defined as counterexample #67 (""Indiscrete Irrational Extension of $\mathbb{R}$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Pointed rational extension of $\mathbb{R}$,S000060,0,1,"Let $D = \mathbb{Q}$, the set of rational numbers.
+The space $X$ is $\mathbb R$ with the topology generated by the sets of the form $\{x\}\cup(D\cap U)$
+where $U\subset\mathbb{R}$ is open in the Euclidean topology and $x\in U$.
+
+The topology is finer than {S58}.
+
+Defined as counterexample #68 (""Pointed Rational Extension of $\mathbb{R}$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Pointed irrational extension of $\mathbb R$,S000061,0,1,"Let $D=\mathbb R\setminus\mathbb Q$, the set of irrational numbers.
+The space $X$ is $\mathbb R$ with the topology generated by the sets of the form $\{x\}\cup(D\cap U)$
+where $U\subseteq\mathbb R$ is open in the Euclidean topology and $x\in U$.
+
+The topology is finer than {S59}.
+
+Defined as counterexample #69 (""Pointed Irrational Extension of $\mathbb{R}$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Discrete rational extension of $\mathbb R$,S000062,0,1,"Let $D = \mathbb{Q}$, the set of rational numbers.
+The space $X$ is $\mathbb R$ with the topology generated by the Euclidean open sets
+together with all singletons $\{x\}$ for $x\in D$.
+(So any subset of $D$ is open in $X$.)
+
+The topology is finer than {S58}.
+
+Defined as counterexample #70 (""Discrete Rational Extension of $\mathbb{R}$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Michael line,S000063,1,2,"Let $D=\mathbb R\setminus\mathbb Q$, the set of irrational numbers.
+The space $X$ is $\mathbb R$ with the topology generated by the Euclidean open sets
+together with all singletons $\{x\}$ for $x\in D$.
+(So any subset of $D$ is open in $X$.)
+
+The topology is finer than {S59}.
+
+The use of this space by [Ernest Michael](https://en.wikipedia.org/wiki/Ernest_Michael) in {{doi:10.1090/S0002-9904-1963-10931-3}} resulted in it being known as the ""Michael line"".
+See for example <https://dantopology.wordpress.com/2012/10/28/michael-line-basics/>.
+
+Defined as counterexample #71 (""Discrete Irrational Extension of $\mathbb{R}$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Pointed rational extension of the plane,S000064,0,1,"If $(X,\tau)$ is the Euclidean plane, we define a new topology for $X$ by declaring open each point in the set $D = \{(x,y) | x \in Q, y \in Q\}$, and each set of the form $\{x\} \cup (D \cap U)$ where $x \in U \in \tau$.
+
+Defined as counterexample #72 (""Rational Extension in the Plane"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Telophase topology,S000065,1,1,"Let $(X, \tau)$ be the topological space formed by adding to the ordinary closed unit interval $[0,1]$ another right end point, say $1^{\ast}$, with the sets $(a,1) \cup \{1^{\ast}\}$ as a local basis.
+
+Defined as counterexample #73 (""Telophase Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Double origin plane,S000066,0,2,"Let $X$ consist of the set of points of the plane $\mathbb R^{2}$ together with an additional point $0^{\ast}$. Neighborhoods of points other than the origin $0$ and the point $0^{\ast}$ are the usual open sets of $R^{2} - 0$; as a basis of neighborhoods of $0$ and $0^{\ast}$, we take $V_{n}(0) = \{(x,y):x^{2} + y^{2} < \frac{1}{n^2}, y > 0\} \cup \{0\}$ and $V_{n}(0^{\ast}) = \{(x,y):x^{2} + y^{2} < \frac{1}{n^2}, y < 0\} \cup \{0^{\ast}\}$.
+
+Defined as counterexample #74 (""Double Origin Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}. Note that this is *not* a copy
+of {S176} with the origin
+doubled in the sense of {S83}."
+Irrational slope topology,S000067,1,2,"Let $X = \{(x,y) : x,y \in \mathbb{Q}, y \geq 0\}$. For a fixed irrational $\theta>0$, the irrational slope topology on $X$ is obtained by taking as a local base of open neighborhoods of each point $(x,y)\in X$ the collection of sets $N_\epsilon(x,y)$ with $\epsilon>0$,
+defined by $N_\epsilon(x,y) = \{(x,y)\} \cup B(x - y/\theta, \epsilon) \cup B(x + y/\theta, \epsilon)$ where $B(a, \epsilon):=((a-\epsilon,a+\epsilon)\cap\mathbb Q)\times\{0\}$.  That is, $N_\epsilon(x,y)$ consists of the point $(x,y)$ together with the rational numbers in an $\epsilon$-neighborhood around the two points where the lines passing through $(x,y)$ with slopes $\theta$ and $-\theta$ cross the real $x$-axis.
+
+Defined as counterexample #75 (""Irrational Slope Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}. Originally introduced in {{zb:0051.13902}} with $\theta=\sqrt 3$."
+Deleted diameter topology,S000068,0,1,"Let $X = \mathbb{R}^2$. The deleted diameter topology on $X$ is generated by the subbasis consisting of all open discs with all of their horizontal diameters except the center deleted.
+
+Defined as counterexample #76 (""Deleted Diameter Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Deleted radius topology,S000069,0,1,"Let $X = \mathbb{R}^2$. The deleted radius topology on $X$ is generated by the subbasis consisting of all open discs with all of their right horizontal radii (excluding the center) deleted.
+
+Defined as counterexample #77 (""Deleted Radius Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Half-disc topology,S000070,0,1,"Let $H = \{(x,y) \in \mathbb{R} : y>0\}$ be the upper half plane and $L$ the $x$-axis. The half disc topology on $X = H \cup L$ is the topology generated by the following neighborhood bases: points $x\in H$ have the usual Euclidean neighborhoods and points $x \in L$ have neighborhoods of the form $\{x\} \cup (H \cap U)$ where $x \in U$ and $U$ is open in the usual Euclidean topology.
+
+Defined as counterexample #78 (""Half-Disc Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Irregular lattice topology,S000071,0,1,"Let $A = \{(i,k) : 0 < i,k \in \mathbb{N}\}$, $B = \{(i,0) : i \geq 0\}$ and $X = A \cup B$. Declare each point of $A$ to be open. Let the set of all $U_n((i,0)) = \{(i,k) : k=0$ or $k \geq n\}$ form a local basis at any point with $i \neq 0$ and the set of all $V_n = \{(i,k) : i=k=0$ or $i,k\geq n\}$ be a local basis at $(0,0)$.
+
+Defined as counterexample #79 (""Irregular Lattice Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Arens square,S000072,0,1,"Let $S=\big((0,1)_{\mathbb Q}\setminus\{\frac{1}{2}\}\big)\times(0,1)_{\mathbb Q}$ and
+$X=S\cup\{\langle 0,0\rangle,\langle 1,0\rangle\}\cup\{\langle\frac{1}{2},r\sqrt{2}\rangle:r\in(0,\frac{1}{\sqrt 2})_{\mathbb Q}\}$
+(where $I_{\mathbb Q}=I\cap\mathbb Q$).
+
+This space is $X$ with the topology such that points of $S$ have their usual neighborhoods as a subspace of {S176}, and
+
+- $U_n(0,0) = \{\langle 0,0\rangle\} \cup \left((0,\frac{1}{4})_{\mathbb Q}\times(0,\frac{1}{n})_{\mathbb Q}\right)$,
+- $U_n(1,0) = \{\langle 1,0\rangle\} \cup \left((\frac{3}{4},1)_{\mathbb Q}\times(0,\frac{1}{n})_{\mathbb Q}\right)$, and
+- $U_n(\frac{1}{2},r\sqrt{2}) = \left((\frac{1}{4},\frac{3}{4})\times(r\sqrt{2}-\frac{1}{n},r\sqrt{2}+\frac{1}{n})\right)\cap X$
+  for $r\in(0,\frac{1}{\sqrt 2})_{\mathbb Q}$.
+
+are local bases at $\langle 0,0\rangle$, $\langle 1,0\rangle$ and $\langle\frac{1}{2},r\sqrt{2}\rangle$ respectively.
+
+Defined as counterexample #80 (""Arens Square"") in {{doi:10.1007/978-1-4612-6290-9}}, where
+this space was erroneously claimed to be {P4}.
+Compare with {S80} which modifies the construction to
+obtain a valid {P4} example."
+Simplified arens square,S000073,0,1,"Let $S = (0,1)^2$ and $X = S \cup \{(0,0),(1,0)\}$. Let $S$ have the subspace topology and let $U_n(0,0) = \{(0,0)\} \cup \{(x,y) : x < \frac{1}{2}, y<\frac{1}{n}\}$ and $U_n(1,0) = \{(1,0)\} \cup \{(x,y) : \frac{1}{2}<x, y<\frac{1}{n}\}$ be local bases at $(0,0)$ and $(1,0)$ respectively.
+
+Defined as counterexample #81 (""Simplified Arens Square"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Niemytzki plane,S000074,2,2,"Let $X = \{(x,y) \in \mathbb{R}^2 : y \geq 0\}$. The topology is defined by letting points of the strict upper half plane have their usual Euclidean neighborhoods and points $z=(x,0)$ have as a local neighborhood base the sets of the form $\{z\}\cup D$ with $D$ an open disk in the upper plane tangent to the $x$-axis at $z$.
+
+Defined as counterexample #82 (""Niemytzki's Tangent Disc Topology"") in {{doi:10.1007/978-1-4612-6290-9}}."
+Rational tangent disc topology,S000075,1,1,"Let $X$ consist of the open upper half plane along with the rational points on the $x$-axis. Let points in the upper half plane have their usual neighborhoods and let neighborhoods of rational points $s$ on the $x$-axis consist of discs in the upper half plane tangent to the $x$-axis at the point $s$.
+
+Defined as counterexample #83 (""Metrizable Tangent Disc Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}, more
+generally for any countable (non-empty) subset of the \(x\)-axis."
+Sorgenfrey plane,S000076,1,2,"The square of {S43}.
+
+Defined as counterexample #84 (""Sorgenfrey's Half-Open Square Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Michael's product topology,S000077,0,1,"The product of {S63} and {S28}.
+
+Defined as counterexample #85 (""Michael's Product Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Tychonoff plank,S000078,0,2,"The space $[0,\omega_1] \times [0,\omega]$ where each factor has the order topology.
+
+Defined as counterexample #86 (""Tychonoff Plank"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Deleted Tychonoff plank,S000079,0,2,"The space $([0,\omega_1] \times [0,\omega]) \setminus \{(\omega_1,\omega)\}$ where each factor has the order topology.  This is a subspace of the {S78}.
+
+Defined as counterexample #87 (""Deleted Tychonoff Plank"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+B. Scott's modified Arens square,S000080,0,2,"The authors of {{doi:10.1007/978-1-4612-6290-9}} intended the {S72} space (counterexample #80) to be an example of a space that is {P4} and {P10}, but not {P5} and not {P9}.  It turns out {S72} was erroneously claimed as {P4} in their book.  Brian Scott constructed the modification below in {{mathse:1716095}} to provide an example with the desired properties.
+
+Let $Q$ be the set of rational points in the interval $(0,1)$ and let $\{Q_q:q\in Q\}$ be a partition of $Q$ into countably many dense subsets. Let
+
+$S=\bigcup_{q\in Q}(\{q\}\times Q_q)$
+
+and take the space to be $X=\{(0,0),(1,0)\}\cup S$.
+
+Let $M=\{1/2\}\times Q_{1/2}$. Points of $S\setminus M$ have the neighborhoods that they inherit from the Euclidean topology.  Local bases at the points $(0,0)$, $(1,0)$ and $(1/2,q)\in M$ are given respectively by the collections of sets
+- $U_n(0,0) = \{(0,0)\} \cup \{(x,y)\in S: 0<x<\frac14, \; 0<y<\frac1n\}$,
+- $U_n(1,0) = \{(1,0)\} \cup \{(x,y)\in S: \frac34<x<1, \; 0<y<\frac1n\}$,
+- $U_n(1/2,q) = \{(x,y)\in S: \frac{1}{4}<x<\frac34, \; q-\frac1n < y < q+\frac1n\}.$
+
+The properties and justifications given for counterexample #80 in {{doi:10.1007/978-1-4612-6290-9}} are valid for this space with minimal modifications."
+Alexandroff plank,S000081,0,1,"The set $[0,\omega_1] \times [-1,1]$ with topology generated by adding in all sets of the form $U(\alpha, n) = \{(\omega_1,0)\} \cup (\alpha, \omega_1] \times (0,\frac{1}{n})$ to its usual product topology.
+
+Defined as counterexample #88 (""Alexandroff Plank"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Sum of continuum-many Right Ray Topology on the Reals,S000082,2,1,The topological sum of continuum-many copies of {S42}.
+Line with two origins,S000083,0,2,"The space $X$ is obtained by taking $\mathbb R$ ({S25}) and replacing the origin $0$ with two origins $0_1$ and $0_2$.  Basic open neighborhoods of a point $x\ne 0$ are the Euclidean open neighborhoods of $x$ not containing $0$.  Basic open neighborhoods of each origin $0_i$ are of the form $(U\setminus\{0\})\cup\{0_i\}$ with $U$ a Euclidean open neighborhood of $0$.
+
+The space can also be obtained as a quotient space of the disjoint union of $\mathbb R\times\{1\}$ and $\mathbb R\times\{2\}$ by identifying points $(x,1)$ and $(x,2)$ for $x\ne 0$.
+
+This space is similar to {S65} and provides an example of {P123} space that is not {P3}.
+
+See {{wikipedia:Non-Hausdorff_manifold}} and Exercise 5 of section 36 in {{zb:0951.54001}}."
+Line with countably many origins,S000084,0,1,"This space is similar to {S83}, but with a countably infinite number of origins.
+Given $S$ a countably infinite set with the discrete topology, the space can be constructed as a quotient space of $\mathbb R \times S$ by identifying points $(x,\alpha)$ and $(x,\beta)$ whenever $x\ne 0$.
+
+Equivalently, it can be obtained from $\mathbb R$ by replacing the origin $0$ with many origins $0_\alpha$, one for each $\alpha \in S$.  The subspace $\mathbb R\setminus\{0\}$ retains its Euclidean topology. Basic open neighborhoods of each origin $0_\alpha$ are of the form $(U\setminus \{0\})\cup \{0_\alpha\}$ with $U$ an open neighborhood of $0$ in $\mathbb R$.
+
+See {{wikipedia:Non-Hausdorff_manifold}}."
+Line with uncountably many origins,S000085,0,1,"This space is similar to {S84}, with uncountably many origins.
+
+Given a set $S$ of cardinality $2^\mathfrak c$ with the discrete topology, the space can be constructed as a quotient space of $\mathbb R \times S$ by identifying points $(x,\alpha)$ and $(x,\beta)$ whenever $x\ne 0$.
+
+Equivalently, it can be obtained from $\mathbb R$ by replacing the origin $0$ with many origins $0_\alpha$, one for each $\alpha \in S$.  The subspace $\mathbb R\setminus\{0\}$ retains its Euclidean topology. Basic open neighborhoods of each origin $0_\alpha$ are of the form $(U\setminus \{0\})\cup \{0_\alpha\}$ with $U$ an open neighborhood of $0$ in $\mathbb R$.
+
+See {{wikipedia:Non-Hausdorff_manifold}}.
+
+The cardinality $|S|=2^\mathfrak c$ is choosen to illustrate that in {T404} the {P99} hypothesis cannot be weakened to {P2}."
+Everywhere doubled line,S000086,0,2,"This space is similar to {S83}, with every point ""doubled"".
+
+The space can be described as the union of two real lines $X=A\sqcup B$ with $A = \mathbb R\times\{0\}$ and $B=\mathbb R\times\{1\}$.  A set $U\subseteq X$ is open exactly when $U\cap A$ is open in $A$ with the usual Euclidean topology and for each $x=(r,1)\in U\cap B$, the set $U$ contains a deleted neighborhood of $(r,0)$ in $A$.
+
+Equivalently, this space has the topology on $X= \mathbb R\times\{0,1\}$ generated by the basic open sets
+$B(\langle x,i\rangle,\epsilon)=\{\langle x,i\rangle\}\cup\Big(\Big((x-\epsilon,x)\cup(x,x+\epsilon)\Big)\times\{0\}\Big)$
+for each point $\langle x,i\rangle\in X$ and $\epsilon>0$.
+
+See section 3 of {{doi:10.1090/S0002-9939-07-09100-9}}
+and the description of the general construction in {{mathse:3678440}}.
+
+This provides an example of a {P123} space that is not {P3}, but is {P86}."
+Deleted Dieudonné plank,S000087,1,2,"The subspace $X$ of {S191} obtained by removing the point $\langle\omega_1,\omega\rangle$.
+So $X=(Y\times Z)\setminus\{\langle\omega_1,\omega\rangle\}$ 
+where $Y=[0,\omega_1]$ is given the topology with points of $[0,\omega_1)$
+isolated and neighborhoods of $\omega_1$ cocountable,
+and $Z=[0,\omega]$ is given the topology with points of $[0,\omega)$
+isolated and neighborhoods of $\omega$ cofinite.
+
+Defined as counterexample #89 (""Dieudonné Plank"")
+in {{doi:10.1007/978-1-4612-6290-9}}. Note that the pi-Base qualifies this name with
+""Deleted"" to align with e.g. {S78} and {S79}."
+Tychonoff corkscrew,S000088,0,1,"For each ordinal $\alpha$ let $A_\alpha$ denote the linearly ordered set $(-0, -1, -2, \dots, \alpha, \dots, 2, 1, 0)$ with the order topology. Let $P = A_{\omega_1} \times A_{\omega}$ and $P^\ast = P \setminus \{(\omega_1, \omega)\}$. We may regard $P^\ast$ as a rectangular lattice with coordinate axes $A_{\omega_1}$ and $A_\omega$.
+
+Form a corkscrew by taking a (countably) infinite stack of copies of $P^\ast$ by slitting each $P^\ast$ immediately below the positive $A_{\omega_1}$ axis and the joining the fourth quadrant of one plane to the first quadrant of the one immediately below it. Complete the space by adjoining a point $a^+$ with neighborhoods all points above a certain level and $a^-$ with neighborhoods all points below a certain level.
+
+Defined as counterexample #90 (""Tychonoff Corkscrew"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Deleted Tychonoff corkscrew,S000089,0,1,"The subspace $Y = X \setminus \{a^-\}$ of the {S88}.
+
+Defined as counterexample #91 (""Deleted Tychonoff Corkscrew"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Hewitt's condensed corkscrew,S000090,0,1,"If $T = S \cup \{a^\pm\}$ is the {S88} and $[0,\omega_1)$ the set of countable ordinals, let $A = T \times [0,\omega_1)$ and $X = S \times [0,\omega_1) \subset A$. Think of $A$ as an uncountable sequence of corkscrews $A_\lambda$ for $\lambda \in [0,\omega_1)$ and $X$ as the same sequence of corkscrews missing all infinity points. Let $\Gamma:X \times X \rightarrow [0,\omega_1)$ be a bijection and $\pi_i$ the coordinate projections $X \times X \rightarrow X$ and define $\psi: A \setminus X \rightarrow X$ by $\psi(a^+_\lambda) = \pi_1 \Gamma^{-1}(\lambda)$ and $\psi(a^-_\lambda) = \pi_2 \Gamma^{-1}(\lambda)$. Then if $x \neq y \in X$,
+letting $\lambda = \Gamma(x,y)$, both $\psi^{-1}(x)$ and $\psi^{-1}(y)$ intersect $A_\lambda$.
+
+Define a topology on $A$ by basis neighborhoods $N$ of each $x \in X$ with the property that $\psi^{-1}(N \cap X \subset N$ together with $A_\lambda$-basis neighborhoods of each point $a \in A \setminus X$. $X \subset A$ will carry the subspace topology.
+
+To construct a typical basis neighborhood of $x \in X$, begin with a $\sigma$-neighborhood $N_0$ of $x \cup \psi^{-1}(x)$ where $\sigma$ is the product topology on $A = T \times \omega_1$ where $\omega_1$ carries the discrete topology. Then inductively define $N_i$ to be a $\sigma$-neighborhood of $N_{i-1} \cup \psi^{-1}(N_{i-1} \cap X)$ and $N = \bigcup N_i$. Clearly $\psi^{-1}(N \cap X) \subset N$.
+
+Defined as counterexample #92 (""Hewitt's Condensed Corkscrew"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Thomas plank,S000091,0,1,"Let $L_0 = \{(x,0)\ |\ x \in (0,1)\}$ and for $i \geq 1$, $L_i = \{(x,\frac{1}{i}) |\ x \in [0,1)\}$, and $X = \bigcup_{i=0}^\infty L_i$. If $i \geq 1$, each point of $L_i \setminus \{(0, \frac{1}{i})\}$ is open. Basis neighborhoods of $(0,\frac{1}{i})$ are subsets $L_i$ with finite complements. The sets $U_i(x,0) = \{(x,0)\} \cup \{(x,\frac{1}{n})\ |\ n > i\}$ form a basis for the points in $L_0$.
+
+Defined as counterexample #93 (""Thomas' Plank"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Thomas corkscrew,S000092,0,1,"Take copies of {S91} and use them to build a corkscrew as in the construction of {S88}.
+
+Defined as counterexample #94 (""Thomas' Corkscrew"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Double arrow space,S000093,2,3,"Let $A$ be the subset of the plane $ \{ (x,0)\ |\ 0 < x \leq 1 \}$ and let $B$ be the subset $ \{ (x,1)\ |\ 0\leq x<1 \} $. Let $X = A \cup B$ as a set. The weak parallel line topology on $X$ is defined by taking as a basis all sets of the form $W = \{(x,0)\ |\ a<x<b \} \cup \{ (x,1)\ |\ a \leq x < b\}$ and $U = \{(x,0)\ |\ a < x \leq b \} \cup \{(x,1)\ |\ a<x<b\}$.
+
+Defined as counterexample #95 (""Weak Parallel Line Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+Referenced in Exercise 3.10.C of {{zb:0684.54001}}."
+Strong parallel line topology,S000094,0,1,"Let $A$ be the subset of the plane $ \{ (x,0)\ |\ 0 < x \leq 1 \}$ and let $B$ be the subset $ \{ (x,1)\ |\ 0\leq x<1 \} $. Let $X = A \cup B$ as a set. The strong parallel line topology on $X$ is defined by taking as a basis all sets of the form $V = \{ (x,1)\ |\ a \leq x < b\}$ and $U = \{(x,0)\ |\ a < x \leq b \} \cup \{(x,1)\ |\ a<x<b\}$.
+
+Defined as counterexample #96 (""Strong Parallel Line Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Concentric circles,S000095,0,1,"Let $C_r = \{x \in \mathbb{R}^2\ |\ |x|=r\}$ be a circle of radius $r$. Let $X = C_1 \cup C_2$ and define a topology on $X$ by taking as a subbasis all $\{x\} \in C_2$ along with all open intervals in $C_1$ each together with the radial projection of all but its midpoint onto $C_2$.
+
+Defined as counterexample #97 (""Concentric Circles"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Appert space,S000096,1,2,"Let $X$ be the set of positive integers. For $S \subset X$, let $N(n, S) = |\{m \in S\ |\ m < n\}|$. Declare $U \subset X$ to be open if $1 \not\in U$, or if $1 \in U$ and $\lim_{n \rightarrow \infty} N(n, U)/n = 1$.
+
+Defined as counterexample #98 (""Appert Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+One-point compactification of the sequential fan $S_\omega$,S000097,1,1,"The set $\omega^2\cup\{x,y\}$ topologized by the following basis: points of $\omega^2$ are isolated,
+$\{x\}\cup\{\langle i,j\rangle\in\omega^2 : i\geq f(j)\}$ is open for each $f:\omega\to\omega$, and
+$\{y\}\cup\{\langle i,j\rangle\in\omega^2 : j\geq n\}$ is open for each $n<\omega$.
+Put another way, neighborhoods of $x$ contain all but finitely-many points of each row of $\omega^2$,
+and neighborhoods of $y$ contain all but finitely-many rows.
+
+Equivalently, this is the one-point compactification of
+a copy $\omega^2\cup\{x\}$ of
+{S131} with
+$y$ as its compactifying point.
+
+Defined as counterexample #99 (""Maximal Compact Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}} to demonstrate
+an example of a non-{P3} space which has a maximal
+compact topology."
+Minimal Hausdorff topology,S000098,0,1,"Let $A$ be the linearly ordered set $\{1,2,3,\dots,\omega,\dots,-3,-2,-1\}$ with the interval topology. Let $X = A \times \omega \cup \{a, -a\}$ where $a$ and $-a$ are ideal points with neighborhoods $M_n^+(a) = \{a\} \cup \{(i,j)\ |\ i<\omega, j>n\}$ and $M_n^-(-a) = \{-a\}\cup\{(i,j)\ |\ i>\omega,j>n\}$.
+
+Defined as counterexample #100 (""Minimal Hausdorff Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Alexandroff square,S000099,0,1,"Let $X$ be the unit square $[0,1] \times [0,1] \subset \mathbb{R}^2$. If $(x,y)$ is a point off the diagonal, define neighborhoods of $(x,y)$ to be sets of the form $N_\epsilon(x,y) = \{(x,t)\ |\ |t-y| < \epsilon, t \neq x\} $. If $(x,x)$ is a point on the diagonal, define neighborhoods of $(x,x)$, for every finite collection $\{x_i\} \subset [0,1]$ which does not contain $x$, as follows: $\{(t,y) \in X\ |\ |y-x|<\epsilon, t \not\in \{x_0, \dots, x_n\}\}$.
+
+Defined as counterexample #101 (""Alexandroff Square"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+David Gao's ultraconnected non-contractible space,S000100,0,1,"David Gao's example of a nonempty {P40} space that is not {P199},
+as constructed in {{mathse:5001004}}.
+
+The underlying set is the set $X$ of partial functions $f$ from $\mathbb{Z}$ to $\{0, 1\}$ satisfying all of the following three conditions:
+
+1. There exists $n \in \mathbb{Z}$ such that the domain of $f$ is $\mathbb{Z}_{\leq n}$. We call $n$ the *length* of $f$, which shall be denoted by $l(f)$.
+2. There exists $n \in \mathbb{Z}$ such that $f(m) = 0$ for all $m \leq n$.
+3. Either $\text{range}(f) = \{0\}$ and $l(f) \leq 0$; or there exists $n < 0$ such that $f(n) = 1$, and furthermore if $n_0 = \min\{n < 0: f(n) = 1\}$, then $l(f) \leq -n_0$.
+
+For partial functions $f, g$ from $\mathbb{Z}$ to $\{0, 1\}$, we shall say $g$ is a *truncation* of $f$, denoted by $g \leq f$, if there exists $n \in \mathbb{Z}$ s.t. $g = f|_{\text{dom}(f) \cap \mathbb{Z}_{\leq n}}$. Truncations of elements of $X$ are also in $X$.
+Furthermore, $\leq$ is a partial order on $X$.
+
+To define the topology on $X$, for each $x \in X$, let
+
+$$T_x = \{y \in X: y \leq x\}.$$
+
+And for each $n \in \mathbb{Z}$, let
+
+$$K_n = \{y \in X: l(y) \leq n\}.$$
+
+The set $X$ is equipped with the topology generated by the closed subbasis
+
+$$\{T_x: x \in X\} \cup \{K_n: n \in \mathbb{Z}\};$$
+
+that is, the topology on $X$ is generated by the subbasis of open sets consisting of the complements of the $T_x$ and the complements of the $K_n$."
+Continuum power of a countable discrete space,S000101,1,1,"The product topology on \(\omega^{\mathfrak c}\).
+
+Defined as counterexample #103 (""Uncountable Products of \(\mathbb{Z}^+\)"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Baire metric on $\mathbb R^\omega$,S000102,1,1,"The Baire metric on $X = \mathbb{R}^\omega$ is defined by $d(\langle x_i\rangle, \langle y_i\rangle) = \frac{1}{i}$ where $i$ is the first coordinate such that $x_i \neq y_i$.
+
+This space is homeomorphic to a countable product of discrete spaces of
+size continuum.
+
+Defined as counterexample #104 (""Baire Metric on \(\mathbb{R}^\omega\)"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Continuum-power of closed unit intervals,S000103,2,1,"Let $I$ be the unit interval $[0,1]$ and let $X$ have the product topology on $I^I$.
+
+Defined as counterexample #105 (""\(I^I\)"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Product of the first-uncountable ordinal with the continuum-power of unit intervals,S000104,1,1,"The product topology on $\omega_1$ ({S35}) crossed with $I^I$ ({S103}).
+
+Defined as counterexample #106 (""\([0,\Omega)\times I^I\)"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Helly space,S000105,1,2,"Let $X \subset I^I$ be the subspace
+of {S103} consisting of all non-decreasing functions.
+
+Defined as counterexample #107 (""Helly Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Countable box product of reals,S000107,3,1,"The set \(\mathbb{R}^\omega\) with the box product topology where basic open
+sets are of the form \(\prod_{i<\omega}U_i\) for \(U_i\) open in \(\mathbb R\).
+Also known as the Boolean product.
+
+Defined as counterexample #109 (""Box Product Topology on \(\mathbb{R}^\omega\)"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Stone-Cech compactification of the integers,S000108,5,2,"$\beta \omega$ is the set of all ultrafilters on $\omega=\{0,1,2\dots\}$,
+where we identify $n$ with the principal ultrafilter containing $n$.
+The topology on $\beta\omega$ is generated by all sets of the form
+$\overline U = \{F \in \beta\omega : U \in F\}$ for $U \subset \omega$.
+
+Defined as counterexample #111 (""Stone-Cech Compactification of the Integers"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Novak space,S000109,0,1,"Let $S = \beta \omega$. Let $F = S^{[\omega]}$ be the family of all countably infinite subsets of $S$ and fix a well ordering for $F$. Let $\hat{f}: S \rightarrow S$ be the extension of the function $f(n) = n + (-1)^{n+1}$. Let $\{P_A\ |\ A \in F\}$ be a collection of subsets of $S$ such that $|P_A| < 2^\mathfrak{c}$, $P_D \subset P_A$ whenever $D < A$ and $\hat{f}(P_A) \cap P_A = \emptyset$. Novak's space is $X = \omega \cup \bigcup_{A \in F} P_A \subset \beta\omega$ with the subspace topology.
+
+Defined as counterexample #112 (""Novak Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Strong ultrafilter topology,S000110,0,1,"Let $M$ be the set of all free ultrafilters on $\omega$. The strong ultrafilter
+topology is the set $X = \omega \cup M$ with topology generated by singletons
+of $\omega$ along with all sets of the form $A \cup \{F\}$ for $A \in F \in M$.
+
+Defined as counterexample #113 (""Strong Ultrafilter Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Single ultrafilter subspace of $\beta\omega$,S000111,1,1,"Let $F$ be a non-principal ultrafilter on $\omega$. The space $X$ is the set $\omega\cup\{F\}$ with points of $\omega$ isolated
+and neighborhoods of $F$ all sets of the form $U \cup \{F\}$ for $U \in F$.
+
+This is the subspace topology on $\omega\cup\{F\}$ induced as a subset of $\beta\omega$ ({S108}).
+
+Defined as counterexample #114 (""Single Ultrafilter Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+Not to be confused with {S145}."
+Nested rectangles in the real plane,S000112,0,1,"Let $L_1$ be the line $x=1$, $L_2$ the line $x=-1$ and $R_n$ the boundary of the rectangle centered at $(0,0)$ with height $2n$ and width $\frac{2n}{n+1}$. Let $X = L_1 \cup L_2 \cup \bigcup_{n \ge 1} R_n$ with the subspace topology inherited from $\mathbb{R}^2$.
+
+Defined as counterexample #115 (""Nested Rectangles"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Topologist's sine curve,S000113,0,2,"The set $X = \{(x, \sin\frac{1}{x}):x \in (0,1]\} \cup \{(0,0)\}$ with the subspace topology inherited from $\mathbb{R}^2$.
+
+Defined as counterexample #116 (""Topologist's Sine Curve"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Closed Topologist's Sine Curve,S000114,0,2,"The set $X=\{(x, \sin\frac{1}{x}):x \in (0,1]\} \cup \{(0,y):y \in [-1,1]\}$ with the subspace topology inherited from $\mathbb{R}^2$.
+
+Defined as counterexample #117 (""Closed Topologist's Sine Curve"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Extended topologist's sine curve,S000115,0,2,"The set $X=\{(x, \sin\frac{1}{x}):x \in (0,1]\} \cup \{(0,y):y \in [-1,1]\} \cup \{(x,1):x\in[0,1]\} $ with the subspace topology inherited from $\mathbb{R}^2$.
+
+Defined as counterexample #118 (""Extended Topologist's Sine Curve"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Infinite broom,S000116,0,2,"For each $n \in \omega$ let $L_n$ be the line segment from $(0,0)$ to $(1,\frac{1}{n+1})$. The Infinite Broom is the set $\bigcup_{n \in \omega} L_n \cup \big((\frac{1}{2},1] \times \{0\}\big) \subset \mathbb{R}^2$ with the subspace topology.
+
+Defined as counterexample #119 (""The Infinite Broom"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Closed infinite broom,S000117,0,2,"For each $n \in \omega$ let $L_n$ be the line segment from $(0,0)$ to $(1,\frac{1}{n+1})$. The Infinite Broom is the set $\bigcup_{n \in \omega} L_n \cup \big((0,1] \times \{0\}\big) \subset \mathbb{R}^2$ with the subspace topology.
+
+Defined as counterexample #120 (""The Closed Infinite Broom"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Integer broom,S000118,0,2,"Let $X \subset \mathbb{R}^2$ consist of points with polar coordinates $\{(n,\theta)\ \mid\ n \in \omega, \theta \in \{0\} \cup \{1/n\}_{n=1}^\infty\}$. Define a topology on $X$ by taking as a basis all sets of the form $U \times V$ where $U$ is an open set in the right order topology on the positive integers and $V$ is open in $\{0\} \cup \{1/n\}_{n=1}^\infty \subset \mathbb{R}$. The only neighborhood of the origin is $X$ itself.
+
+This space is the quotient of the product of {S200} with {S20} where all points whose first components are 0 are identified.
+
+Defined as counterexample #121 (""The Integer Broom"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Nested angles in the real plane,S000119,0,1,"Let $X \subset \mathbb{R}^2$ be the set consisting of the line segments joining the points $(0,1)$ and $(n, \frac{1}{n+1})$ for $n=1,2,\dots$; the half-lines $y = \frac{1}{n+1}$, $x \leq n$ for $n=1,2,\dots$; and the line $y=0$. Give $X$ the subspace topology.
+
+Defined as counterexample #122 (""Nested Angles"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Infinite cage,S000120,0,1,"For each integer $n\geq 1$, let
+$A_n = \{(\frac{1}{n}, y, 0) \in \mathbb{R}^3\ |\ 0 \leq y \leq 3n\}$,
+$B_n = \{(0,y,0) \in \mathbb{R}^3\ |\ 2n - \frac{1}{2} \leq y \leq 2n + \frac{1}{2}\}$ and
+$C_n = \{(x,y,z) \in \mathbb{R}^3\ |\ 0 \leq x \leq \frac{1}{n}, y=2n, z=x(\frac{1}{n} -x)\}$.
+The Infinite Cage is the space $X = \bigcup_{n \geq 1} (A_n \cup B_n \cup C_n) \subset \mathbb{R}^3$ with the subspace topology.
+
+Defined as counterexample #123 (""The Infinite Cage"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Bernstein's connected set,S000121,0,1,"Let $\{C_\alpha\ : \alpha<\mathfrak c\}$ be a well-ordering of the set of
+all closed, {P36} subsets of {S176} that contain at least two points
+(so in fact each $C_\alpha$ has cardinality $\mathfrak c$).
+Note that there are $\mathfrak c$ such $C_\alpha$.
+We shall define sets $A_\alpha$ and $B_\alpha$ such that
+$A_\alpha \cap B_\beta = \emptyset$ for all $\alpha, \beta<\mathfrak c$.
+First, let $A_0$, $B_0$ be distinct singletons in $\mathbb{R}^2$.
+Now, assuming $A_\beta,B_\beta$ are defined for all $\beta<\alpha$
+and $|\bigcup_{\beta<\alpha}(A_\beta\cup B_\beta)|<\mathfrak c$,
+we may choose $A_\alpha=\{a_\alpha\}\cup\bigcup_{\beta<\alpha}A_\beta$
+and $B_\alpha=\{b_\alpha\}\cup\bigcup_{\beta<\alpha}B_\beta$ such that
+$a_\alpha,b_\alpha$ are distinct points in
+$C_\alpha\setminus\left(\bigcup_{\beta<\alpha}(A_\beta\cup B_\beta)\right)$.
+
+Bernstein's connected set is $A=\bigcup_{\alpha<\mathfrak c}A_\alpha$
+with its subspace topology induced from {S176}.
+
+Defined as counterexample #124 (""Bernstein's Connected Sets"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Gustin's sequence space,S000122,0,1,"Let $\mathbb{Z}^+$ denote the set of positive integers, $Y$ be the set of all finite sequences of positive integers of even length, and $W = \{A \subseteq Y\ |\ |A| = 2\}$. Gustin's Sequence Space is the set $X = Y \cup (\mathbb{Z}^+ \times W)$ with topology defined as follows:
+
+For any finite sequences $\alpha, \beta$ of arbitrary length, let $\alpha\beta$ be the sequence formed by adjoining $\beta$ to the end of $\alpha$. Let $\alpha \geq i \in \mathbb{Z}$ abbreviate $a \geq i$ for every $a \in \alpha$. Let $\beta \supseteq_i \alpha$ abbreviate that there exists a sequence of finite length $\gamma\geq i$ with $\beta = \alpha\gamma$ and $U_i(\alpha) = \{\beta \in Y\ |\ \beta \supseteq_i \alpha\}$.
+
+Let $q: \mathbb{Z}^+ \times W\rightarrow \mathbb{Z}^+$ be an injective function increasing on its first coordinate. (For example, fix a bijection $p$ from $W$ to the set of all positive primes, and define $q: \mathbb{Z}^+ \times W \rightarrow \mathbb{Z}^+$ by $q(n,w) = [p(w)]^n$.)
+
+Define a topology on $X$ by letting neighborhoods of points $\alpha \in Y$ be sets of the form $U_i(\alpha)$, and neighborhoods of points $(n,w) = (n, \{\alpha, \beta\})$ be sets of the form $V_i(n,w) = \{(n,w)\} \cup U_i\big(\alpha q(n,w)\big) \cup U_i\big(\beta q(n,w)\big) $.
+
+Defined as counterexample #125 (""Gustin's Sequence Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Roy's lattice space,S000123,0,1,"Let $\{C_i\ |\ i < \omega\}$ be a collection of disjoint dense subsets of $\mathbb{Q}$. For specificity, let \(\{p_i:i<\omega\}\) enumerate the prime numbers,
+and let \(C_i\) be the rational numbers of the form $\frac{a}{p_i^n}$, with $a$ an integer not divisible by $p_i$.
+
+Let $X = \{(r,i) \in \mathbb{Q} \times \omega\ |\ r \in C_i\} \cup \{\omega\}$ as a set and define a topology on $X$ as follows: neighborhoods of points of the form $(r,2n)$ are open intervals $U_\epsilon(r,2n) = \{(t,2n)\ |\ |r-t|<\epsilon\}$; neighborhoods of points of the form $(r,2n-1)$ have the form $V_\epsilon(r,2n-1) = \{(t,m)\ |\ |r-t|<\epsilon, |m-n|\leq 1\}$; neighborhoods of $\omega$ have the form $W_n(\omega) = \{(s,i)\ |\ i \geq 2n\}$.
+
+Defined as counterexample #126 (""Roy's Lattice Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Roy's lattice subspace,S000124,0,1,"Let $X$ denote {S123}.
+Roy's lattice subspace is $X \setminus \{\omega\}$ with the subspace topology.
+
+Defined as counterexample #127 (""Roy's Lattice Subspace"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Knaster-Kuratowski fan,S000125,1,2,"For any $a \in [0,1]$, let $L(a)$ be the line segment from $(a,0)$ to $p = (\frac{1}{2}, \frac{1}{2})$. Let $\mathcal{C}$ be the middle-thirds Cantor set in the unit interval, $\mathcal{E}$ the endpoints of the removed intervals and $\mathcal{F} = \mathcal{C} \setminus \mathcal{E}$. Define $A = \{(x,y) \in L(c)\ |\ c \in \mathcal{E}, y \in \mathbb{Q}\}$ and $B = \{(x,y) \in L(c)\ |\ c \in \mathcal{F}, y \not\in \mathbb{Q}\}$. This space is $X = A \cup B \subset \mathbb{R}^2$ with the subspace topology.
+
+The subspace $X\setminus\{p\}$ obtained by removing the apex point is {S126}.
+
+Defined as counterexample #128 (""Cantor's Leaky Tent"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+<!-- ![](http://i.imgur.com/P36Jx0z.png?1) -->"
+Punctured Knaster-Kuratowski fan,S000126,1,2,"{S000125} with the apex removed. Specifically: For any $a \in [0,1]$, let $L(a)$ be the line segment from $(a,0)$ to $p = (\frac{1}{2}, \frac{1}{2})$. Let $\mathcal{C}$ be the middle-thirds Cantor set in the unit interval, $\mathcal{E}$ the endpoints of the removed intervals and $\mathcal{F} = \mathcal{C} \setminus \mathcal{E}$. Define $A = \{(x,y) \in L(c)\ |\ c \in \mathcal{E}, y \in \mathbb{Q}\}$ and $B = \{(x,y) \in L(c)\ |\ c \in \mathcal{F}, y \not\in \mathbb{Q}\}$. This space is $X = (A \cup B) \setminus\{p\} \subset \mathbb{R}^2$ with the subspace topology.
+
+Defined as counterexample #129 (""Cantor's Teepee"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+<!-- ![enter image description here](http://i.imgur.com/m2a0RHL.png?1) -->"
+Pseudo-arc,S000127,0,2,"The pseudo-arc is a non-degenerate, hereditarily indecomposable, chainable
+(i.e. arc-like) continuum. (All such continua are homeomorphic.)
+
+Defined as counterexample #130 (""A Pseudo-Arc"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Miller's biconnected set,S000128,0,1,"Let $C \subset [0,1]$ be the Cantor set. Let $W = C \times [0,1] \subset \mathbb{R}^2$. Let $K$ be an indecomposable continuum such that $K \cap [0,1]^2 = W$. Let $\Delta$ be a countable dense subset of $K$ (which exists, as $K$ is compact and metrizable). Let $\mathcal{C}$ be the set of composants of $K$, $\mathcal{B}$ the set of continua which separate  $K$ and $\mathcal{D}$ the set of subsets of $\Delta$ which are dense in some square $S \subset [0,1]^2$ which meets $W$ and has edges parallel to the $x$- and $y$- axes. Choose well orderings $\{C_\alpha\}$, $\{B_\alpha\}$ and $\{D_\alpha\}$ of $\mathcal{C}$, $\mathcal{B}$ and  $\mathcal{D}$ respectively for $\alpha < \kappa$ where $\kappa$ is the least ordinal with $|\kappa| = \mathfrak{c}$.
+
+Inductively define for each $\alpha$ an $M_\alpha \subset K$ and simple closed curve $J_\alpha$ such that:
+
+1. $M_\alpha = p_\alpha \in B_\alpha \cap K$ if $B_\alpha \cap \Delta = \emptyset$
+2. $M_\alpha = \emptyset$ if $B_\alpha \cap \Delta \neq \emptyset$
+3. For ordinals $\mu \neq \lambda$ with $M_\mu, M_\lambda \neq \emptyset$, $M_\mu$ and $M_\lambda$ are in different composants of $K$
+4. $J_\alpha$ separates $K$
+5. $J_\alpha \cap \Delta \setminus D_\alpha = J_\alpha \cap M = \emptyset$ where $M = \bigcup_{\alpha < \kappa} M_\alpha$
+
+Let $X = \Delta \cup M \subset \mathbb{R}^2$ with the subspace topology.   
+
+Defined as counterexample #131 (""Miller's Biconnected Set"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Wheel without its hub,S000129,0,1,"Let $X = \{(x,y) \in \mathbb{R}^2\ |\ 0< x^2 + y^2 \leq 1\}$ with topology generated by the standard Euclidean topology, along with all open intervals on the radii contained in the open unit disc.
+
+Defined as counterexample #132 (""Wheel without Its Hub"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Tangora's connected space,S000130,0,1,"Let $A,B,C$ partition the reals into three dense subspaces; for example, let
+$A = \{\frac{m}{2^n}:m\in\mathbb Z,n<\omega\} \subset \mathbb{Q}$ be the dyadic rationals,
+$B = \mathbb{Q} \setminus A$, and $C = \mathbb{R}\setminus\mathbb{Q}$.
+Let $X$ extend the usual topology on $\mathbb{R}$ by defining $A$ and $B$ open,
+along with sets of the form $\{c\} \cup \big( (c-\delta,c+\delta) \setminus C\big)$ for
+$c\in C$ and $\delta > 0$.
+
+Defined as counterexample #133 (""Tangora's Connected Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Sequential fan with $\omega$-many spines,S000131,1,2,"The space $X=S_\omega$ is obtained from the disjoint union of a countably infinite number of convergent sequences ({S20}) by identifying all the limit points to a single point $\infty$.
+
+So $X=(\omega\times\omega)\cup\{\infty\}$ as sets, with all the points of $\omega\times\omega$ isolated and neighborhoods of $\infty$ being the sets omitting finitely many points from each of the columns of $\omega\times\omega$.
+Basic open neighborhoods of $\infty$ are given by the sets
+$U_f=\{\infty\}\cup\{(m,n)\in\omega\times\omega:n\ge f(m)\}$
+for some arbitrary function $f:\omega\to\omega$.
+
+See also <https://dantopology.wordpress.com/2015/07/01/a-note-on-products-of-sequential-fans> for useful information.
+
+Compare with the coarser topology of {S202}."
+Duncan's space,S000132,0,3,"Let $A$ be the set of all strictly increasing, infinite sequences of positive integers. For any $x\in A$, define $N(n,x)$ as the number of elements of $x$ less than $n$. Let $\delta (x) =\lim_{n\to\infty} \frac{N(n,x)}{n}$. Let $X$ be the subset of $A$ containing precisely the sequences $x$ for which $\delta(x)$ exists. Now for any $x,y\in X$ define $k(x,y)$ to be the smallest index $i$ such that $x_i\neq y_i$. We define a metric $d(x,y)$ on $X$ as $$d(x,y)=\frac{1}{k(x,y)}+|\delta (x) - \delta (y)| \text{ with } d(x,x)=0.$$ Duncan's Space is the topology on $X$ induced by this metric.
+
+Defined as counterexample #136 (""Duncan's Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+Introduced and studied by R. L. Duncan in 
+{{zb:0085.03002}} (<https://www.jstor.org/stable/2309919>)
+and {{zb:0109.03302}} (<https://www.jstor.org/stable/2309171>)."
+Real line with post office metric,S000133,1,2,"A space $X$ with a particular point $p$ satisfying:
+
+- Each point $x\ne p$ is isolated.
+- The point $p$ has a countable neighborhood base $\{V_n:n<\omega\}$ such that $V_0=X$, $V_{n+1}\subseteq V_n$ and $|V_n\setminus V_{n+1}|=|\mathbb R|$ for each n, and $\bigcap_{n<\omega}V_n=\{p\}$.
+
+These conditions uniquely determine the space $X$ up to homeomorphism, as shown in {{mathse:4833751}}.
+
+Here are a few examples of spaces satisfying the conditions (see {{mathse:4834226}}).
+
+- The space $X=\mathbb{R}$ with $p=0$. The basic open neighborhoods of $0$ are the Euclidean open intervals around $0$.
+
+- The post office metric space defined as
+counterexample #139 (""The Post Office Metric"")
+in {{doi:10.1007/978-1-4612-6290-9}}, where $X=\mathbb R^n$ with $n\ge 1$ and $p$ is the origin.
+The *post office metric* $d$ on $\mathbb R^n$ is defined by:
+
+$$d(x,y) = \begin{cases}
+    0 & \text{if } x=y, \\
+    \|x\| + \|y\| & \text{otherwise.}
+\end{cases}$$
+
+- The ordered space $(\mathbb R\times\mathbb Z)\cup\{\infty\}$ with its order topology, where $\mathbb R\times\mathbb Z$ has its lexicographical ordering and $\infty$ is an additional maximum point (and the particular point)."
+Radial metric on the plane,S000134,1,2,"If $d_e$ is the usual Euclidean metric on $\mathbb{R}^2$, the radial metric $r$ is defined by:
+
+$r(x,y) = \begin{cases}
+d_e(x,y), & x \text{ and } y \text{ are colinear with } \vec 0\\
+d_e(x,\vec 0) + d_e(y,\vec 0), & \text{otherwise.}
+\end{cases}$
+
+Defined as counterexample #140 (""The Radial Metric"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Radial intervals through the origin of the plane,S000135,1,1,"The radial interval topology on the plane $X=\mathbb{R}^2$ is generated by the basis consisting of open intervals disjoint from the origin on lines passing through the origin, along with sets of the form $\bigcup\{I_\theta : 0 \leq \theta < \pi\}$ where $I_\theta$ is an open interval about the origin on the line with slope $\tan\theta$.
+
+Defined as counterexample #141 (""Radial Interval Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Bing's discrete extension space,S000136,1,2,"Let $X = 2^{2^\mathbb{R}}$. For $r \in \mathbb{R}$, let $x_r: 2^\mathbb{R} \rightarrow 2$ by $x_r(\lambda) = 1 \iff r \in \lambda$. Let $M = \{x_r: r \in \mathbb{R}\}$. Bing's Discrete Extension Space is the set $X$ where points of $M$ have their usual product neighborhoods and points of $X \setminus M$ are isolated.
+
+Defined as counterexample #142 (""Bing's Discrete Extension Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}
+and Example G in {{doi:10.4153/CJM-1951-022-3}}."
+Michael's closed subspace,S000137,0,1,"Michael's Closed Subspace is the subspace $Y = M \cup F$ of {S000136} $X$ where
+$F=\{x\in X\setminus M: x(\lambda)=1 \text{ for only finitely many }\lambda\in 2^{\Bbb{R}}\}$.
+
+Defined as counterexample #143 (""Michael's Closed Subspace"")
+in {{doi:10.1007/978-1-4612-6290-9}}.
+
+See also <https://dantopology.wordpress.com/2012/12/02/a-subspace-of-bings-example-g/>."
+Rudin's Dowker space,S000138,0,2,"Rudin's Dowker space $X$ is the subset of the product $\Pi_{n\in\omega}(\omega_{n+1}+1)$ with the box topology consisting of all functions $f$ such that, for some $i$, we have $\omega< cf(f(n))<\omega_i$ for all $n\in\omega$.  
+
+See {{doi:10.4064/fm-73-2-179-186}} and section 3.2(i) of {{mr:0776636}}."
+Countable bouquet of circles,S000139,3,3,"Let $X=\mathbb R/\mathbb Z$ to be the quotient of $\mathbb R$ (with its Euclidean topology) obtained by identifying all the points of $\mathbb Z$ to a single point $\infty$.
+
+Alternatively, this space can be characterized as the *wedge sum*
+(see {{wikipedia:Wedge_sum}}) of countably-many circles,
+also known as a *bouquet of countably many circles*.
+
+Not to be confused with {S201}, which has a coarser topology."
+Real numbers extended by a point with co-countable open neighborhoods,S000140,0,2,"Let $X=\mathbb R\cup \{\infty\}$, with $\mathbb R$ having the Euclidean topology and open in $X$, and open neighborhoods of $\infty$ given by sets of the form $U\cup\{\infty\}$, where $U\subseteq \mathbb R$ is co-countable and open in the Euclidean topology. 
+
+Constructed in {{mathse:4850979}} as an example of a space that is {P173} and {P81}, yet fails to be {P79}, yielding a counterexample to a natural analogue of {T211}.  Elaborated on in {{mathse:4854178}}."
+Ordered space $\omega_1+1+\omega^*$,S000141,0,1,"Let $X$ be the ordered space $\omega_1+1+\omega^*$ with the corresponding order topology.  Here $+$ is concatenation, $\omega_1$ is {S35}, $1$ is the singleton $\{p\}$ for some point $p$, and $\omega^*$ is $\omega$ with the reverse order.
+
+This provides an example of a {P133} space that is not {P174}.
+
+See {{mathse:4884795}}."
+Erdős space,S000142,0,2,"The subspace $X$ of $\ell^2$ consisting of those sequences $x=(x_i)_i$ with all $x_i\in\mathbb Q$.
+
+The space $\ell^2$ is the Banach space of sequences of real numbers $x=(x_i)_i$ with $\Sigma_i x_i^2<\infty$,
+equipped with the norm $\|x\|_2=(\Sigma_i x_i^2)^{1/2}$ and corresponding distance and topology.
+
+The space $\ell^2$ is topologically homeomorphic to {S30};
+but note the space $X$ is *not* homeomorphic to the subspace {S146} of $\mathbb R^\omega$.
+
+See {{mathse:151954}} or Example 6.2.19 in {{zb:0684.54001}}."
+Butterfly space,S000143,1,2,"The space $X=\mathbb R\times [0,\infty)$ is the closed upper half-plane topologized as follows.  Points above the $x$-axis have their usual Euclidean neighborhoods.  A local base for a point $p=\langle p_x,0\rangle$ on the $x$-axis is formed by the ""butterfly neighborhoods"" $N_\varepsilon(p)$ for $\varepsilon>0$, where $N_\varepsilon(p)$ consists of $p$ together with all points $q=\langle q_x,q_y\rangle$ at distance less than $\varepsilon$ from $p$ and lying underneath the union of the two rays in $X$ that emanate from $p$ and have slopes $\varepsilon$ and $-\varepsilon$.  In formula, $$N_\varepsilon(p)=\{p\} \cup \{q\in X:\|q-p\|<\varepsilon\text{ and }q_y<\varepsilon|q_x-p_x|\}.$$
+
+Defined as Example 12.1 in {{zb:0148.16701}} (<https://www.jstor.org/stable/24901448>).
+
+Exercise 3.1.I in {{zb:0684.54001}} defines a very similar space of the same name, with a slightly different topology but essentially the same properties."
+Diamond poset $2\times 2$ with Alexandrov topology,S000144,1,2,"Let $P=(\{0,a,b,1\},\le)$ be the four-element poset with $0$ as minimum element, $1$ as maximum element, and the remaining elements $a$ and $b$ incomparable.  This poset is order-isomorphic to the Boolean algebra with four elements.  The space $X$ is $P$ with the corresponding Alexandrov topology, whose open sets are the upper sets for $\le$.
+
+The name ""diamond poset"" is used for example in {{doi:10.1016/j.jcta.2015.03.010}}."
+Free ultrafilter topology on $\omega$,S000145,0,3,"The space $X$ is the set $\omega$ with topology $\tau=\mathscr U\cup\{\emptyset\}$,
+where $\mathscr U$ is a free ultrafilter on $\omega$.
+
+The space is described for example in {{mathse:3088994}} and as item (3) in Theorem 1 of {{zb:1400.39025}}.
+
+Not to be confused with {S111}.
+
+Note: The topology on $X$ depends on the choice of ultrafilter.  There are $2^{\mathfrak c}$ homeomorphism classes of such spaces (see for example {{mathse:34841}}).  However, the properties currently tracked in π-Base for this space do not depend on that choice."
+Countable product of rationals $\mathbb Q^\omega$,S000146,0,3,"The countable product of copies of {S27}.
+
+This space is a subspace of {S30}.
+Note that it is not homeomorphic to {S142}.
+
+See {{mathse:4416328}}, {{zb:0642.54033}}, or {{zb:0562.54054}}."
+(CH) A Luzin subset of the reals (The special Lusin set $L$),S000147,1,2,"An uncountable subset of the reals such that its intersection with
+every nowhere dense subset of the reals (equivalently,
+every meager subset of the reals) is countable.
+For background information, see the article {{zb:0389.54004}}, available at the [Topology Proceedings webpage](https://topology.nipissingu.ca/tp/reprints/v01/tp01021s.pdf).
+
+Note that the construction of such a set requires additional axioms beyond $ZFC$.
+
+Here we use the $CH$ construction from Lemma 2.6 of {{doi:10.1016/S0166-8641(96)00075-2}}
+in order to guarantee the failure of {P150}."
+(CH) A Luzin subset of the reals (The generic Lusin set $H$),S000148,1,2,"An uncountable subset of the reals such that its intersection with
+every nowhere dense subset of the reals (equivalently,
+every meager subset of the reals) is countable.
+For background information, see the article {{zb:0389.54004}}, available at the [Topology Proceedings webpage](https://topology.nipissingu.ca/tp/reprints/v01/tp01021s.pdf).
+
+Note that the construction of such a set requires additional axioms beyond $ZFC$.
+
+Here we use the $CH$ construction from Theorem 2.13 of {{doi:10.1016/S0166-8641(96)00075-2}}
+in order to guarantee {P150}."
+Two-sided long line,S000149,0,1,"This space $X$ is constructed from {S38} with a mirror copy extending in the other direction.
+
+Let $L$ denote the {S38} $\omega_1\times[0,1)$ with the lexicographic order
+and let $L^\ast$ be a copy of $L$ with the reverse order.
+As an ordered set, $X$ is obtained from $L^\ast$ followed by $L$ with $\max(L^\ast)$ and $\min(L)$ identified.
+It is given the corresponding order topology."
+"Right ""closed-ray"" topology on $[0,1]\cap\mathbb Q$",S000150,0,0,"The set $X=[0,1]\cap\mathbb Q$ with its order induced from $\mathbb R$, and the topology generated by a base of open sets consisting of the intervals $[x,\rightarrow)$ for $x\in X$.
+
+The open sets are exactly the [upward-closed sets](https://en.wikipedia.org/wiki/Upper_set) in the ordered set $(X,\le)$.  That includes ""closed rays"" $[x,\rightarrow)$ and ""open rays"" $(x,\rightarrow)$ for $x\in X$, as well as sets of the form $(\theta,1]\cap\mathbb Q$ for an irrational $\theta\in(0,1)$.
+
+The closed sets are the downward-closed sets in $(X,\le)$.
+
+Compare with the coarser topology of {S151}."
+"Right ""open-ray"" topology on $[0,1]\cap\mathbb Q$",S000151,0,0,"The set $X=[0,1]\cap\mathbb Q$ with its order induced from $\mathbb R$, and the topology generated by a base of open sets consisting of $X$ and all the intervals $(x,\rightarrow)$ for $x\in X$.
+
+The additional open sets are the sets of the form $(\theta,1]\cap\mathbb Q$ for an irrational $\theta\in(0,1)$.
+Note that the ""closed rays"" $[x,\rightarrow)$ for $x\in X\setminus\{0\}$ are not open sets.
+
+Compare with the finer topology of {S150}."
+"Poset $\{-1,0_a,0_b\}\cup\{1/n\}_{n=1}^\infty$ with Alexandrov topology",S000152,0,2,"Consider the set $\{1/n\}_{n=1}^\infty$ with its usual order. Let,
+
+$\quad X=\{-1,0_a,0_b\}\cup\{1/n\}_{n=1}^\infty$
+
+where either of the zeros is smaller than all $1/n$, the two zeros are incomparable, and $-1$ is smaller than everything else. Then equip $X$ with the Alexandrov topology associated to the partial order defined above; that is, the open sets are the upper sets for $\le$.
+
+This space is described in part 2 of {{mathse:5007860}}."
+Open long ray,S000153,1,2,"The space obtained by taking $Y=\omega_1 \times [0,1)$ with its lexicographic order topology ({S38}) and removing the first element $(0,0)$.
+
+The resulting space $X$ is an open subspace of $Y$ with the subspace topology.  This is the same as the order topology on $X$, since $X$ is order-convex in $Y$ (see Theorem 16.4 in {{zb:0951.54001}})."
+Fort space on the real numbers,S000154,2,2,"Let $X=\mathbb R\cup\{\infty\}$. Every point of $\mathbb R$ is isolated and the open neighborhoods of the point $\infty$ are the cofinite subsets of $X$ containing that point.
+
+This space is the one-point compactification of an uncountable discrete space (compare with {S22} and {S20}).
+
+Defined as counterexample #24 (""Uncountable Fort Space"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Fortissimo space of size $\aleph_1$,S000155,0,2,"Let $X$ be a set of cardinality $\aleph_1$ with a distinguished point $p\in X$.
+Every point not equal to $p$ is isolated and the open neighborhoods of $p$ are the cocountable subsets of $X$ containing that point.
+
+This space is the one-point Lindelöfication of a discrete space of size $\aleph_1$.
+
+If (CH) $2^{\aleph_0}=\aleph_1$ holds, this space is homeomorphic to {S22}.
+Compare also with {S157}.
+
+For a general $X$ with unspecified uncountable cardinality,
+see counterexample #25 (""Fortissimo Space"") in {{doi:10.1007/978-1-4612-6290-9}}."
+Arens space,S000156,1,2,"Let $X=\omega\cup\{\infty\}$ be the one-point compactification of a
+countable discrete space. Arens space $S_2$ is the minimal topology
+on $(X\times\omega)\cup\{\infty'\}$ where
+$(\{\infty\}\times\omega)\cup\{\infty'\}$ is homeomorphic to $X$.
+
+This space was originally defined by Richard Arens in {{mr:0037500}}.
+
+The subspace $(\omega\times\omega)\cup\{\infty'\}$ of the Arens space is homeomorphic to {S23}, as mentioned in Examples 2.10 and 3.10 of {{mr:3269014}}."
+Fortissimo space of size $\aleph_2$,S000157,0,2,"Let $X$ be a set of cardinality $\aleph_2$ with a distinguished point $p\in X$.
+Every point not equal to $p$ is isolated and the open neighborhoods of $p$ are the cocountable subsets of $X$ containing that point.
+
+This space is the one-point Lindelöfication of a discrete space of size $\aleph_2$.
+
+If $2^{\aleph_0}=\aleph_2$ holds, this space is homeomorphic to {S22}.
+Compare also with {S155}.
+
+For a general $X$ with unspecified uncountable cardinality,
+see counterexample #25 (""Fortissimo Space"") in {{doi:10.1007/978-1-4612-6290-9}}."
+"Unit interval $[0,1]$",S000158,0,1,"The subspace $I=[0,1]=\{t\in \mathbb R : 0\leq t \leq 1\}$ of {S25} $\mathbb{R}$."
+"Right ""open-ray"" topology on $[0,1]$",S000159,0,1,"$X$ has underlying set $[0,1]$ and the open sets are exactly $X$ and $(a,1]$ for $0 \leq a \leq 1$.
+
+This space is used in part 3 of {{mathse:5007860}}."
+"Right ""open-ray"" topology on $\omega+1$",S000160,0,0,"$X$ has underlying set $\omega+1$. The open sets are exactly $X$ and $(a, \omega]$ for $a \in X$."
+Van Douwen's anti-Hausdorff Fréchet space,S000161,0,1,"The topology on \(\omega\) constructed by Eric K. van Douwen in Section 5 of
+{{doi:10.1016/0166-8641(93)90147-6}}."
+The Singleton,S000162,1,1,"\(X=\{x\}\) with its only valid topology \(\{\emptyset,X\}\)."
+The Empty Space,S000163,0,1,\(X=\emptyset\) with its only valid topology \(\{\emptyset\}\).
+Sum of singleton and two-point indiscrete space,S000164,0,0,"The space \(X=\{a,b,c\}\) with the topology \(\{\emptyset,\{a,b\},\{c\},X\}\), that is,
+the topological sum of {S162} and {S4}."
+One-point compactification of the Arens-Fort space,S000165,0,1,"The one-point compactification $X$ of {S23}.
+
+See {{mo:435257}}."
+Left ray topology on $\omega+1$,S000166,0,1,"$X$ has underlying set $\omega+1$. The open sets are exactly $X$ and $[0,a)$ for $a \in X$. Equivalently, the open sets are exactly downwards closed subsets of $X$. This is the Alexandrov topology for the reverse ordering on $\omega+1$."
+"Right ""open-ray"" topology on $\omega+1+\omega^\ast$",S000167,0,0,"$X$ has underlying totally ordered set $(\omega+1)+\omega^\ast$, where the second $+$ is concatenation, $\omega+1$ is equipped with its usual order as an ordinal, and $\omega^\ast$ is $\omega$ with the reverse order. The open sets are exactly $X$ and $(a,\to)$ for $a \in X$."
+Real projective plane $\mathbb RP^2$,S000168,1,2,"The quotient of {S169} which identifies its antipodal points.
+
+This space is homeomorphic to:
+- $\left( \mathbb R^3 \setminus \{0\} \right) / \sim$, where $x \sim y$ if and only if $x = c y$ for some nonzero real number $c$.
+- The space of $1$-dimensional subspaces of the real vector space $\mathbb{R}^3$, $P(\mathbb{R}^3)$, with the quotient topology induced by the map $\mathbb R^3 \setminus \{0\} \to P(\mathbb{R}^3)$ which sends a vector to its span.
+- The quotient of $\left[ -1, 1 \right]^2$ identifying $(t, 1)$ with $(-t, -1)$ and identifying $(1, t)$ with $(-1, -t)$, for each $t$.
+
+Defined in Example 3.51 and Proposition 6.2 of {{mr:2766102}}."
+Sphere $S^2$,S000169,1,1,"The subspace $\{x \in \mathbb{R}^3: \|x\| = 1\}$ of the Euclidean space $\mathbb{R}^3$
+consisting of points with distance 1 from the origin.
+
+This space is homeomorphic to:
+- The one-point compactification of {S176},
+- The suspension of {S170}, i.e., the quotient of $S^1 \times [0,1]$ where $S^1 \times \{0\}$ is identified to a
+single point and $S^1 \times \{1\}$ is identified to a single point."
+Circle $S^1$,S000170,1,1,"The subspace $\{x \in \mathbb{R}^2: \|x\| = 1\}$ of
+{S176} consisting of points with distance $1$ from the origin.
+
+This space is homeomorphic to:
+- The one-point compactification of {S25},
+- The quotient of the interval $[0,1]$ identifying its endpoints."
+Brian's Example,S000171,0,1,"In {{mo:416331}} Will Brian provides an example in ZFC for an uncountable, Hausdorff,
+first-countable, scattered, Lindelöf space."
+Kannan-Rajagopalan-Hart Space,S000172,0,2,"In {{mo:434266}} KP Hart shows that an example of Kannan and Rajagopalan is 
+constructable in ZFC."
+Product of long ray and continuum power of a closed interval,S000173,0,1,"Product of {S000038} and {S000103}. Used in
+{{mathse:3145712}} to construct a {P000130}, {P000003}, and {P000036}
+but not {P000013} space."
+Pol's $T_6$ non-paracompact space,S000174,0,1,"$X = \omega_1^\omega$ equipped with the topology generated by the basis $U \cap \xi^\omega$ where $\xi < \omega_1$ and $U \subset \omega_1^\omega$ is open in the product topology, where $\omega_1$ is equipped with the discrete topology.
+
+Constructed by R. Pol in {{doi:10.4064/FM-97-2-53-55}} to obtain an example of a
+{P67}, {P82}, and non-{P30} space."
+Radial plane,S000175,1,4,"Sets $U$ are open provided for every point $x\in U$ and line $L$ passing through $x$,
+there exists an open subinterval $S\subseteq L$ with $x\in S\subseteq U$."
+Euclidean Plane $\mathbb R^2$,S000176,0,1,"The product topology on $\mathbb R\times \mathbb R$.
+
+See {{zb:1052.54001}}."
+Misra's space $E_0$,S000177,0,1,"The space $E_0$ as defined in {{doi:10.1016/0016-660X(72)90026-8}}, Example 3.1.  This provides an example of {P147} that is {P3} and {P10}, but not {P4}."
+Misra's subspace of $E_0$,S000178,0,1,The subspace of {S177} (Example 3.1 in {{doi:10.1016/0016-660X(72)90026-8}}) obtained by deleting all points $b_{\alpha \beta}$ and $b$.  This provides an example of {P147} that is {P4} and not {P10}.
+The Peng-Wu Group,S000179,0,1,"A certain subgroup of $\mathbb R^{\omega_1}$ generated by a subset $\mathscr L \subset \mathbb R^{\omega_1}$ of cardinality $\omega_1$, viewed as a topological group with coordinate-wise addition and the product topology. This space was constructed with the name $grp(\mathscr L)$ in Section 4 of {{doi:10.1016/j.aim.2017.11.021}} to produce a {P18} topological group ({P87}) whose square is not {P18}."
+Solomon's scattered space,S000180,0,1,"A space constructed by R. C. Solomon in {{doi:10.1112/blms/8.3.239}} to obtain a {P6} {P51} space that
+is not {P50}."
+Countable $\sigma$-product $\sigma(\omega_1+1)^\omega$,S000181,0,3,"The subspace of the countable product $(\omega_1+1)^\omega$ of {S36},
+consisting of all functions $\omega \to (\omega_1+1)$ with finite support,
+that is, those functions which are non-zero on only finitely many inputs.
+Discussed at {{mathse:4736740}}."
+Disjoint union of continuum many copies of $\mathbb{Q}$,S000182,0,1,"The disjoint union $X = \bigsqcup_{i\in I}\mathbb{Q}$, $|I| = \mathfrak{c}$, of continuum many copies of {S27}.
+
+See {{mathse:3947741}}."
+KP Hart's non-sequentially discrete modified cocountable topology,S000183,0,1,"Let $Y$ be {S17} and $Z$ be {S20}. The space $X$ is the disjoint union $Y\cup Z$ with the minimal topology such that $Z$ is a closed subspace of $X$, and countable
+subsets of $Y$ are all closed in $X$.
+
+This space was constructed by K.P. Hart in {{mo:452903}} to demonstrate an
+example of a space which is {P49} and {P99}, but not {P167}."
+Sum of a pair of two-point indiscrete spaces,S000184,0,0,"$X=\{0,1,2,3\}$ with the topology
+$\{\emptyset,\{0,1\},\{2,3\},X\}$, so
+$\{0,1\}$ and $\{2,3\}$ are each a copy of {S4}."
+One-point compactification of the metric fan,S000185,0,0,"Consider
+the set $\omega^2\cup\{\infty_x,\infty_y\}$ with points of
+$\omega^2$ isolated, neighborhoods of $\infty_x$ containing
+all but finitely-many columns, and neighborhoods of $\infty_y$
+containing all but finitely-many rows.
+
+Equivalently, the one-point compactification of {S202}."
+Converging sequence of non-Hausdorff spaces,S000186,0,0,"Let $Y$ be a copy of {S97}. This space is $X=(Y\times\omega)\cup\{\infty\}$.
+The subspace $Y\times\omega$ is open with the product topology, and basic
+neighborhoods of $\infty$ are of the form $(Y\times(\omega\setminus n))\cup\{\infty\}$."
+Right ray topology on a three-point set,S000187,1,1,"Let $X = \{0,1,2\}$ with open right rays $\{\{0,1,2\}, \{1,2\}, \{2\}, \emptyset\}$.
+(Equivalently could use the left rays $\{\emptyset, \{0\}, \{0,1\}, \{0,1,2\}\}$ instead.)
+
+Compare with {S42}, counterexample #50 (""Right Order Topology on $\mathbb R$"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Sum of singleton and Sierpinski space,S000188,0,0,"Let $X = \{0,1,2\}$ with open sets $\{\emptyset, \{0\}, \{1\}, \{0,1\}, \{1,2\}, \{0,1,2\} \}$,
+that is, the topological sum of {S162} with pointset $\{0\}$ and {S10} with pointset $\{1,2\}$."
+Discrete Topology on a Three-Point Set,S000189,1,2,"Let $X=3=\{0,1,2\}$ be a space containing three points and
+let all subsets of $X$ be open.
+
+See counterexample #1 (""Finite Discrete Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Indiscrete Topology on a Three-Point Set,S000190,0,2,"Let $X=3=\{0,1,2\}$ be a space containing three points and
+let only the sets $X$ and $\emptyset$ be open.
+
+See counterexample #4 (""Indiscrete Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Dieudonné plank,S000191,0,0,"The product space $X=Y\times Z$ 
+where $Y=[0,\omega_1]$ is given the topology with points of $[0,\omega_1)$
+isolated and neighborhoods of $\omega_1$ cocountable,
+and $Z=[0,\omega]$ is given the topology with points of $[0,\omega)$
+isolated and neighborhoods of $\omega$ cofinite.
+
+The space $X$ has the same underlying set as {S78}, but with a finer topology.
+
+Note that ""Dieudonné plank"" is also used to refer to {S87}."
+Modified telophase topology,S000192,1,1,"A refinement of the topology defined for {S65}. Let $X=[0,\infty)\cup\{\infty_E,\infty_D\}$,
+$E=2\mathbb N=\{2n:n\in\mathbb N \}$, and $D=2\mathbb N+1=\{2n+1:n\in\mathbb N\}$.
+Then points of $[0,\infty)$ have their usual neighborhoods (in
+the sense of {S25}), $\infty_E$ has basic neighborhoods of the form
+$(a,\infty)\setminus E$, and $\infty_D$ has basic neighorhoods of the form
+$(a,\infty)\setminus D$.
+
+Constructed by M W in {{mo:460346}}."
+Indiscrete Topology on a Countably Infinite Set,S000193,0,2,"Let $X=\omega=\{0,1,2,\dots\}$ be the space containing a countably infinite
+number of points and let only the sets $X$ and $\emptyset$ be open.
+
+See counterexample #4 (""Indiscrete Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Indiscrete Topology on the Real Numbers,S000194,0,2,"Let $X=\mathbb R$ be the set of all real numbers,
+and let only the sets $X$ and $\emptyset$ be open.
+
+See counterexample #4 (""Indiscrete Topology"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
+Join of cofinite and left-ray topologies on $\omega_1$,S000195,0,2,"The set $\omega_1$ with topology equal to the join of the cofinite topology and left ray topology in the [lattice of topologies](https://en.wikipedia.org/wiki/Lattice_of_topologies) on $\omega_1$. This topology is generated by the sets of the form $\alpha\setminus F=[0,\alpha)\setminus F$ for $\alpha<\omega_1$ and $F\subseteq\omega_1$ finite."
+Long circle,S000196,1,2,"The quotient of {S39} identifying its initial and
+final points."
+Mary Ellen Rudin's nonmetrizable manifold,S000197,0,1,"The example constructed in section 1 of {{doi:10.1016/0166-8641(90)90099-N}} that
+is {P7}, {P26}, {P123}, but not {P53}."
+Disjoint union of the reals and a singleton,S000198,0,0,The disjoint union $X=\mathbb R\sqcup \{\star\}$ of {S25} and {S162}.
+Left ray topology on $\omega$,S000199,0,0,"$\omega$ with the topology of left rays
+$\{\omega\}\cup\{(\leftarrow,n):n<\omega\} = \{\emptyset,\omega\}\cup\{(\leftarrow,n]:n<\omega\}$."
+Right ray topology on $\omega$,S000200,0,0,"$\omega$ with the topology of right rays
+$\{\emptyset,\omega\}\cup\{(n,\rightarrow):n<\omega\} = \{\emptyset\}\cup\{[n,\rightarrow):n<\omega\}$."
+Infinite earring,S000201,2,4,"The subspace of {S176} defined by
+
+$\quad X=\bigcup_{n=1}^{\infty}\left\{(x,y)\in\mathbb{R}^2:\left(x-\frac{1}{n}\right)^2+y^2=\left(\frac{1}{n}\right)^2\right\}$
+
+that is, the union of circles of radius $\frac{1}{n}$ centered at $(\frac{1}{n},0)$ for positive
+integers $n$.
+
+Not to be confused with {S139}, which has a finer topology.
+
+Defined as ""infinite earring"" in section 71 of {{zb:0951.54001}}; usually known in the literature as ""Hawaiian earring"".
+Appears as Example 1.25 in {{zb:1044.55001}} (available [here](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)) under the name ""Shrinking wedge of circles""; however, note that it is not actually an example of a ""wedge sum"" as defined in e.g. {{wikipedia:Wedge_sum}} or {{doi:10.1007/978-1-4612-4576-6}}."
+Metric fan with $\omega$-many spines,S000202,0,1,"The subspace of {S176} defined by
+$X=\{\langle 0,0\rangle\}\cup\{\langle \frac{1}{m},\frac{1}{mn} \rangle :m,n\in\mathbb Z^+\}$
+
+Equivalently, a classical special case of the filter fans defined in
+{{zb:1339.54022}}: the set $X=\{\infty\}\cup\omega^2$ with $\omega^2$ discrete and neighborhoods of $\infty$ containing all but finitely-many rows of $\omega^2$.
+
+Compare with the finer topology of {S131}."
+"Three-point set with the basis $\{\{0\},X\}$",S000203,0,0,"$X=\{0,1,2\}$ with open sets $\{\emptyset,\{0\},X\}$."
+"Three-point set with the basis $\{\{0,1\},X\}$",S000204,0,0,"$X=\{0,1,2\}$ with open sets $\{\emptyset,\{0,1\},X\}$."
+Warsaw circle,S000205,0,2,"The set $X=\{(x, \sin\frac{1}{x}):x \in (0,1]\} \cup \{(0,y):y \in [-2,1]\} \cup \{(x,-2):x\in[0,1]\} \cup \{(1,y):y \in [-2,\sin 1]\}$ with the subspace topology inherited from $\mathbb{R}^2$.
+
+It consists of {S114} together with an extra arc joining its rightmost point to the point $(0,-1)$.
+See {{wikipedia:Warsaw_circle}} or section 3 of {{doi:10.1016/j.topol.2013.07.001}}
+
+Note: There are a few closely related but non-isomorphic variants of the *Warsaw circle*.
+The description chosen here seems to be the most common."
+Deleted Sequence of Intervals Topology,S000206,0,1,"David Gao's example of a {P112} {P10} space that is not {P11},
+as constructed in {{mathse:4996886}}.
+
+The underlying set is $\mathbb{R}$. Let $A = \bigcup_{n=1}^\infty [\frac{2}{3^n},\frac{1}{3^{n-1}}]$. The topology is generated by open sets in {S25} and $\mathbb{R} \setminus A$. The construction is similar to
+that of {S56}."
+Cohen's modified product $\omega_1\times(\omega_1+1)$,S000207,0,2,"The product of {S35} with {S36},
+modified by declaring points of $\omega_1^2$ isolated.
+Note that each point $\langle \alpha,\omega_1\rangle$ has a local basis of sets of the form $(\beta,\alpha]\times(\gamma,\omega_1]$ for $\beta<\alpha,\gamma<\omega_1$.
+
+Constructed by Cohen in {{zb:0046.16403}}
+(<http://gallica.bnf.fr/ark:/12148/bpt6k3186w/f290.image>)
+to show that {P207}
+is strictly stronger than {P88}.
+See {{mathse:5004796}} for details in English."
+Circle with two origins,S000209,0,1,"Choose a point $0 \in S^1$ to be called the ""origin"", and replace $0$ with two origins $0_1$ and $0_2$. Basic open neighborhoods of a point $x \neq 0$ are Euclidean open neighborhoods of $x$ not containing $0$. Basic open neighborhoods of each origin $0_i$ are of the form $(U\setminus\{0\})\cup\{0_i\}$ with $U$ a Euclidean open neighborhood of $0$.
+
+Let $\{1, 2\}$ have the discrete topology. $X$ is homeomorphic to the quotient space of $S^1 \times \{1, 2\}$ obtained by identifying $\langle \theta, 1 \rangle$ and $\langle \theta, 2 \rangle$ exactly when $\theta$ is not the ""origin"" point.
+
+$X$ is homeomorphic to the Alexandroff one-point compactification of {S83}."
+"Interval $[0,1)$",S000210,0,0,"The subspace $[0,1)=\{t\in \mathbb R : 0\leq t < 1\}$ of {S25}."
+"Lexicographic Hilbert cube $[0,1]^\omega$",S000212,0,1,"The space $X=[0,1]^\omega$ ordered lexicographically and with the corresponding order topology."
+Supercontinuum power of a countable discrete space,S001103,1,1,"The product topology on \(\omega^{2^{\mathfrak c}}\).
+
+Defined more generally as counterexample #103
+(""Uncountable Products of \(\mathbb{Z}^+\)"")
+in {{doi:10.1007/978-1-4612-6290-9}}."
