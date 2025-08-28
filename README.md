@@ -8,7 +8,7 @@ Program pobere podatke iz spletne strani [$`\pi`$-base](https://topology.pi-base
 
 ## Uporaba
 
-Repozitorij [klonirano](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) ter se [prestavimo](https://man.cx/cd) v pravkar ustvarjeno direktorijo, kjer ustvarimo [pythonovo virtualno okolje](https://docs.python.org/3/library/venv.html) ter ga aktiviramo. Preden program prvič uporabimo, naložimo potrebne knjižnice, ki se nahajajo v datoteki [`requirements.txt`](requirements.txt).
+Repozitorij [klonirano](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) ter se [prestavimo](https://man.cx/cd) v pravkar ustvarjeno direktorijo, kjer ustvarimo [pythonovo virtualno okolje](https://docs.python.org/3/library/venv.html) ter ga aktiviramo. Preden program prvič uporabimo, [naložimo](https://pip.pypa.io/en/stable/user_guide/) potrebne knjižnice, ki se nahajajo v datoteki [`requirements.txt`](requirements.txt).
 Program zaženemo s klicem
 ```
 python main.py <pot>
